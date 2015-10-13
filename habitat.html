@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Cities I visited</title>
+    <meta name="author" content="Evgeny Kotelnikov"/>
+    <style>
+      @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+      @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lora', serif;
+        font-size: 16px;
+        color: #404040;
+      }
+      #map {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+      }
+      #legend {
+        width: 275px; /* 220px; */
+        height: 100%;
+        right: 0;
+        position: absolute;
+        top: -14px;
+        background: rgba(255, 255, 255, 0.85);
+        color: #444;
+        overflow: scroll;
+      }
+      #legend-container {
+        padding-top: 6px;
+        padding-bottom: 10px;
+      }
+      h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2em;
+        color: #000;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+      }
+      ul {
+        list-style: none;
+      }
+      ul li {
+        padding-left: 20px;
+        line-height: 30px;
+        cursor: pointer;
+      }
+      ul li:hover, ul li.active {
+        color: #FFF;
+        background: rgba(100, 100, 100, 0.85);
+      }
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoePZ_c_4vKDsteIA-U2eY44Ea7Bu0H2Q"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/habitat.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="legend">
+      <div id="legend-container">
+        <h1>Cities I visited</h1>
+        <ul id="list"></ul>
+      </div>
+    </div>
+  </body>
+</html>
