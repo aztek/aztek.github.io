@@ -1,0 +1,152 @@
+afp/abstract_completeness/1830522	Timeout	60320724	Timeout	60214549	Timeout	60133928	Timeout	60115705	Timeout	61265619	sat	172405
+afp/abstract_completeness/1957481	Timeout	60170657	Timeout	60137861	Timeout	60136746	Timeout	60141861	GaveUp	192907	timeout	60055272
+afp/abstract_completeness/1961740	Timeout	60210741	Timeout	60136710	Timeout	60116636	Timeout	60067180	GaveUp	204873	timeout	60052006
+afp/abstract_completeness/1985116	Unsatisfiable	56902	Unsatisfiable	32727	Unsatisfiable	66935	Unsatisfiable	35181	Unsatisfiable	52957	unsat(a4 a0 a1)	67766
+afp/bindag/2144795	Unsatisfiable	345435	Unsatisfiable	126149	Unsatisfiable	167774	Unsatisfiable	313144	Unsatisfiable	283563	unsat(a20 a18 a3 a7)	36628
+afp/bindag/2150078	Unsatisfiable	102322	Unsatisfiable	77702	Unsatisfiable	123037	Unsatisfiable	60023	Unsatisfiable	79524	unsat(a21 a8 a3 a4)	34742
+afp/bindag/2160846	Unsatisfiable	125865	Unsatisfiable	72149	Unsatisfiable	54464	Unsatisfiable	47878	Unsatisfiable	56582	unsat(a21 a8 a3 a4)	32875
+afp/bindag/2182598	Unsatisfiable	40333	Unsatisfiable	65805	Unsatisfiable	58407	Unsatisfiable	178887	Unsatisfiable	65390	unsat(a19 a8 a3 a4)	40743
+afp/bindag/2187875	Unsatisfiable	36719	Unsatisfiable	65494	Unsatisfiable	80024	Unsatisfiable	184062	Unsatisfiable	73544	unsat(a20 a8 a3 a5)	44341
+afp/bindag/2193162	Timeout	60200993	Timeout	60064510	Timeout	60151361	Timeout	60060555	GaveUp	677079	sat	388165
+afp/bindag/2198453	Unsatisfiable	40121	Unsatisfiable	38799	Unsatisfiable	58930	Unsatisfiable	34961	Unsatisfiable	52424	unsat(a9 a6 a3 a5)	38909
+afp/coinductive_list/1873136	Timeout	60171365	Timeout	60214330	Timeout	60211651	Timeout	60201945	Timeout	61152974	timeout	60105485
+afp/coinductive_list/2610054	Timeout	60191041	Timeout	60269240	Timeout	60139366	Timeout	60274924	GaveUp	439574	timeout	60055248
+afp/coinductive_list/2615642	Timeout	60176457	Timeout	60250190	Timeout	60220980	Timeout	60219080	GaveUp	270376	timeout	60070077
+afp/coinductive_list/2622279	Timeout	60203695	Timeout	60234745	Timeout	60194652	Timeout	60254408	GaveUp	217017	timeout	60054693
+afp/coinductive_list/2627557	Timeout	60229252	Timeout	60282034	Timeout	60260609	Timeout	60227029	GaveUp	203625	timeout	60044690
+afp/coinductive_list/3470858	Timeout	60215401	Timeout	60213862	Timeout	60157817	Timeout	60239426	Timeout	61165360	timeout	60067541
+afp/coinductive_list/4536457	Timeout	60161670	Timeout	60240184	Timeout	60185519	Timeout	60187778	GaveUp	262296	timeout	60074023
+afp/coinductive_list/4541674	Timeout	60261891	Timeout	60297374	Timeout	60202679	Timeout	60221257	GaveUp	11776395	timeout	60065453
+afp/coinductive_list/4551771	Timeout	60185212	Timeout	60306445	Timeout	60198670	Timeout	60218424	GaveUp	262784	timeout	60056977
+afp/coinductive_list/4557362	Timeout	60182757	Timeout	60298496	Timeout	60146549	Timeout	60189089	GaveUp	284458	timeout	60037785
+afp/coinductive_list/5663791	Timeout	60206764	Timeout	60276993	Timeout	60139376	Timeout	60145208	Timeout	61281362	timeout	60026100
+afp/coinductive_list/5893768	Timeout	60192662	Timeout	60041816	Timeout	60125856	Timeout	60137306	Timeout	60218500	timeout	60026393
+afp/coinductive_list/6489961	Timeout	60161065	Timeout	60230900	Timeout	60162777	Timeout	60137225	Timeout	60883136	timeout	60083451
+afp/coinductive_list/6715492	Unsatisfiable	105290	Unsatisfiable	34133	Unsatisfiable	156589	Unsatisfiable	37887	Unsatisfiable	87667	unsat(a4 a1 a2)	60399
+afp/coinductive_list/6720454	Timeout	60190460	Timeout	60112753	Timeout	60186833	Timeout	60043291	Timeout	61117559	timeout	60152999
+afp/coinductive_list/6745273	Unsatisfiable	54922	Unsatisfiable	46724	Unsatisfiable	49312	Unsatisfiable	641058	Unsatisfiable	60452	unsat(a15 a7 a4 a3 a1 a2)	57582
+afp/coinductive_list/7912305	Timeout	60160342	Timeout	60123398	Timeout	60114074	Timeout	60080780	GaveUp	512218	timeout	60028414
+afp/coinductive_list/7927882	Unsatisfiable	530692	Unsatisfiable	45530	Unsatisfiable	373708	Unsatisfiable	38397	Unsatisfiable	139112	unsat(a22 a33)	69930
+afp/coinductive_list/7942862	Timeout	60143647	Timeout	60270008	Timeout	60186903	Timeout	60129569	Timeout	60300244	timeout	60030315
+afp/coinductive_list/7953004	Timeout	60144770	Timeout	60131480	Timeout	60123603	Timeout	60098067	Timeout	60225289	timeout	60029598
+afp/coinductive_list/7969298	Unsatisfiable	43667	Unsatisfiable	39108	Unsatisfiable	42409	Unsatisfiable	41658	Unsatisfiable	134066	unsat(a28 a43)	65173
+afp/coinductive_list/7975335	Timeout	60209627	Timeout	60105937	Timeout	60206298	Timeout	60146115	Timeout	61149113	timeout	60099889
+afp/coinductive_list/8002048	Unsatisfiable	92515	Unsatisfiable	87391	Timeout	60169171	Unsatisfiable	475333	Unsatisfiable	275828	unsat(a41 a40 a33 a8 a17)	73981
+afp/coinductive_list/8007745	Timeout	60134973	Timeout	60080772	Timeout	60161528	Timeout	60091725	Timeout	61094940	timeout	60101625
+afp/coinductive_list/8013546	Unsatisfiable	83708	Unsatisfiable	73548	Timeout	60166092	Unsatisfiable	567527	Unsatisfiable	290711	unsat(a40 a39 a32 a8 a16)	75581
+afp/coinductive_list/8019328	Timeout	60125303	Timeout	60141965	Timeout	60164750	Timeout	60032442	Timeout	61148540	timeout	60025964
+afp/coinductive_list/8041052	Unsatisfiable	96989	Unsatisfiable	92440	Unsatisfiable	59008401	Unsatisfiable	345476	Unsatisfiable	295572	unsat(a48 a47 a20 a36)	61693
+afp/coinductive_list/8051937	Timeout	60119860	Timeout	60140761	Timeout	60154786	Timeout	60034939	Timeout	61162548	timeout	60026865
+afp/coinductive_list/8057756	Unsatisfiable	1165255	Unsatisfiable	60060	Unsatisfiable	52168518	Unsatisfiable	96109	Unsatisfiable	463035	unsat(a37 a13 a20)	64885
+afp/coinductive_list/8068851	Timeout	60197856	Timeout	60091824	Timeout	60138130	Timeout	60069373	Timeout	60417074	timeout	60036979
+afp/coinductive_list_prefix/1907643	Timeout	60100292	Timeout	60087229	Timeout	60150917	Timeout	60147183	Timeout	60597196	timeout	60068032
+afp/coinductive_stream/2123602	Timeout	60177925	Timeout	60144373	Timeout	60220069	Timeout	60163369	Unsatisfiable	373382	unsat(a101 a88 a87 a62 a61 a53 a40 a6 a0 a1)	100933
+afp/coinductive_stream/2132646	Timeout	60137137	Unsatisfiable	3640114	Timeout	60167848	Unsatisfiable	4777542	Unsatisfiable	14713396	unsat(a180 a179 a178 a114 a76 a41 a75)	90133
+afp/coinductive_stream/2136977	Timeout	60085205	Timeout	60062097	Timeout	60160142	Timeout	60067447	Timeout	61190544	timeout	60064797
+afp/coinductive_stream/2141028	Timeout	60159878	Timeout	60141931	Timeout	60132660	Timeout	60103325	Timeout	61074341	timeout	60341074
+afp/coinductive_stream/2145429	Timeout	60207033	Timeout	60094207	Timeout	60211941	Timeout	60054380	Timeout	61149804	timeout	60438819
+afp/coinductive_stream/2149828	Timeout	60166070	Timeout	60070922	Timeout	60164640	Timeout	60070525	Timeout	61159219	timeout	60212744
+afp/coinductive_stream/2154233	Timeout	60199616	Timeout	60127488	Timeout	60131526	Timeout	60075716	Timeout	61199207	timeout	60061226
+afp/coinductive_stream/2158699	Timeout	60132998	Timeout	60058427	Timeout	60163552	Timeout	60120263	Timeout	61161182	timeout	60089266
+afp/coinductive_stream/2163030	Timeout	60159067	Timeout	60084214	Timeout	60270537	Timeout	60086207	Timeout	61236985	timeout	60237372
+afp/coinductive_stream/2167233	Timeout	60174952	Timeout	60117688	Timeout	60151531	Timeout	60080438	Timeout	61174241	timeout	60044295
+afp/coinductive_stream/2177308	Timeout	60175711	Timeout	60108608	Timeout	60172365	Timeout	60060461	Timeout	61157142	timeout	60024843
+afp/coinductive_stream/2182313	Timeout	60164365	Timeout	60096449	Timeout	60160309	Timeout	60065410	Timeout	61133971	timeout	60052298
+afp/coinductive_stream/2187217	Timeout	60198525	Timeout	60165588	Timeout	60156513	Timeout	60053400	GaveUp	1160017	timeout	60539995
+afp/coinductive_stream/2191816	Timeout	60191140	Timeout	60129929	Timeout	60136322	Timeout	60074683	Timeout	61197536	timeout	60309139
+afp/coinductive_stream/2194859	Timeout	60165953	Timeout	60088365	Timeout	60183557	Timeout	60116430	Timeout	61103960	timeout	60247080
+afp/coinductive_stream/2243434	Timeout	60120825	Timeout	60061650	Timeout	60172881	Timeout	60030150	Timeout	61150951	timeout	60044191
+afp/coinductive_stream/2262016	Timeout	60202782	Timeout	60124520	Timeout	60159369	Timeout	60127535	Timeout	61150486	timeout	60054848
+afp/coinductive_stream/2266936	Timeout	60102273	Timeout	60129611	Timeout	60180308	Timeout	60080779	Timeout	61184038	timeout	60024585
+afp/coinductive_stream/2289306	Timeout	60137349	Timeout	60122738	Timeout	60179300	Timeout	60082539	GaveUp	65055	timeout	60031313
+afp/coinductive_stream/2418361	Timeout	60165586	Satisfiable	3391908	Timeout	60152536	Timeout	60128604	Timeout	60206365	timeout	60026780
+afp/coinductive_stream/2421566	Unsatisfiable	21502	Unsatisfiable	136866	Unsatisfiable	21583	Unsatisfiable	122365	Unsatisfiable	31090	unsat(a2 a0 a1)	36631
+afp/hamming_stream/2252726	Unsatisfiable	33956	Unsatisfiable	1040315	Unsatisfiable	27536	Unsatisfiable	43864	Unsatisfiable	131507	unsat(a18 a12 a8 a7 a5 a0 a4)	41980
+afp/huffman/1811490	Satisfiable	23337	Satisfiable	1390451	Timeout	60199911	Timeout	60073999	GaveUp	159436	timeout	60022000
+afp/huffman/1894268	Satisfiable	25083	Satisfiable	492666	Timeout	60185088	Timeout	60090982	GaveUp	163166	sat	51844
+afp/sorted_list_operations/2034146	Timeout	60169184	Timeout	60139189	Timeout	60118513	Timeout	60130895	Timeout	61107292	timeout	60041086
+afp/sorted_list_operations/2045245	Timeout	60302293	Timeout	60148893	Timeout	60209755	Timeout	60101437	Timeout	60636560	timeout	60033537
+afp/sorted_list_operations/2051215	Unsatisfiable	29938	Unsatisfiable	31993	Unsatisfiable	24696	Unsatisfiable	36533	Unsatisfiable	44607	unsat(a32 a3 a0 a1)	34433
+afp/sorted_list_operations/2056997	Timeout	60177909	Timeout	60080648	Timeout	60215719	Timeout	60169057	Timeout	60624877	timeout	60027687
+afp/splay_tree_analysis/1813698	Timeout	60286155	Timeout	60144316	Timeout	60228703	Timeout	60117758	GaveUp	153245	timeout	60042506
+afp/tllist/2104663	Timeout	60103509	Timeout	60138236	Timeout	60219171	Timeout	60129100	GaveUp	207900	timeout	60028201
+afp/tllist/2117155	Timeout	60162569	Timeout	60176536	Timeout	60238213	Timeout	60143604	Timeout	61177103	timeout	60045177
+afp/tllist/2163672	Timeout	60231165	Timeout	60128128	Timeout	60234244	Timeout	60098751	Timeout	61128660	timeout	60069865
+afp/tllist/2174359	Timeout	60172939	Timeout	60117131	Timeout	60315040	Timeout	60087065	Timeout	61114084	timeout	60215269
+afp/tllist/2179528	Timeout	60066519	Timeout	60139205	Timeout	60159647	Timeout	60071566	Timeout	61179329	timeout	60310725
+afp/tllist/2184506	Timeout	60184412	Timeout	60025325	Timeout	60220338	Timeout	60111951	Timeout	61159196	timeout	60076981
+afp/tllist/2221882	Timeout	60189334	Timeout	60074683	Timeout	60232405	Timeout	60128392	Timeout	61168421	timeout	60033506
+afp/tllist/2225837	Timeout	60171736	Timeout	60110210	Timeout	60161263	Timeout	60108572	Timeout	60583921	timeout	60080770
+afp/tllist/2278428	Timeout	60245880	Timeout	60094353	Timeout	60223523	Timeout	60033801	GaveUp	322554	timeout	60058458
+afp/tllist/2289415	Timeout	60151314	Timeout	60073634	Timeout	60170001	Timeout	60065400	Timeout	60603537	timeout	60542409
+afp/tllist/2295252	Timeout	60209008	Timeout	60110327	Timeout	60180646	Timeout	60152847	Timeout	60293790	timeout	60400995
+afp/tllist/2343285	Timeout	60198836	Timeout	60116268	Timeout	60196981	Timeout	60067791	GaveUp	226971	timeout	60041240
+afp/tllist/2364650	Timeout	60186872	Timeout	60107876	Timeout	60182443	Timeout	60073678	Timeout	60414922	timeout	60034564
+afp/tllist/2514636	Timeout	60240022	Unsatisfiable	524785	Timeout	60255416	Unsatisfiable	495632	Unsatisfiable	348943	unsat(a112 a49 a37 a14 a15)	74958
+afp/tllist/2519722	Timeout	60194358	Unsatisfiable	6024475	Timeout	60119649	Unsatisfiable	1317370	Unsatisfiable	455125	unsat(a208 a203 a45 a33 a17 a18)	79822
+afp/tllist/2529027	Timeout	60239146	Timeout	60092383	Timeout	60200788	Timeout	60109937	Timeout	60767531	timeout	60028836
+afp/tllist/2616701	Unsatisfiable	124972	Unsatisfiable	74399	Unsatisfiable	209567	Unsatisfiable	293416	Unsatisfiable	185036	unsat(a177 a52 a27 a25 a26)	96632
+afp/tllist/2622792	Unsatisfiable	203048	Unsatisfiable	120638	Unsatisfiable	293851	Unsatisfiable	249370	Unsatisfiable	243602	unsat(a133 a15 a13 a14)	94893
+afp/tllist/2684211	Timeout	60204119	Timeout	60137162	Timeout	60195575	Timeout	60129404	Timeout	60309485	timeout	60196860
+afp/tllist/2756615	Timeout	60146708	Timeout	60179614	Timeout	60177646	Timeout	60078051	GaveUp	165403	timeout	60055961
+afp/tllist/2880925	Timeout	60209093	Timeout	60052279	Timeout	60217877	Timeout	60093694	Timeout	61165049	timeout	60028049
+afp/tllist/2885526	Timeout	60202191	Timeout	60928524	Timeout	60107001	Timeout	60151576	Timeout	61101826	timeout	60312648
+afp/tllist/2896853	Timeout	60175162	Timeout	60025645	Timeout	60178553	Timeout	60058148	GaveUp	615329	timeout	60043496
+afp/tllist/2901329	Timeout	60196856	Timeout	60102544	Timeout	60236301	Timeout	60081069	Timeout	60600215	timeout	60115839
+afp/tllist/2905965	Timeout	60218924	Timeout	60159611	Timeout	60190033	Timeout	60122250	Timeout	61104435	timeout	60038869
+afp/tllist/2922501	Unsatisfiable	53613	Unsatisfiable	52198	Unsatisfiable	325515	Unsatisfiable	63684	Unsatisfiable	257682	unsat(a30 a46)	79597
+afp/tllist/2932543	Timeout	60219114	Timeout	60040224	Timeout	60184402	Timeout	60125552	Timeout	61166688	timeout	60054869
+afp/tllist/2943589	Unsatisfiable	537137	Unsatisfiable	76366	Unsatisfiable	6867111	Unsatisfiable	123168	Unsatisfiable	214251	unsat(a49 a26 a38)	91492
+afp/tllist/2949413	Timeout	60215612	Unsatisfiable	164995	Timeout	60191816	Unsatisfiable	4594618	Unsatisfiable	449146	unsat(a84 a42 a28 a41)	89270
+distro/gram_lang/2210204	Unsatisfiable	171884	Unsatisfiable	152290	Unsatisfiable	162778	Unsatisfiable	186730	Unsatisfiable	187219	unsat(a78 a73 a27 a9 a8 a2 a7)	80587
+distro/gram_lang/2213722	Unsatisfiable	40163	Unsatisfiable	44955	Unsatisfiable	40405	Unsatisfiable	43391	Unsatisfiable	160594	unsat(a36 a9 a5 a2 a4)	71054
+distro/gram_lang/2217843	Unsatisfiable	82416	Unsatisfiable	49090	Unsatisfiable	30181	Unsatisfiable	47194	Unsatisfiable	150090	unsat(a9 a4 a5)	84081
+distro/gram_lang/2222575	Unsatisfiable	52627	Unsatisfiable	52905	Unsatisfiable	109037	Unsatisfiable	72166	Unsatisfiable	155509	unsat(a141 a9 a10)	76526
+distro/gram_lang/2274486	Unsatisfiable	51517	Unsatisfiable	46472	Unsatisfiable	47033	Unsatisfiable	54523	Unsatisfiable	124647	unsat(a8 a4 a6)	58870
+distro/gram_lang/2279122	Unsatisfiable	33933	Unsatisfiable	41604	Unsatisfiable	29755	Unsatisfiable	45033	Unsatisfiable	126922	unsat(a23 a10 a9 a5 a8)	63885
+distro/gram_lang/2287838	Unsatisfiable	131418	Unsatisfiable	66033	Unsatisfiable	219767	Unsatisfiable	84188	Unsatisfiable	136027	unsat(a42 a38 a3 a5)	70725
+distro/gram_lang/2292392	Unsatisfiable	100449	Unsatisfiable	71401	Unsatisfiable	188566	Unsatisfiable	73824	Unsatisfiable	137386	unsat(a32 a21 a3 a5)	74818
+distro/gram_lang/2296953	Unsatisfiable	52245	Unsatisfiable	62323	Unsatisfiable	41391	Unsatisfiable	53242	Unsatisfiable	138529	unsat(a122 a71 a7 a4 a5)	65125
+distro/gram_lang/2301760	Unsatisfiable	193773	Unsatisfiable	52956	Unsatisfiable	293329	Unsatisfiable	75640	Unsatisfiable	138468	unsat(a97 a46 a10 a7 a8)	68624
+distro/gram_lang/2375472	Timeout	60188073	Unsatisfiable	87656	Timeout	60230685	Unsatisfiable	274541	Unsatisfiable	313245	unsat(a167 a110 a15 a6 a8)	84604
+distro/gram_lang/2420177	Unsatisfiable	94846	Unsatisfiable	38767	Unsatisfiable	144027	Unsatisfiable	36685	Unsatisfiable	136574	unsat(a10 a13)	75158
+distro/gram_lang/2424633	Unsatisfiable	45560	Unsatisfiable	36436	Unsatisfiable	40540	Unsatisfiable	39077	Unsatisfiable	118205	unsat(a11 a18)	71751
+distro/gram_lang/2429134	Unsatisfiable	81988	Unsatisfiable	39279	Unsatisfiable	146755	Unsatisfiable	35099	Unsatisfiable	119626	unsat(a9 a13)	62853
+distro/gram_lang/2699943	Timeout	60160117	Timeout	60088357	Timeout	60194183	Timeout	60076765	GaveUp	295238	timeout	60066048
+distro/gram_lang/2704735	Unsatisfiable	51751375	Unsatisfiable	65185	Unsatisfiable	2815478	Unsatisfiable	3852165	Unsatisfiable	101645	unsat(a50 a19 a7 a2 a0 a1)	73243
+distro/gram_lang/2709627	Unsatisfiable	192385	Unsatisfiable	75436	Unsatisfiable	348862	Unsatisfiable	75794	Unsatisfiable	101522	unsat(a117 a54 a4 a2 a0 a1)	56517
+distro/gram_lang/2714351	Unsatisfiable	97846	Unsatisfiable	51888	Unsatisfiable	168742	Unsatisfiable	65183	Unsatisfiable	93844	unsat(a8 a0 a4)	51865
+distro/gram_lang/2719249	Unsatisfiable	33029	Unsatisfiable	43595	Unsatisfiable	28472	Unsatisfiable	41022	Unsatisfiable	97322	unsat(a8 a0 a4)	58467
+distro/gram_lang/3010146	Unsatisfiable	134645	Unsatisfiable	65273	Unsatisfiable	194759	Unsatisfiable	77569	Unsatisfiable	119138	unsat(a2 a10)	73375
+distro/gram_lang/3158791	Unsatisfiable	55151	Unsatisfiable	47489	Unsatisfiable	48176	Unsatisfiable	56320	Unsatisfiable	178884	timeout	60057610
+distro/koenig/1744057	Timeout	60199891	Timeout	60146767	Timeout	60210881	Timeout	60065996	Timeout	61179677	timeout	60242607
+distro/koenig/1746051	Timeout	60149026	Timeout	60163901	Timeout	60212460	Timeout	60152132	Timeout	61104421	timeout	60113648
+distro/koenig/1751815	Timeout	60216594	Timeout	60097023	Timeout	60261670	Timeout	60087721	Timeout	61054507	timeout	60373266
+distro/koenig/1753712	Timeout	60181548	Timeout	60139066	Timeout	60191152	Timeout	60139777	Timeout	60861345	timeout	60405762
+distro/koenig/1759255	Unsatisfiable	69925	Unsatisfiable	81584	Unsatisfiable	64336	Unsatisfiable	83613	Timeout	60705238	timeout	60361925
+distro/koenig/1760836	Timeout	60216969	Timeout	60082717	Timeout	60183626	Timeout	60079132	Timeout	60599735	timeout	60219064
+distro/koenig/1767417	Timeout	60149715	Timeout	60140622	Timeout	60244142	Timeout	60137195	Timeout	61171546	timeout	60171204
+distro/koenig/1769915	Timeout	60183648	Timeout	60357374	Timeout	60166623	Timeout	60101373	Timeout	61108602	timeout	60152932
+distro/koenig/1771144	Timeout	60114226	Timeout	60101532	Timeout	60244412	Timeout	60146671	Timeout	61098421	timeout	60114536
+distro/koenig/1772573	Timeout	60235699	Timeout	60088061	Timeout	60257257	Timeout	60101166	Timeout	61124980	timeout	60116297
+distro/koenig/1773892	Timeout	60250507	Timeout	60113584	Timeout	60139335	Timeout	60171439	Timeout	61203420	timeout	60312247
+distro/process/1743839	Timeout	60216154	Timeout	60137396	Timeout	60175326	Timeout	60129637	Timeout	61139018	timeout	60306570
+distro/process/1745986	Timeout	60226502	Timeout	60108425	Timeout	60163700	Timeout	60136920	Timeout	61144376	timeout	60141710
+distro/process/1809900	Unsatisfiable	67910	Unsatisfiable	53671	Unsatisfiable	55997	Unsatisfiable	51974	Unsatisfiable	181689	unsat(a32 a27 a28)	83508
+distro/process/1820934	Unsatisfiable	66761	Unsatisfiable	53898	Unsatisfiable	61648	Unsatisfiable	64790	Unsatisfiable	198640	unsat(a55 a32 a27 a28)	62544
+distro/process/1836546	Unsatisfiable	95978	Unsatisfiable	90146	Unsatisfiable	96527	Unsatisfiable	85467	Unsatisfiable	264929	unsat(a81 a80 a68 a66 a43 a40 a31 a27 a30)	63811
+distro/process/1847013	Unsatisfiable	114107	Unsatisfiable	69725	Unsatisfiable	98059	Unsatisfiable	74090	Unsatisfiable	321474	unsat(a78 a77 a67 a66 a42 a41 a31 a27 a30)	66192
+distro/rbt_impl/1721121	Timeout	60186274	Unsatisfiable	4522750	Timeout	60197974	Unsatisfiable	4543685	Timeout	61101155	timeout	60260689
+distro/rbt_impl/1729542	Timeout	60232028	Timeout	60100651	Timeout	60203515	Timeout	60159190	Timeout	60635267	timeout	60231709
+distro/rbt_impl/2337319	Timeout	60182400	Timeout	60112437	Timeout	60187644	Timeout	60078434	GaveUp	233133	timeout	60070006
+distro/rbt_impl/2522528	Satisfiable	852957	Satisfiable	3061702	Satisfiable	839165	Satisfiable	3053515	GaveUp	161691	sat	63769
+distro/stream/1984050	Timeout	60239166	Timeout	60137072	Timeout	60199839	Timeout	60125364	Timeout	61184242	timeout	60334183
+distro/stream/2031445	Timeout	60236568	Unsatisfiable	4031340	Unsatisfiable	574612	Unsatisfiable	4126472	Unsatisfiable	1550862	unsat(a174 a167 a166 a163 a153 a135 a39 a36 a30 a27 a7 a25)	97665
+distro/stream_processor/1751146	Unsatisfiable	49680	Unsatisfiable	68811	Unsatisfiable	54589	Unsatisfiable	64182	Unsatisfiable	269185	unsat(a147 a2 a70)	106163
+distro/stream_processor/1791717	Timeout	60169443	Timeout	60120558	Timeout	60212455	Timeout	60102286	Timeout	61178400	timeout	60194334
+distro/stream_processor/1795658	Timeout	60165991	Timeout	60139833	Timeout	60207216	Timeout	60153994	Timeout	61309104	timeout	60132793
+distro/stream_processor/1821227	Timeout	60191668	Timeout	60090427	Timeout	60135184	Timeout	60151282	Timeout	60563736	timeout	60375972
+gandl/bird_bnf/1865005	Timeout	60198414	Timeout	60102191	Timeout	60171402	Timeout	60073961	Timeout	60286072	timeout	60133866
+gandl/bird_bnf/1909427	Timeout	60163325	Timeout	60126403	Timeout	60163334	Timeout	60094693	Timeout	61059093	timeout	60257077
+gandl/bird_bnf/1920088	Unsatisfiable	40574	Unsatisfiable	36497	Unsatisfiable	68423	Unsatisfiable	36855	Timeout	61275880	unsat(a10)	76931
+gandl/bird_bnf/1925671	Timeout	60170357	Timeout	60088820	Timeout	60252501	Timeout	60081856	Timeout	61061060	timeout	60174678

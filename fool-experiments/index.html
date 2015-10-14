@@ -2,39 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Experiments using Vampire with FOOL</title>
+    <title>Experiments on Vampire with FOOL</title>
     <meta name="author" content="Evgenii Kotelnikov"/>
-    <meta name="keywords" content="Evgenii Kotelnikov, Evgeny Kotelnikov, program analysis, automated theorem proving, functional programming"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     ga('create', 'UA-52395119-1', 'auto');
+     ga('send', 'pageview');
+    </script>
   </head>
   <body>
     <header>
-      <h1>Experiments using Vampire with FOOL</h1>
+      <h1>Experiments on Vampire with FOOL</h1>
       <p>Supplementary material for the paper &ldquo;The Vampire and the FOOL&rdquo; by E.&nbsp;Kotelnikov, L.&nbsp;Kov&aacute;cs, G.&nbsp;Reger and A.&nbsp;Voronkov.</p>
+      <p>If you have any questions please contact <a href="mailto:evgenyk@chalmers.se">Evgenii</a>.</p>
     </header>
     <section>
       <h2>Vampire</h2>
-      <p>The following are compiled versions of <a href="http://vprover.org/">Vampire</a> with FOOL support. We used the Mac OS version in the experiments.</p>
+      <p>The following are compiled versions of <a href="http://vprover.org/">Vampire</a> with FOOL support. We used the OS X version for the experiments.</p>
       <p>Note that it is an intermediate version to be replaced by a forthcoming release of Vampire 4.1.<p>
       <ul>
-        <li><a href="">A version for Mac OS</a></li>
-        <li><a href="">A version for Linux (64 bit)</a></li>
-        <!-- <li><a href="">Windows (64 bits)</a></li> -->
+        <li><a href="./vampire_with_fool_osx.zip">A version for OS X 10.10 </a></li>
+        <li><a href="./vampire_with_fool_linux.zip">A version for Linux (64 bit)</a></li>
+        <!-- <li><a href="">A version for Windows (64 bits)</a></li> -->
       </ul>
       <p>These binaries are covered by the <a href="http://vprover.org/license.cgi">Vampire EUL</a>.</p>
     </section>
     <section>
       <h2>Benchmarks</h2>
       <ul>
-        <li><a href="">TPTP problems</a> + <a href="./run-tptp-experiments.sh">running script</a></li>
-        <li><a href="">Isabelle problems</a> + <a href="./run-isabelle-experiments.sh">running script</a></li>
+        <li><a href="./tptp-problems.zip">TPTP problems</a> + <a href="./run-tptp-experiments.sh">running script</a></li>
+        <li><a href="./isabelle-problems.zip">Isabelle problems</a> + <a href="./run-isabelle-experiments.sh">running script</a></li>
       </ul>
     </section>
     <section>
       <h2>Results</h2>
       <ul>
-        <li><a href="">TPTP problems</a></li>
-        <li><a href="">Isabelle problems</a></li>
+        <li><a href="tptp-experiments-results.tsv">TPTP problems</a></li>
+        <li><a href="isabelle-experiments-results.tsv">Isabelle problems</a></li>
       </ul>
     </section>
   </body>
