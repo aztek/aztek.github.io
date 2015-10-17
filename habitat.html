@@ -33,7 +33,6 @@
       }
       #legend-container {
         padding-top: 6px;
-        padding-bottom: 10px;
       }
       h1 {
         font-family: 'Open Sans', sans-serif;
@@ -59,6 +58,10 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoePZ_c_4vKDsteIA-U2eY44Ea7Bu0H2Q"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/habitat.js"></script>
+    <script type="text/javascript" src="js/places.js"></script>
+    <script type="text/javascript">
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
   </head>
   <body>
     <div id="map"></div>
