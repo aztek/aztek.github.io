@@ -31,7 +31,7 @@ function initialize() {
 defaultMarkerIcon = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png';
 activeMarkerIcon  = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
 function pin(location, city, country) {
-  var item = $('<li>' + city + ", " + country + '</li>');
+  var item = $('<li id="' + city + '">' + city + ", " + country + '</li>');
   $('#list').append(item);
   function placeMarker(location) {
     var marker = new google.maps.Marker({
@@ -45,22 +45,26 @@ function pin(location, city, country) {
       item.addClass('active');
       marker.setIcon(activeMarkerIcon);
       marker.setZIndex(google.maps.Marker.MAX_ZINDEX);
-      var container = $('#list');
-      container.scrollTop(item.offset().top - container.offset().top + container.scrollTop());
     });
     marker.addListener('mouseout', function() {
       item.removeClass('active');
       marker.setIcon(defaultMarkerIcon);
       marker.setZIndex(zIndex);
     });
+    marker.addListener('click', function() {
+      var container = $('#legend');
+      container.scrollTop(item.offset().top + container.scrollTop() - (container.height() - item.height()) / 2);
+    });
     item.mouseover(function() {
       marker.setIcon(activeMarkerIcon);
       marker.setZIndex(google.maps.Marker.MAX_ZINDEX);
-      map.panTo(location);
     });
     item.mouseout(function() {
       marker.setIcon(defaultMarkerIcon);
       marker.setZIndex(zIndex);
+    });
+    item.click(function() {
+      map.panTo(location);
     });
     return marker;
   }
