@@ -59,6 +59,9 @@ function pin(location, city, country) {
       marker.setIcon(activeMarkerIcon);
       marker.setZIndex(google.maps.Marker.MAX_ZINDEX);
     });
+    item.click(function() {
+      map.panTo(location);
+    });
     item.mouseout(function() {
       marker.setIcon(defaultMarkerIcon);
       marker.setZIndex(zIndex);
