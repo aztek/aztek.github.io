@@ -119,6 +119,10 @@ section h3 {
   margin-bottom: 0.2em;
 }
 
+#research p {
+  margin-bottom: 0.5em;
+}
+
 #publications ul ul {
   overflow: hidden;
 }
