@@ -8,7 +8,7 @@
   padding: 0;
   line-height: 1.6em;
   font-family: 'Lora', serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #404040;
 }
 
@@ -93,12 +93,19 @@ header, section {
   margin-bottom: 1.2em;
 }
 
+header {
+  overflow: hidden;
+}
+
 header p {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.35em;
 }
 
 header dl {
+  display: block;
   overflow: hidden;
+  margin-bottom: 0.4em;
+  margin-top: 0.6em;
 }
 
 header dt {
