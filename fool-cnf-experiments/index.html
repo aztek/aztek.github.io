@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Experiments on Clausification of FOOL Formulas</title>
+    <meta name="author" content="Evgenii Kotelnikov"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     ga('create', 'UA-52395119-1', 'auto');
+     ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Experiments on Clausification of FOOL Formulas</h1>
+      <p>Supplementary material for the paper &ldquo;A Clausal Normal Form Translation for FOOL&rdquo; by E.&nbsp;Kotelnikov, L.&nbsp;Kov&aacute;cs, M.&nbsp;Suda and A.&nbsp;Voronkov.</p>
+      <p>If you have any questions please contact <a href="mailto:evgenyk@chalmers.se">Evgenii</a>.</p>
+    </header>
+    <section>
+      <h2>Vampire</h2>
+      <p>The following are compiled versions of <a href="http://vprover.org/">Vampire</a> with FOOL support. We used the OS X version for the experiments.</p>
+      <p>Note that it is an intermediate version to be replaced by a forthcoming release of Vampire.<p>
+      <ul>
+        <li><a href="./vampire_osx.zip">A version for OS X 10.10</a></li>
+        <!-- <li><a href="./vampire_linux.zip">A version for Linux (64 bit)</a></li> -->
+        <!-- <li><a href="./vampire_windows.zip">A version for Windows (64 bit)</a></li> -->
+      </ul>
+      <p>These binaries are covered by the <a href="http://vprover.org/license.cgi">Vampire EUL</a>.</p>
+    </section>
+    <section>
+      <h2>Benchmarks</h2>
+      <ul>
+        <li><a href="../fool-experiments/isabelle-problems.zip">Isabelle problems</a> + <a href="./run-isabelle-experiments.sh">running script</a></li>
+        <li>The UF subset of <a href="http://smtlib.cs.uiowa.edu/">the SMT-LIB library</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Results</h2>
+      <ul>
+        <li><a href="isabelle-experiments-results.tsv">Isabelle problems</a></li>
+        <li><a href="smtlib-experiments-results.tsv">SMT-LIB problems</a></li>
+      </ul>
+    </section>
+  </body>
+</html>
