@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Experiments on FOOL Reasoning about Programs</title>
+    <meta name="author" content="Evgenii Kotelnikov"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     ga('create', 'UA-52395119-1', 'auto');
+     ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Experiments on FOOL Reasoning about Programs</h1>
+      <p>Supplementary material for the paper &ldquo;A Clausal Normal Form Translation for FOOL&rdquo; by E.&nbsp;Kotelnikov, L.&nbsp;Kov&aacute;cs, M.&nbsp;Suda and A.&nbsp;Voronkov.</p>
+      <p>If you have any questions please contact <a href="mailto:evgenyk@chalmers.se">Evgenii</a>.</p>
+    </header>
+    <section>
+      <h2>Vampire</h2>
+      <p>The following are compiled versions of <a href="http://vprover.org/">Vampire</a> with FOOL support. We used the OS X version for the experiments.</p>
+      <p>Note that it is an intermediate version to be replaced by a forthcoming release of Vampire.<p>
+      <ul>
+        <li><a href="../fool-cnf-experiments/vampire_osx.zip">A version for OS X 10.10 </a></li>
+        <!-- <li><a href="../fool-cnf-experiments/vampire_linux.zip">A version for Linux (64 bit)</a></li> -->
+        <!-- <li><a href="../fool-cnf-experiments/vampire_windows.zip">A version for Windows (64 bit)</a></li> -->
+      </ul>
+      <p>These binaries are covered by the <a href="http://vprover.org/license.cgi">Vampire EUL</a>.</p>
+    </section>
+    <section>
+      <h2>Benchmarks and Results</h2>
+      <p><a href="./partial-correctness-problems.zip">Partial correctness problems</a> + <a href="./run-tuple-experiments.sh">running script</a>.</p>
+      <p>
+        Every directory in this archive contains
+        <ul class="bullets">
+          <li>a program with a loop and one or more safety property;</li>
+          <li>four programs, obtained by unrolling the loop a number of times;</li>
+          <li>four TPTP files with an encoding of the partial correctness property.</li>
+        </ul>
+      </p>
+      <p><a href="tuple-experiments-results.tsv">Results</a>.</p>
+    </section>
+  </body>
+</html>
