@@ -46,7 +46,7 @@ places = [
   [new google.maps.LatLng(59.6572649, 30.9450984), "St. Petersburg", "Russia"],
   [new google.maps.LatLng(27.7518284, -82.6267345), "St. Petersburg", "USA"],
   [new google.maps.LatLng(59.32932349999999, 18.068580800000063), "Stockholm", "Sweden"],
-  [new google.maps.LatLng(45.759722, 21.230000000000018), "Timisoara", "Romania"],
+  [new google.maps.LatLng(45.759722, 21.230000000000018), "Timişoara", "Romania"],
   [new google.maps.LatLng(35.6894875, 139.69170639999993), "Tokyo", "Japan"],
   [new google.maps.LatLng(59.85856380000001, 17.638926699999956), "Uppsala", "Sweden"],
   [new google.maps.LatLng(57.107118, 12.252090700000053), "Varberg", "Sweden"],
