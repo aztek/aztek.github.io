@@ -5,7 +5,7 @@ places = [
   [new google.maps.LatLng(52.3702157, 4.895167899999933), "Amsterdam", "The Netherlands"],
   [new google.maps.LatLng(44.8857008, 37.31991909999999), "Anapa", "Russia"],
   [new google.maps.LatLng(52.52000659999999, 13.404953999999975), "Berlin", "Germany"],
-  [new google.maps.LatLng(57.72103500000001, 12.939818999999943), "Boras", "Sweden"],
+  [new google.maps.LatLng(57.72103500000001, 12.939818999999943), "Borås", "Sweden"],
   [new google.maps.LatLng(48.1458923, 17.107137299999977), "Bratislava", "Slovakia"],
   [new google.maps.LatLng(50.8503396, 4.351710300000036), "Brussels", "Belgium"],
   [new google.maps.LatLng(39.2578708, -1.3330644999999777), "Casas de Ves", "Spain"],
