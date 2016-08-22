@@ -39,6 +39,7 @@ places = [
   [new google.maps.LatLng(57.4902781, 60.212086099999965), "Nevyansk", "Russia"],
   [new google.maps.LatLng(40.7127837, -74.00594130000002), "New York", "USA"],
   [new google.maps.LatLng(57.9214912, 59.98161860000005), "Nizhny Tagil", "Russia"],
+  [new google.maps.LatLng(55.40375599999999, 10.402370000000019), "Odense", "Denmark"],
   [new google.maps.LatLng(48.856614, 2.3522219000000177), "Paris", "France"],
   [new google.maps.LatLng(59.883333, 29.899999999999977), "Peterhof", "Russia"],
   [new google.maps.LatLng(40.7466196, 14.4936821), "Pompei", "Italy"],
