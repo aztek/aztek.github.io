@@ -18,31 +18,21 @@ do
   echo -n "${PROBLEM}"
   echo -en '\t'
 
-  for VAMPIRE_MODE in "casc_sat" "casc"
-  do
-    VAMPIRE_TIME="$(${DATE} +%s%6N)"
-    VAMPIRE_OUTPUT=`${VAMPIRE} --mode ${VAMPIRE_MODE} -m 20000 -t ${TIME_LIMIT}s --fool_paramodulation on --newcnf off "${TFF_FILE}"`
-    VAMPIRE_TIME="$(($(${DATE} +%s%6N)-VAMPIRE_TIME))"
-    echo -n "${VAMPIRE_MODE}"
-    echo -en '\t'
-    echo -n "${VAMPIRE_OUTPUT}" | sed -n 's/.*SZS status \([^ ]*\).*/\1/p' | tr -d '\n'
-    echo -en '\t'
-    echo -n "${VAMPIRE_TIME}"
-    echo -en '\t'
-  done
+  VAMPIRE_TIME="$(${DATE} +%s%6N)"
+  VAMPIRE_OUTPUT=`${VAMPIRE} --mode casc_sat -m 20000 -t ${TIME_LIMIT}s --fool_paramodulation on --newcnf off "${TFF_FILE}"`
+  VAMPIRE_TIME="$(($(${DATE} +%s%6N)-VAMPIRE_TIME))"
+  echo -n "${VAMPIRE_OUTPUT}" | sed -n 's/.*SZS status \([^ ]*\).*/\1/p' | tr -d '\n'
+  echo -en '\t'
+  echo -n "${VAMPIRE_TIME}"
+  echo -en '\t'
 
-  for VAMPIRE_MODE in "casc_sat" "casc"
-  do
-    VAMPIRE_TIME="$(${DATE} +%s%6N)"
-    VAMPIRE_OUTPUT=`${VAMPIRE} --mode ${VAMPIRE_MODE} -m 20000 -t ${TIME_LIMIT}s --newcnf on "${TFF_FILE}"`
-    VAMPIRE_TIME="$(($(${DATE} +%s%6N)-VAMPIRE_TIME))"
-    echo -n "${VAMPIRE_MODE}"
-    echo -en '\t'
-    echo -n "${VAMPIRE_OUTPUT}" | sed -n 's/.*SZS status \([^ ]*\).*/\1/p' | tr -d '\n'
-    echo -en '\t'
-    echo -n "${VAMPIRE_TIME}"
-    echo -en '\t'
-  done
+  VAMPIRE_TIME="$(${DATE} +%s%6N)"
+  VAMPIRE_OUTPUT=`${VAMPIRE} --mode casc_sat -m 20000 -t ${TIME_LIMIT}s --newcnf on "${TFF_FILE}"`
+  VAMPIRE_TIME="$(($(${DATE} +%s%6N)-VAMPIRE_TIME))"
+  echo -n "${VAMPIRE_OUTPUT}" | sed -n 's/.*SZS status \([^ ]*\).*/\1/p' | tr -d '\n'
+  echo -en '\t'
+  echo -n "${VAMPIRE_TIME}"
+  echo -en '\t'
 
   CVC4_TIME="$(${DATE} +%s%6N)"
   # have to use gtimeout because CVC4 ignores the --tlimit option sometimes
@@ -61,3 +51,5 @@ do
 
   echo
 done
+
+# filter out unsat problem with grep 'unsat|Unsatisfiable'

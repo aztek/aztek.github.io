@@ -1,152 +1,57 @@
-afp/abstract_completeness/1830522	casc_sat	430593	Satisfiable	casc	60266759	Timeout	casc_sat	56046	Satisfiable	casc	3376058	Satisfiable	Timeout	61265619	sat	172405
-afp/abstract_completeness/1957481	casc_sat	442654	Satisfiable	casc	60166406	Timeout	casc_sat	22529	Satisfiable	casc	8109768	Satisfiable	GaveUp	192907	timeout	60055272
-afp/abstract_completeness/1961740	casc_sat	440676	Satisfiable	casc	60198050	Timeout	casc_sat	34163	Satisfiable	casc	9246857	Satisfiable	GaveUp	204873	timeout	60052006
-afp/abstract_completeness/1985116	casc_sat	46313	Unsatisfiable	casc	35415	Unsatisfiable	casc_sat	33059	Unsatisfiable	casc	34104	Unsatisfiable	Unsatisfiable	52957	unsat(a4 a0 a1)	67766
-afp/bindag/2144795	casc_sat	269601	Unsatisfiable	casc	75271	Unsatisfiable	casc_sat	140859	Unsatisfiable	casc	75251	Unsatisfiable	Unsatisfiable	283563	unsat(a20 a18 a3 a7)	36628
-afp/bindag/2150078	casc_sat	148208	Unsatisfiable	casc	68186	Unsatisfiable	casc_sat	90866	Unsatisfiable	casc	70166	Unsatisfiable	Unsatisfiable	79524	unsat(a21 a8 a3 a4)	34742
-afp/bindag/2160846	casc_sat	168499	Unsatisfiable	casc	69631	Unsatisfiable	casc_sat	87051	Unsatisfiable	casc	69460	Unsatisfiable	Unsatisfiable	56582	unsat(a21 a8 a3 a4)	32875
-afp/bindag/2182598	casc_sat	87139	Unsatisfiable	casc	75307	Unsatisfiable	casc_sat	104579	Unsatisfiable	casc	51785	Unsatisfiable	Unsatisfiable	65390	unsat(a19 a8 a3 a4)	40743
-afp/bindag/2187875	casc_sat	82738	Unsatisfiable	casc	67186	Unsatisfiable	casc_sat	96194	Unsatisfiable	casc	54949	Unsatisfiable	Unsatisfiable	73544	unsat(a20 a8 a3 a5)	44341
-afp/bindag/2193162	casc_sat	440611	Satisfiable	casc	60046723	Timeout	casc_sat	446203	Satisfiable	casc	60039847	Timeout	GaveUp	677079	sat	388165
-afp/bindag/2198453	casc_sat	25481	Unsatisfiable	casc	32992	Unsatisfiable	casc_sat	23417	Unsatisfiable	casc	27049	Unsatisfiable	Unsatisfiable	52424	unsat(a9 a6 a3 a5)	38909
-afp/coinductive_list/1873136	casc_sat	773483	Satisfiable	casc	60308498	Timeout	casc_sat	813122	Satisfiable	casc	60216589	Timeout	Timeout	61152974	timeout	60105485
-afp/coinductive_list/2610054	casc_sat	60105425	Timeout	casc	60380665	Timeout	casc_sat	60113803	Timeout	casc	60232119	Timeout	GaveUp	439574	timeout	60055248
-afp/coinductive_list/2615642	casc_sat	60061403	Timeout	casc	60264435	Timeout	casc_sat	62884233	Timeout	casc	60205733	Timeout	GaveUp	270376	timeout	60070077
-afp/coinductive_list/2622279	casc_sat	60061146	Timeout	casc	60117631	Timeout	casc_sat	60248848	Timeout	casc	60231498	Timeout	GaveUp	217017	timeout	60054693
-afp/coinductive_list/2627557	casc_sat	467015	Satisfiable	casc	60201706	Timeout	casc_sat	476392	Satisfiable	casc	60216044	Timeout	GaveUp	203625	timeout	60044690
-afp/coinductive_list/3470858	casc_sat	60135016	Timeout	casc	60248186	Timeout	casc_sat	60144376	Timeout	casc	60124790	Timeout	Timeout	61165360	timeout	60067541
-afp/coinductive_list/4536457	casc_sat	60089255	Timeout	casc	60093334	Timeout	casc_sat	60065318	Timeout	casc	60201735	Timeout	GaveUp	262296	timeout	60074023
-afp/coinductive_list/4541674	casc_sat	60073946	Timeout	casc	60171868	Timeout	casc_sat	60147871	Timeout	casc	60199188	TimeoutTimeout	GaveUp	11776395	timeout	60065453
-afp/coinductive_list/4551771	casc_sat	547729	Satisfiable	casc	60141264	Timeout	casc_sat	547442	Satisfiable	casc	60196685	Timeout	GaveUp	262784	timeout	60056977
-afp/coinductive_list/4557362	casc_sat	569513	Satisfiable	casc	60290401	Timeout	casc_sat	578156	Satisfiable	casc	60207718	Timeout	GaveUp	284458	timeout	60037785
-afp/coinductive_list/5663791	casc_sat	525894	Satisfiable	casc	60227836	Timeout	casc_sat	528752	Satisfiable	casc	60146134	Timeout	Timeout	61281362	timeout	60026100
-afp/coinductive_list/5893768	casc_sat	24231	Satisfiable	casc	8130486	Satisfiable	casc_sat	28844	Satisfiable	casc	8143138	Satisfiable	Timeout	60218500	timeout	60026393
-afp/coinductive_list/6489961	casc_sat	60158229	Timeout	casc	60115893	TimeoutTimeout	casc_sat	60277787	Timeout	casc	60105915	Timeout	Timeout	60883136	timeout	60083451
-afp/coinductive_list/6715492	casc_sat	332440	Unsatisfiable	casc	36647	Unsatisfiable	casc_sat	37930	Unsatisfiable	casc	35344	Unsatisfiable	Unsatisfiable	87667	unsat(a4 a1 a2)	60399
-afp/coinductive_list/6720454	casc_sat	60096024	Timeout	casc	60112970	Timeout	casc_sat	60102932	Timeout	casc	60103300	Timeout	Timeout	61117559	timeout	60152999
-afp/coinductive_list/6745273	casc_sat	94312	Unsatisfiable	casc	31596	Unsatisfiable	casc_sat	46088	Unsatisfiable	casc	31560	Unsatisfiable	Unsatisfiable	60452	unsat(a15 a7 a4 a3 a1 a2)	57582
-afp/coinductive_list/7912305	casc_sat	1043528	Satisfiable	casc	60091498	Timeout	casc_sat	1108380	Satisfiable	casc	60028381	Timeout	GaveUp	512218	timeout	60028414
-afp/coinductive_list/7927882	casc_sat	996806	GaveUpUnsatisfiable	casc	47175	Unsatisfiable	casc_sat	119076	Unsatisfiable	casc	43660	Unsatisfiable	Unsatisfiable	139112	unsat(a22 a33)	69930
-afp/coinductive_list/7942862	casc_sat	450020	Satisfiable	casc	60155744	Timeout	casc_sat	449946	Satisfiable	casc	60154374	Timeout	Timeout	60300244	timeout	60030315
-afp/coinductive_list/7953004	casc_sat	483097	Satisfiable	casc	60168285	Timeout	casc_sat	486820	Satisfiable	casc	60110298	Timeout	Timeout	60225289	timeout	60029598
-afp/coinductive_list/7969298	casc_sat	40351	Unsatisfiable	casc	42558	Unsatisfiable	casc_sat	31736	Unsatisfiable	casc	40874	Unsatisfiable	Unsatisfiable	134066	unsat(a28 a43)	65173
-afp/coinductive_list/7975335	casc_sat	60114937	Timeout	casc	60234387	Timeout	casc_sat	60089218	Timeout	casc	60129680	Timeout	Timeout	61149113	timeout	60099889
-afp/coinductive_list/8002048	casc_sat	123393	Unsatisfiable	casc	80185	Unsatisfiable	casc_sat	109763	Unsatisfiable	casc	70066	Unsatisfiable	Unsatisfiable	275828	unsat(a41 a40 a33 a8 a17)	73981
-afp/coinductive_list/8007745	casc_sat	1393972	Satisfiable	casc	60138388	Timeout	casc_sat	1312046	Satisfiable	casc	60145309	Timeout	Timeout	61094940	timeout	60101625
-afp/coinductive_list/8013546	casc_sat	106655	Unsatisfiable	casc	64905	Unsatisfiable	casc_sat	96746	Unsatisfiable	casc	62023	Unsatisfiable	Unsatisfiable	290711	unsat(a40 a39 a32 a8 a16)	75581
-afp/coinductive_list/8019328	casc_sat	1457682	Satisfiable	casc	60088536	Timeout	casc_sat	1859508	Satisfiable	casc	60121044	TimeoutTimeout	Timeout	61148540	timeout	60025964
-afp/coinductive_list/8041052	casc_sat	115868	Unsatisfiable	casc	84136	Unsatisfiable	casc_sat	104862	Unsatisfiable	casc	65814	Unsatisfiable	Unsatisfiable	295572	unsat(a48 a47 a20 a36)	61693
-afp/coinductive_list/8051937	casc_sat	60172873	Timeout	casc	10149339	Unsatisfiable	casc_sat	60062435	Timeout	casc	1197033	Unsatisfiable	Timeout	61162548	timeout	60026865
-afp/coinductive_list/8057756	casc_sat	9088201	Unsatisfiable	casc	63109	Unsatisfiable	casc_sat	224124	Unsatisfiable	casc	58740	Unsatisfiable	Unsatisfiable	463035	unsat(a37 a13 a20)	64885
-afp/coinductive_list/8068851	casc_sat	1185369	Satisfiable	casc	60134196	Timeout	casc_sat	1217835	Satisfiable	casc	60138370	Timeout	Timeout	60417074	timeout	60036979
-afp/coinductive_list_prefix/1907643	casc_sat	592388	Satisfiable	casc	60103552	Timeout	casc_sat	595547	Satisfiable	casc	60113303	Timeout	Timeout	60597196	timeout	60068032
-afp/coinductive_stream/2123602	casc_sat	60097976	Timeout	casc	60091003	Timeout	casc_sat	60106973	Timeout	casc	60075815	Timeout	Unsatisfiable	373382	unsat(a101 a88 a87 a62 a61 a53 a40 a6 a0 a1)	100933
-afp/coinductive_stream/2132646	casc_sat	60108124	Timeout	casc	929367	Unsatisfiable	casc_sat	62608	Unsatisfiable	casc	2204799	Unsatisfiable	Unsatisfiable	14713396	unsat(a180 a179 a178 a114 a76 a41 a75)	90133
-afp/coinductive_stream/2136977	casc_sat	5503959	Satisfiable	casc	60071420	Timeout	casc_sat	4535171	Satisfiable	casc	60077249	Timeout	Timeout	61190544	timeout	60064797
-afp/coinductive_stream/2141028	casc_sat	60073161	Timeout	casc	60071587	Timeout	casc_sat	60209128	Timeout	casc	60154206	Timeout	Timeout	61074341	timeout	60341074
-afp/coinductive_stream/2145429	casc_sat	1518787	Satisfiable	casc	60109496	Timeout	casc_sat	1460372	Satisfiable	casc	60121471	Timeout	Timeout	61149804	timeout	60438819
-afp/coinductive_stream/2149828	casc_sat	1600136	Satisfiable	casc	60076232	Timeout	casc_sat	1634389	Satisfiable	casc	60154307	Timeout	Timeout	61159219	timeout	60212744
-afp/coinductive_stream/2154233	casc_sat	1616742	Satisfiable	casc	60169962	Timeout	casc_sat	1756879	Satisfiable	casc	60123986	Timeout	Timeout	61199207	timeout	60061226
-afp/coinductive_stream/2158699	casc_sat	805896	Satisfiable	casc	60109759	Timeout	casc_sat	755885	Satisfiable	casc	60116103	Timeout	Timeout	61161182	timeout	60089266
-afp/coinductive_stream/2163030	casc_sat	60206537	Timeout	casc	60072511	Timeout	casc_sat	60139047	Timeout	casc	60111131	Timeout	Timeout	61236985	timeout	60237372
-afp/coinductive_stream/2167233	casc_sat	60046827	Timeout	casc	60134670	Timeout	casc_sat	60094397	Timeout	casc	60166794	Timeout	Timeout	61174241	timeout	60044295
-afp/coinductive_stream/2177308	casc_sat	4259079	Satisfiable	casc	60116432	Timeout	casc_sat	4233230	Satisfiable	casc	60086435	Timeout	Timeout	61157142	timeout	60024843
-afp/coinductive_stream/2182313	casc_sat	811991	Satisfiable	casc	60105053	Timeout	casc_sat	807891	Satisfiable	casc	60105787	Timeout	Timeout	61133971	timeout	60052298
-afp/coinductive_stream/2187217	casc_sat	1090951	Satisfiable	casc	60114945	Timeout	casc_sat	1080087	Satisfiable	casc	60143042	Timeout	GaveUp	1160017	timeout	60539995
-afp/coinductive_stream/2191816	casc_sat	60081234	Timeout	casc	60136583	TimeoutTimeout	casc_sat	60085368	Timeout	casc	60102804	Timeout	Timeout	61197536	timeout	60309139
-afp/coinductive_stream/2194859	casc_sat	1383591	Satisfiable	casc	60135620	Timeout	casc_sat	1157679	Satisfiable	casc	60157887	Timeout	Timeout	61103960	timeout	60247080
-afp/coinductive_stream/2243434	casc_sat	3283682	Satisfiable	casc	60004740	Timeout	casc_sat	3274202	Satisfiable	casc	60059024	Timeout	Timeout	61150951	timeout	60044191
-afp/coinductive_stream/2262016	casc_sat	60062551	Timeout	casc	60128708	Timeout	casc_sat	60068276	Timeout	casc	60130663	TimeoutTimeout	Timeout	61150486	timeout	60054848
-afp/coinductive_stream/2266936	casc_sat	1352025	Satisfiable	casc	60136822	Timeout	casc_sat	1437557	Satisfiable	casc	60135509	TimeoutTimeout	Timeout	61184038	timeout	60024585
-afp/coinductive_stream/2289306	casc_sat	60073261	Timeout	casc	60110277	Timeout	casc_sat	60076598	Timeout	casc	60122585	Timeout	GaveUp	65055	timeout	60031313
-afp/coinductive_stream/2418361	casc_sat	427245	Satisfiable	casc	3393934	Satisfiable	casc_sat	427367	Satisfiable	casc	3390426	Satisfiable	Timeout	60206365	timeout	60026780
-afp/coinductive_stream/2421566	casc_sat	23540	Unsatisfiable	casc	27648	Unsatisfiable	casc_sat	27325	Unsatisfiable	casc	31238	Unsatisfiable	Unsatisfiable	31090	unsat(a2 a0 a1)	36631
-afp/hamming_stream/2252726	casc_sat	26439	Unsatisfiable	casc	486590	Unsatisfiable	casc_sat	81559	Unsatisfiable	casc	953545	Unsatisfiable	Unsatisfiable	131507	unsat(a18 a12 a8 a7 a5 a0 a4)	41980
-afp/huffman/1811490	casc_sat	23199	Satisfiable	casc	1383144	Satisfiable	casc_sat	29486	Satisfiable	casc	1420278	Satisfiable	GaveUp	159436	timeout	60022000
-afp/huffman/1894268	casc_sat	23700	Satisfiable	casc	483808	Satisfiable	casc_sat	40412	Satisfiable	casc	524188	Satisfiable	GaveUp	163166	sat	51844
-afp/sorted_list_operations/2034146	casc_sat	60039448	Timeout	casc	60083802	Timeout	casc_sat	60151801	Timeout	casc	60165123	Timeout	Timeout	61107292	timeout	60041086
-afp/sorted_list_operations/2045245	casc_sat	60130474	Timeout	casc	60130519	Timeout	casc_sat	60059367	Timeout	casc	60102240	Timeout	Timeout	60636560	timeout	60033537
-afp/sorted_list_operations/2051215	casc_sat	30813	Unsatisfiable	casc	33432	Unsatisfiable	casc_sat	25876	Unsatisfiable	casc	34729	Unsatisfiable	Unsatisfiable	44607	unsat(a32 a3 a0 a1)	34433
-afp/sorted_list_operations/2056997	casc_sat	60137763	Timeout	casc	60139155	Timeout	casc_sat	60143232	TimeoutTimeout	casc	60162936	Timeout	Timeout	60624877	timeout	60027687
-afp/splay_tree_analysis/1813698	casc_sat	60598125	Timeout	casc	60381688	Timeout	casc_sat	60174151	Timeout	casc	60039500	Timeout	GaveUp	153245	timeout	60042506
-afp/tllist/2104663	casc_sat	459465	Satisfiable	casc	60132373	Timeout	casc_sat	463503	Satisfiable	casc	60233333	TimeoutTimeout	GaveUp	207900	timeout	60028201
-afp/tllist/2117155	casc_sat	64655030	Timeout	casc	60091732	Timeout	casc_sat	61887612	Timeout	casc	60110156	Timeout	Timeout	61177103	timeout	60045177
-afp/tllist/2163672	casc_sat	2783630	Satisfiable	casc	60147287	Timeout	casc_sat	3367340	Satisfiable	casc	60112599	TimeoutTimeout	Timeout	61128660	timeout	60069865
-afp/tllist/2174359	casc_sat	60868882	Timeout	casc	60070863	Timeout	casc_sat	60077752	Timeout	casc	60251096	Timeout	Timeout	61114084	timeout	60215269
-afp/tllist/2179528	casc_sat	63635115	Timeout	casc	60059408	Timeout	casc_sat	60096726	Timeout	casc	60310077	Timeout	Timeout	61179329	timeout	60310725
-afp/tllist/2184506	casc_sat	1520955	Satisfiable	casc	60140070	Timeout	casc_sat	1319069	Satisfiable	casc	60037952	Timeout	Timeout	61159196	timeout	60076981
-afp/tllist/2221882	casc_sat	2798716	Satisfiable	casc	60146527	Timeout	casc_sat	2712859	Satisfiable	casc	60137591	Timeout	Timeout	61168421	timeout	60033506
-afp/tllist/2225837	casc_sat	2032929	Satisfiable	casc	60217687	Timeout	casc_sat	2466266	Satisfiable	casc	60191407	Timeout	Timeout	60583921	timeout	60080770
-afp/tllist/2278428	casc_sat	60149093	Timeout	casc	60127668	Timeout	casc_sat	60208499	Timeout	casc	60095508	Timeout	GaveUp	322554	timeout	60058458
-afp/tllist/2289415	casc_sat	60110258	Timeout	casc	60091722	Timeout	casc_sat	60041806	Timeout	casc	60091546	Timeout	Timeout	60603537	timeout	60542409
-afp/tllist/2295252	casc_sat	60073543	Timeout	casc	60098149	Timeout	casc_sat	60058737	Timeout	casc	60165873	Timeout	Timeout	60293790	timeout	60400995
-afp/tllist/2343285	casc_sat	3262715	Satisfiable	casc	60095562	Timeout	casc_sat	60113064	Timeout	casc	60217981	Timeout	GaveUp	226971	timeout	60041240
-afp/tllist/2364650	casc_sat	68584671	Timeout	casc	60138511	Timeout	casc_sat	60137098	Timeout	casc	60078715	Timeout	Timeout	60414922	timeout	60034564
-afp/tllist/2514636	casc_sat	63408894	Timeout	casc	600952	Unsatisfiable	casc_sat	64331833	Timeout	casc	4563909	Unsatisfiable	Unsatisfiable	348943	unsat(a112 a49 a37 a14 a15)	74958
-afp/tllist/2519722	casc_sat	60117113	Timeout	casc	7431654	Unsatisfiable	casc_sat	66056819	Timeout	casc	435057	Unsatisfiable	Unsatisfiable	455125	unsat(a208 a203 a45 a33 a17 a18)	79822
-afp/tllist/2529027	casc_sat	645402	Satisfiable	casc	60131952	Timeout	casc_sat	803193	Satisfiable	casc	60061019	Timeout	Timeout	60767531	timeout	60028836
-afp/tllist/2616701	casc_sat	135871	Unsatisfiable	casc	79871	Unsatisfiable	casc_sat	62861	Unsatisfiable	casc	59370	Unsatisfiable	Unsatisfiable	185036	unsat(a177 a52 a27 a25 a26)	96632
-afp/tllist/2622792	casc_sat	357062	Unsatisfiable	casc	124059	Unsatisfiable	casc_sat	9471698	Unsatisfiable	casc	163806	Unsatisfiable	Unsatisfiable	243602	unsat(a133 a15 a13 a14)	94893
-afp/tllist/2684211	casc_sat	680884	Satisfiable	casc	60117878	Timeout	casc_sat	733955	Satisfiable	casc	60275848	Timeout	Timeout	60309485	timeout	60196860
-afp/tllist/2756615	casc_sat	60213486	Timeout	casc	60152226	Timeout	casc_sat	60062557	Timeout	casc	60110655	Timeout	GaveUp	165403	timeout	60055961
-afp/tllist/2880925	casc_sat	2663111	Satisfiable	casc	60103780	Timeout	casc_sat	2734470	Satisfiable	casc	60078891	Timeout	Timeout	61165049	timeout	60028049
-afp/tllist/2885526	casc_sat	4311673	Satisfiable	casc	60152756	Timeout	casc_sat	4710823	Satisfiable	casc	60085820	Timeout	Timeout	61101826	timeout	60312648
-afp/tllist/2896853	casc_sat	2018483	Satisfiable	casc	60032725	Timeout	casc_sat	2681777	Satisfiable	casc	60086579	Timeout	GaveUp	615329	timeout	60043496
-afp/tllist/2901329	casc_sat	60105842	Timeout	casc	60154666	TimeoutTimeout	casc_sat	60156455	Timeout	casc	60157312	Timeout	Timeout	60600215	timeout	60115839
-afp/tllist/2905965	casc_sat	927491	Satisfiable	casc	60147720	Timeout	casc_sat	1111897	Satisfiable	casc	60164321	Timeout	Timeout	61104435	timeout	60038869
-afp/tllist/2922501	casc_sat	60379	Unsatisfiable	casc	62216	Unsatisfiable	casc_sat	59759	Unsatisfiable	casc	58897	Unsatisfiable	Unsatisfiable	257682	unsat(a30 a46)	79597
-afp/tllist/2932543	casc_sat	2769246	Satisfiable	casc	60118683	Timeout	casc_sat	5105569	Satisfiable	casc	60127514	Timeout	Timeout	61166688	timeout	60054869
-afp/tllist/2943589	casc_sat	8802017	Unsatisfiable	casc	73042	Unsatisfiable	casc_sat	8683671	Unsatisfiable	casc	72096	Unsatisfiable	Unsatisfiable	214251	unsat(a49 a26 a38)	91492
-afp/tllist/2949413	casc_sat	10413943	Unsatisfiable	casc	467701	Unsatisfiable	casc_sat	10886993	Unsatisfiable	casc	814992	Unsatisfiable	Unsatisfiable	449146	unsat(a84 a42 a28 a41)	89270
-distro/gram_lang/2210204	casc_sat	102372	Unsatisfiable	casc	106365	Unsatisfiable	casc_sat	117668	Unsatisfiable	casc	114182	Unsatisfiable	Unsatisfiable	187219	unsat(a78 a73 a27 a9 a8 a2 a7)	80587
-distro/gram_lang/2213722	casc_sat	44081	Unsatisfiable	casc	44315	Unsatisfiable	casc_sat	42282	Unsatisfiable	casc	48159	Unsatisfiable	Unsatisfiable	160594	unsat(a36 a9 a5 a2 a4)	71054
-distro/gram_lang/2217843	casc_sat	47686	Unsatisfiable	casc	52336	Unsatisfiable	casc_sat	58923	Unsatisfiable	casc	48819	Unsatisfiable	Unsatisfiable	150090	unsat(a9 a4 a5)	84081
-distro/gram_lang/2222575	casc_sat	45577	Unsatisfiable	casc	57989	Unsatisfiable	casc_sat	160605	Unsatisfiable	casc	57227	Unsatisfiable	Unsatisfiable	155509	unsat(a141 a9 a10)	76526
-distro/gram_lang/2274486	casc_sat	44325	Unsatisfiable	casc	47472	Unsatisfiable	casc_sat	45482	Unsatisfiable	casc	44994	Unsatisfiable	Unsatisfiable	124647	unsat(a8 a4 a6)	58870
-distro/gram_lang/2279122	casc_sat	32232	Unsatisfiable	casc	46327	Unsatisfiable	casc_sat	33417	Unsatisfiable	casc	46063	Unsatisfiable	Unsatisfiable	126922	unsat(a23 a10 a9 a5 a8)	63885
-distro/gram_lang/2287838	casc_sat	108984	Unsatisfiable	casc	85090	Unsatisfiable	casc_sat	130895	Unsatisfiable	casc	60368	Unsatisfiable	Unsatisfiable	136027	unsat(a42 a38 a3 a5)	70725
-distro/gram_lang/2292392	casc_sat	85201	Unsatisfiable	casc	72473	Unsatisfiable	casc_sat	102791	Unsatisfiable	casc	81687	Unsatisfiable	Unsatisfiable	137386	unsat(a32 a21 a3 a5)	74818
-distro/gram_lang/2296953	casc_sat	43940	Unsatisfiable	casc	54859	Unsatisfiable	casc_sat	39906	Unsatisfiable	casc	46896	Unsatisfiable	Unsatisfiable	138529	unsat(a122 a71 a7 a4 a5)	65125
-distro/gram_lang/2301760	casc_sat	196822	Unsatisfiable	casc	52258	Unsatisfiable	casc_sat	158597	Unsatisfiable	casc	46830	Unsatisfiable	Unsatisfiable	138468	unsat(a97 a46 a10 a7 a8)	68624
-distro/gram_lang/2375472	casc_sat	8663286	Unsatisfiable	casc	64267	Unsatisfiable	casc_sat	8670461	Unsatisfiable	casc	80251	Unsatisfiable	Unsatisfiable	313245	unsat(a167 a110 a15 a6 a8)	84604
-distro/gram_lang/2420177	casc_sat	72876	Unsatisfiable	casc	36222	Unsatisfiable	casc_sat	86080	Unsatisfiable	casc	37890	Unsatisfiable	Unsatisfiable	136574	unsat(a10 a13)	75158
-distro/gram_lang/2424633	casc_sat	42659	Unsatisfiable	casc	35801	Unsatisfiable	casc_sat	50270	Unsatisfiable	casc	36648	Unsatisfiable	Unsatisfiable	118205	unsat(a11 a18)	71751
-distro/gram_lang/2429134	casc_sat	69369	Unsatisfiable	casc	37081	Unsatisfiable	casc_sat	127513	Unsatisfiable	casc	37569	Unsatisfiable	Unsatisfiable	119626	unsat(a9 a13)	62853
-distro/gram_lang/2699943	casc_sat	622668	Satisfiable	casc	60186449	Timeout	casc_sat	586589	Satisfiable	casc	60186027	Timeout	GaveUp	295238	timeout	60066048
-distro/gram_lang/2704735	casc_sat	48682	Unsatisfiable	casc	53564	Unsatisfiable	casc_sat	54512	Unsatisfiable	casc	55625	Unsatisfiable	Unsatisfiable	101645	unsat(a50 a19 a7 a2 a0 a1)	73243
-distro/gram_lang/2709627	casc_sat	167421	Unsatisfiable	casc	53460	Unsatisfiable	casc_sat	113029	Unsatisfiable	casc	49698	Unsatisfiable	Unsatisfiable	101522	unsat(a117 a54 a4 a2 a0 a1)	56517
-distro/gram_lang/2714351	casc_sat	61818	Unsatisfiable	casc	49453	Unsatisfiable	casc_sat	72969	Unsatisfiable	casc	41293	Unsatisfiable	Unsatisfiable	93844	unsat(a8 a0 a4)	51865
-distro/gram_lang/2719249	casc_sat	31222	Unsatisfiable	casc	38434	Unsatisfiable	casc_sat	30093	Unsatisfiable	casc	41140	Unsatisfiable	Unsatisfiable	97322	unsat(a8 a0 a4)	58467
-distro/gram_lang/3010146	casc_sat	132041	Unsatisfiable	casc	68074	Unsatisfiable	casc_sat	127815	Unsatisfiable	casc	59578	Unsatisfiable	Unsatisfiable	119138	unsat(a2 a10)	73375
-distro/gram_lang/3158791	casc_sat	42001	Unsatisfiable	casc	109291	Unsatisfiable	casc_sat	52462	Unsatisfiable	casc	105142	Unsatisfiable	Unsatisfiable	178884	timeout	60057610
-distro/koenig/1744057	casc_sat	60190999	Timeout	casc	60147521	TimeoutTimeout	casc_sat	60072789	Timeout	casc	60192829	Timeout	Timeout	61179677	timeout	60242607
-distro/koenig/1746051	casc_sat	60094376	Timeout	casc	60203626	Timeout	casc_sat	60140148	Timeout	casc	60198593	Timeout	Timeout	61104421	timeout	60113648
-distro/koenig/1751815	casc_sat	60150051	TimeoutTimeout	casc	60140899	Timeout	casc_sat	60237781	Timeout	casc	60205792	TimeoutTimeout	Timeout	61054507	timeout	60373266
-distro/koenig/1753712	casc_sat	60084999	Timeout	casc	60097966	Timeout	casc_sat	60118721	Timeout	casc	60163195	Timeout	Timeout	60861345	timeout	60405762
-distro/koenig/1759255	casc_sat	70082	Unsatisfiable	casc	73708	Unsatisfiable	casc_sat	82161	Unsatisfiable	casc	79041	Unsatisfiable	Timeout	60705238	timeout	60361925
-distro/koenig/1760836	casc_sat	60106042	Timeout	casc	60080936	Timeout	casc_sat	60201093	Timeout	casc	60199329	Timeout	Timeout	60599735	timeout	60219064
-distro/koenig/1767417	casc_sat	60034929	Timeout	casc	60185400	Timeout	casc_sat	60084607	Timeout	casc	60261650	TimeoutTimeout	Timeout	61171546	timeout	60171204
-distro/koenig/1769915	casc_sat	60218820	Timeout	casc	60112427	Timeout	casc_sat	61112381	Timeout	casc	60168862	Timeout	Timeout	61108602	timeout	60152932
-distro/koenig/1771144	casc_sat	62291817	Timeout	casc	60133426	Timeout	casc_sat	60224768	Timeout	casc	60198582	TimeoutTimeout	Timeout	61098421	timeout	60114536
-distro/koenig/1772573	casc_sat	59994499	Timeout	casc	60131824	Timeout	casc_sat	60037952	Timeout	casc	60291098	Timeout	Timeout	61124980	timeout	60116297
-distro/koenig/1773892	casc_sat	60753157	Timeout	casc	60195974	Timeout	casc_sat	60104056	Timeout	casc	60154277	Timeout	Timeout	61203420	timeout	60312247
-distro/process/1743839	casc_sat	60142620	Timeout	casc	60145988	Timeout	casc_sat	60236112	Timeout	casc	60394560	Timeout	Timeout	61139018	timeout	60306570
-distro/process/1745986	casc_sat	60215046	Timeout	casc	60112557	Timeout	casc_sat	60222121	Timeout	casc	60130965	Timeout	Timeout	61144376	timeout	60141710
-distro/process/1809900	casc_sat	63687	Unsatisfiable	casc	49328	Unsatisfiable	casc_sat	57053	Unsatisfiable	casc	58454	Unsatisfiable	Unsatisfiable	181689	unsat(a32 a27 a28)	83508
-distro/process/1820934	casc_sat	60565	Unsatisfiable	casc	57645	Unsatisfiable	casc_sat	58695	Unsatisfiable	casc	65237	Unsatisfiable	Unsatisfiable	198640	unsat(a55 a32 a27 a28)	62544
-distro/process/1836546	casc_sat	96534	Unsatisfiable	casc	89226	Unsatisfiable	casc_sat	83817	Unsatisfiable	casc	116062	Unsatisfiable	Unsatisfiable	264929	unsat(a81 a80 a68 a66 a43 a40 a31 a27 a30)	63811
-distro/process/1847013	casc_sat	88592	Unsatisfiable	casc	75481	Unsatisfiable	casc_sat	92016	Unsatisfiable	casc	485701	Unsatisfiable	Unsatisfiable	321474	unsat(a78 a77 a67 a66 a42 a41 a31 a27 a30)	66192
-distro/rbt_impl/1721121	casc_sat	60101420	Timeout	casc	4111945	Unsatisfiable	casc_sat	60311684	Timeout	casc	4772574	Unsatisfiable	Timeout	61101155	timeout	60260689
-distro/rbt_impl/1729542	casc_sat	60090939	Timeout	casc	60125032	Timeout	casc_sat	60043105	Timeout	casc	60113714	Timeout	Timeout	60635267	timeout	60231709
-distro/rbt_impl/2337319	casc_sat	60111210	Timeout	casc	60093680	Timeout	casc_sat	60147078	Timeout	casc	60112690	Timeout	GaveUp	233133	timeout	60070006
-distro/rbt_impl/2522528	casc_sat	432370	Satisfiable	casc	59994608	Timeout	casc_sat	433735	Satisfiable	casc	29330602	Satisfiable	GaveUp	161691	sat	63769
-distro/stream/1984050	casc_sat	60085908	Timeout	casc	60137137	Timeout	casc_sat	5118061	Satisfiable	casc	60095815	Timeout	Timeout	61184242	timeout	60334183
-distro/stream/2031445	casc_sat	60129689	Timeout	casc	4061167	Unsatisfiable	casc_sat	8764237	Unsatisfiable	casc	5280762	Unsatisfiable	Unsatisfiable	1550862	unsat(a174 a167 a166 a163 a153 a135 a39 a36 a30 a27 a7 a25)	97665
-distro/stream_processor/1751146	casc_sat	44967	Unsatisfiable	casc	66109	Unsatisfiable	casc_sat	63576	Unsatisfiable	casc	71212	Unsatisfiable	Unsatisfiable	269185	unsat(a147 a2 a70)	106163
-distro/stream_processor/1791717	casc_sat	1266731	Satisfiable	casc	60167278	Timeout	casc_sat	1719572	Satisfiable	casc	60610079	Timeout	Timeout	61178400	timeout	60194334
-distro/stream_processor/1795658	casc_sat	1428517	Satisfiable	casc	60126026	TimeoutTimeout	casc_sat	2250266	Satisfiable	casc	60170702	Timeout	Timeout	61309104	timeout	60132793
-distro/stream_processor/1821227	casc_sat	1295986	Satisfiable	casc	60175019	Timeout	casc_sat	1553993	Satisfiable	casc	60207800	TimeoutTimeout	Timeout	60563736	timeout	60375972
-gandl/bird_bnf/1865005	casc_sat	802936	Satisfiable	casc	60119105	Timeout	casc_sat	795124	Satisfiable	casc	60160691	Timeout	Timeout	60286072	timeout	60133866
-gandl/bird_bnf/1909427	casc_sat	457050	Satisfiable	casc	60120427	Timeout	casc_sat	456831	Satisfiable	casc	60181524	Timeout	Timeout	61059093	timeout	60257077
-gandl/bird_bnf/1920088	casc_sat	30475	Unsatisfiable	casc	31057	Unsatisfiable	casc_sat	41228	Unsatisfiable	casc	40269	Unsatisfiable	Timeout	61275880	unsat(a10)	76931
-gandl/bird_bnf/1925671	casc_sat	454480	Satisfiable	casc	60087937	Timeout	casc_sat	468932	Satisfiable	casc	60112038	Timeout	Timeout	61061060	timeout	60174678
+afp/abstract_completeness/1985116 Unsatisfiable 34104 Unsatisfiable 35415 Unsatisfiable 52957 unsat(a4 a0 a1) 67766
+afp/bindag/2144795  Unsatisfiable 75251 Unsatisfiable 75271 Unsatisfiable 283563  unsat(a20 a18 a3 a7)  36628
+afp/bindag/2150078  Unsatisfiable 70166 Unsatisfiable 68186 Unsatisfiable 79524 unsat(a21 a8 a3 a4) 34742
+afp/bindag/2160846  Unsatisfiable 69460 Unsatisfiable 69631 Unsatisfiable 56582 unsat(a21 a8 a3 a4) 32875
+afp/bindag/2182598  Unsatisfiable 51785 Unsatisfiable 75307 Unsatisfiable 65390 unsat(a19 a8 a3 a4) 40743
+afp/bindag/2187875  Unsatisfiable 54949 Unsatisfiable 67186 Unsatisfiable 73544 unsat(a20 a8 a3 a5) 44341
+afp/bindag/2198453  Unsatisfiable 27049 Unsatisfiable 32992 Unsatisfiable 52424 unsat(a9 a6 a3 a5)  38909
+afp/coinductive_list/6715492  Unsatisfiable 35344 Unsatisfiable 36647 Unsatisfiable 87667 unsat(a4 a1 a2) 60399
+afp/coinductive_list/6745273  Unsatisfiable 31560 Unsatisfiable 31596 Unsatisfiable 60452 unsat(a15 a7 a4 a3 a1 a2) 57582
+afp/coinductive_list/7927882  Unsatisfiable 43660 Unsatisfiable 47175 Unsatisfiable 139112  unsat(a22 a33)  69930
+afp/coinductive_list/7969298  Unsatisfiable 40874 Unsatisfiable 42558 Unsatisfiable 134066  unsat(a28 a43)  65173
+afp/coinductive_list/8002048  Unsatisfiable 70066 Unsatisfiable 80185 Unsatisfiable 275828  unsat(a41 a40 a33 a8 a17) 73981
+afp/coinductive_list/8013546  Unsatisfiable 62023 Unsatisfiable 64905 Unsatisfiable 290711  unsat(a40 a39 a32 a8 a16) 75581
+afp/coinductive_list/8041052  Unsatisfiable 65814 Unsatisfiable 84136 Unsatisfiable 295572  unsat(a48 a47 a20 a36)  61693
+afp/coinductive_list/8051937  Unsatisfiable 1197033 Unsatisfiable 10149339  Timeout 61162548  timeout 60026865
+afp/coinductive_list/8057756  Unsatisfiable 58740 Unsatisfiable 63109 Unsatisfiable 463035  unsat(a37 a13 a20)  64885
+afp/coinductive_stream/2123602  Timeout 60075815  Timeout 60091003  Unsatisfiable 373382  unsat(a101 a88 a87 a62 a61 a53 a40 a6 a0 a1)  100933
+afp/coinductive_stream/2132646  Unsatisfiable 2204799 Unsatisfiable 929367  Unsatisfiable 14713396  unsat(a180 a179 a178 a114 a76 a41 a75)  90133
+afp/coinductive_stream/2421566  Unsatisfiable 31238 Unsatisfiable 27648 Unsatisfiable 31090 unsat(a2 a0 a1) 36631
+afp/hamming_stream/2252726  Unsatisfiable 953545  Unsatisfiable 486590  Unsatisfiable 131507  unsat(a18 a12 a8 a7 a5 a0 a4) 41980
+afp/sorted_list_operations/2051215  Unsatisfiable 34729 Unsatisfiable 33432 Unsatisfiable 44607 unsat(a32 a3 a0 a1) 34433
+afp/tllist/2514636  Unsatisfiable 4563909 Unsatisfiable 600952  Unsatisfiable 348943  unsat(a112 a49 a37 a14 a15) 74958
+afp/tllist/2519722  Unsatisfiable 435057  Unsatisfiable 7431654 Unsatisfiable 455125  unsat(a208 a203 a45 a33 a17 a18)  79822
+afp/tllist/2616701  Unsatisfiable 59370 Unsatisfiable 79871 Unsatisfiable 185036  unsat(a177 a52 a27 a25 a26) 96632
+afp/tllist/2622792  Unsatisfiable 163806  Unsatisfiable 124059  Unsatisfiable 243602  unsat(a133 a15 a13 a14) 94893
+afp/tllist/2922501  Unsatisfiable 58897 Unsatisfiable 62216 Unsatisfiable 257682  unsat(a30 a46)  79597
+afp/tllist/2943589  Unsatisfiable 72096 Unsatisfiable 73042 Unsatisfiable 214251  unsat(a49 a26 a38)  91492
+afp/tllist/2949413  Unsatisfiable 814992  Unsatisfiable 467701  Unsatisfiable 449146  unsat(a84 a42 a28 a41)  89270
+distro/gram_lang/2210204  Unsatisfiable 114182  Unsatisfiable 106365  Unsatisfiable 187219  unsat(a78 a73 a27 a9 a8 a2 a7)  80587
+distro/gram_lang/2213722  Unsatisfiable 48159 Unsatisfiable 44315 Unsatisfiable 160594  unsat(a36 a9 a5 a2 a4)  71054
+distro/gram_lang/2217843  Unsatisfiable 48819 Unsatisfiable 52336 Unsatisfiable 150090  unsat(a9 a4 a5) 84081
+distro/gram_lang/2222575  Unsatisfiable 57227 Unsatisfiable 57989 Unsatisfiable 155509  unsat(a141 a9 a10)  76526
+distro/gram_lang/2274486  Unsatisfiable 44994 Unsatisfiable 47472 Unsatisfiable 124647  unsat(a8 a4 a6) 58870
+distro/gram_lang/2279122  Unsatisfiable 46063 Unsatisfiable 46327 Unsatisfiable 126922  unsat(a23 a10 a9 a5 a8) 63885
+distro/gram_lang/2287838  Unsatisfiable 60368 Unsatisfiable 85090 Unsatisfiable 136027  unsat(a42 a38 a3 a5)  70725
+distro/gram_lang/2292392  Unsatisfiable 81687 Unsatisfiable 72473 Unsatisfiable 137386  unsat(a32 a21 a3 a5)  74818
+distro/gram_lang/2296953  Unsatisfiable 46896 Unsatisfiable 54859 Unsatisfiable 138529  unsat(a122 a71 a7 a4 a5)  65125
+distro/gram_lang/2301760  Unsatisfiable 46830 Unsatisfiable 52258 Unsatisfiable 138468  unsat(a97 a46 a10 a7 a8)  68624
+distro/gram_lang/2375472  Unsatisfiable 80251 Unsatisfiable 64267 Unsatisfiable 313245  unsat(a167 a110 a15 a6 a8)  84604
+distro/gram_lang/2420177  Unsatisfiable 37890 Unsatisfiable 36222 Unsatisfiable 136574  unsat(a10 a13)  75158
+distro/gram_lang/2424633  Unsatisfiable 36648 Unsatisfiable 35801 Unsatisfiable 118205  unsat(a11 a18)  71751
+distro/gram_lang/2429134  Unsatisfiable 37569 Unsatisfiable 37081 Unsatisfiable 119626  unsat(a9 a13) 62853
+distro/gram_lang/2704735  Unsatisfiable 55625 Unsatisfiable 53564 Unsatisfiable 101645  unsat(a50 a19 a7 a2 a0 a1)  73243
+distro/gram_lang/2709627  Unsatisfiable 49698 Unsatisfiable 53460 Unsatisfiable 101522  unsat(a117 a54 a4 a2 a0 a1) 56517
+distro/gram_lang/2714351  Unsatisfiable 41293 Unsatisfiable 49453 Unsatisfiable 93844 unsat(a8 a0 a4) 51865
+distro/gram_lang/2719249  Unsatisfiable 41140 Unsatisfiable 38434 Unsatisfiable 97322 unsat(a8 a0 a4) 58467
+distro/gram_lang/3010146  Unsatisfiable 59578 Unsatisfiable 68074 Unsatisfiable 119138  unsat(a2 a10) 73375
+distro/gram_lang/3158791  Unsatisfiable 105142  Unsatisfiable 109291  Unsatisfiable 178884  timeout 60057610
+distro/koenig/1759255 Unsatisfiable 79041 Unsatisfiable 73708 Timeout 60705238  timeout 60361925
+distro/process/1809900  Unsatisfiable 58454 Unsatisfiable 49328 Unsatisfiable 181689  unsat(a32 a27 a28)  83508
+distro/process/1820934  Unsatisfiable 65237 Unsatisfiable 57645 Unsatisfiable 198640  unsat(a55 a32 a27 a28)  62544
+distro/process/1836546  Unsatisfiable 116062  Unsatisfiable 89226 Unsatisfiable 264929  unsat(a81 a80 a68 a66 a43 a40 a31 a27 a30)  63811
+distro/process/1847013  Unsatisfiable 485701  Unsatisfiable 75481 Unsatisfiable 321474  unsat(a78 a77 a67 a66 a42 a41 a31 a27 a30)  66192
+distro/rbt_impl/1721121 Unsatisfiable 4772574 Unsatisfiable 4111945 Timeout 61101155  timeout 60260689
+distro/stream/2031445 Unsatisfiable 5280762 Unsatisfiable 4061167 Unsatisfiable 1550862 unsat(a174 a167 a166 a163 a153 a135 a39 a36 a30 a27 a7 a25) 97665
+distro/stream_processor/1751146 Unsatisfiable 71212 Unsatisfiable 66109 Unsatisfiable 269185  unsat(a147 a2 a70)  106163
+gandl/bird_bnf/1920088  Unsatisfiable 40269 Unsatisfiable 31057 Timeout 61275880  unsat(a10)  76931

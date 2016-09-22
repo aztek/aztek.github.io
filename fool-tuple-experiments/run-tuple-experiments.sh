@@ -1,4 +1,4 @@
-VAMPIRE="./vampire --newcnf on -t 60s"
+VAMPIRE="./vampire --newcnf on -sa discount -t 60s"
 
 for benchmark in count_two count_two_flag count_three two_arrays three_arrays
 do

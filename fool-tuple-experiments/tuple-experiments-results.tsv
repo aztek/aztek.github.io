@@ -1,5 +1,5 @@
-count_two 	.025	.020	.030	.048
-count_two_flag 	.019	.028	.029	.046
-count_three 	.027	.051	.111	.422
-two_arrays 	.062	.162	24.925	-
-three_arrays 	2.717	-	-	-
+count_two      	.011   	.016   	.030   	.053
+count_two_flag 	.011   	.017   	.028   	.041
+count_three    	.023   	.042   	.128   	.522
+two_arrays     	.026   	.091   	.237   	.263
+three_arrays   	.446   	5.368  	8.719  	14.886
