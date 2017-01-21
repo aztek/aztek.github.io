@@ -55,24 +55,32 @@ html {
   font-size: 18px;
 }
 
-a {
+a, a span {
   text-decoration: none;
   border-bottom: 1px solid;
 }
 
-a:link {
+a:link, a:link span {
   color: #008ACE;
   border-color: #B2CCF0; /*#008ACE;*/
 }
 
-a:hover {
+a:hover, a:hover span {
   color: #C00;
   border-color: #f0b2b2;
 }
 
-a:visited{
+a:visited, a:visited span {
   color: #B40EB4;
   border-color: #e0b2e0;
+}
+
+a.back:before {
+  content: '← ';
+}
+
+a.back {
+  border-bottom: none;
 }
 
 abbr {
