@@ -50,6 +50,7 @@ places = [
   [new google.maps.LatLng(41.9027835, 12.496365500000024), "Rome", "Italy"],
   [new google.maps.LatLng(-32.9442426, -60.65053879999999), "Rosario", "Argentina"],
   [new google.maps.LatLng(47.80949, 13.055010000000038), "Salzburg", "Austria"],
+  [new google.maps.LatLng(47.6062095, -122.3320708), "Seattle", "WA, USA"],
   [new google.maps.LatLng(44.952117, 34.10241700000006), "Simferopol", "Ukraine"],
   [new google.maps.LatLng(43.585278, 39.72027800000001), "Sochi", "Russia"],
   [new google.maps.LatLng(59.6572649, 30.9450984), "St. Petersburg", "Russia"],
