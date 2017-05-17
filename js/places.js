@@ -44,6 +44,7 @@ places = [
   [new google.maps.LatLng(55.40375599999999, 10.402370000000019), "Odense", "Denmark"],
   [new google.maps.LatLng(48.856614, 2.3522219000000177), "Paris", "France"],
   [new google.maps.LatLng(59.883333, 29.899999999999977), "Peterhof", "Russia"],
+  [new google.maps.LatLng(39.9525839, -75.16522150000003), "Philadelphia", "USA"],
   [new google.maps.LatLng(40.7466196, 14.4936821), "Pompei", "Italy"],
   [new google.maps.LatLng(41.1579438, -8.629105299999992), "Porto", "Portugal"],
   [new google.maps.LatLng(50.0755381, 14.43780049999998), "Prague", "Czech Republic"],
