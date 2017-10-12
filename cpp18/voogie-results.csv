@@ -1,0 +1,51 @@
+benchmark,solver,configuration,status,cpu time,wallclock time,memory usage,result,expected,SZSResult,SZSOutput,SZSStatus
+boogie-tptp/binary-search-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.474819,0.480863,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/binary-search-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.33478,2.33573,154400.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/binary-search-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,62.3498,62.3565,308016.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/binary-search-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,49.2415,49.2436,214908.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/binary-search-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.019,300.105,351068.0,--,,UNK-Non,Non,UNK
+boogie-tptp/bubble-sort-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.07698,2.08849,151724.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/bubble-sort-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,215.599,215.679,373712.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/bubble-sort-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,17.0675,17.0709,173080.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/bubble-sort-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,293.682,293.8,410144.0,--,,UNK-Non,Non,UNK
+boogie-tptp/bubble-sort-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,300.0,300.105,320900.0,--,,UNK-Non,Non,UNK
+boogie-tptp/dutch-flag-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,3.15852,3.15922,159344.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/dutch-flag-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.03,300.112,421420.0,--,,UNK-Non,Non,UNK
+boogie-tptp/dutch-flag-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.065,300.113,287492.0,--,,UNK-Non,Non,UNK
+boogie-tptp/dutch-flag-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.04,300.176,294004.0,--,,UNK-Non,Non,UNK
+boogie-tptp/dutch-flag-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.034,300.101,246420.0,--,,UNK-Non,Non,UNK
+boogie-tptp/insertion-sort-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.153049,0.153598,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/insertion-sort-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.206753,0.207338,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/insertion-sort-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,1.38445,1.40077,149676.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/insertion-sort-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,1.1123,1.11879,147160.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/insertion-sort-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.31064,2.35436,150260.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/matrix-transpose-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.368328,0.368804,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/matrix-transpose-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.66253,2.66568,150332.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/matrix-transpose-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,107.514,107.532,198264.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/matrix-transpose-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.038,300.086,237508.0,--,,UNK-Non,Non,UNK
+boogie-tptp/matrix-transpose-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.081,300.115,242832.0,--,,UNK-Non,Non,UNK
+boogie-tptp/maxarray-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.180944,0.181642,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/maxarray-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.41825,0.418894,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/maxarray-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,1.59588,1.597,152352.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/maxarray-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.57186,2.57297,157244.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/maxarray-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,4.72969,4.73102,164204.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/maximum-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.061534,0.0624179,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/maximum-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.066842,0.0729321,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/maximum-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.07023,0.0710051,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/maximum-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.086771,0.0875239,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/maximum-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.106506,0.108606,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/one-duplicate-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.181815,0.182312,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/one-duplicate-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,3.58409,3.58535,160632.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/one-duplicate-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,49.7183,49.7468,212484.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/one-duplicate-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,224.98,225.058,756024.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/one-duplicate-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,233.4,233.469,630076.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/select-k-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.24401,0.244976,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/select-k-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,3.68726,3.69844,156400.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/select-k-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,12.5254,12.5311,182840.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/select-k-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,25.8389,25.8395,181744.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/select-k-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.021,300.11,287188.0,--,,UNK-Non,Non,UNK
+boogie-tptp/two-way-sort-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.444949,0.459584,113128.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/two-way-sort-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,58.7218,58.7509,222096.0,Theorem,,THM-Ass,Ass,THM
+boogie-tptp/two-way-sort-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,286.057,286.116,272964.0,--,,UNK-Non,Non,UNK
+boogie-tptp/two-way-sort-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.04,300.121,324604.0,--,,UNK-Non,Non,UNK
+boogie-tptp/two-way-sort-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.04,300.111,250680.0,--,,UNK-Non,Non,UNK
