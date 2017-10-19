@@ -48,11 +48,16 @@ ul.bullets li:before {
 }
 
 html {
-  padding-top: 1.6em;
+  padding-top: 2em;
   padding-bottom: 0.4em;
-  padding-left: 1.7em;
-  padding-right: 1.7em;
+  padding-left: 2em;
+  padding-right: 2em;
   font-size: 18px;
+}
+
+body {
+  margin: auto;
+  max-width: 800pt;
 }
 
 a, a span {
