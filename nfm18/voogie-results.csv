@@ -1,51 +1,51 @@
-benchmark,solver,configuration,status,cpu time,wallclock time,memory usage,result,expected,SZSResult,SZSOutput,SZSStatus
-boogie-tptp/binary-search-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.474819,0.480863,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/binary-search-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.33478,2.33573,154400.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/binary-search-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,62.3498,62.3565,308016.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/binary-search-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,49.2415,49.2436,214908.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/binary-search-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.019,300.105,351068.0,--,,UNK-Non,Non,UNK
-boogie-tptp/bubble-sort-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.07698,2.08849,151724.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/bubble-sort-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,215.599,215.679,373712.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/bubble-sort-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,17.0675,17.0709,173080.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/bubble-sort-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,293.682,293.8,410144.0,--,,UNK-Non,Non,UNK
-boogie-tptp/bubble-sort-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,300.0,300.105,320900.0,--,,UNK-Non,Non,UNK
-boogie-tptp/dutch-flag-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,3.15852,3.15922,159344.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/dutch-flag-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.03,300.112,421420.0,--,,UNK-Non,Non,UNK
-boogie-tptp/dutch-flag-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.065,300.113,287492.0,--,,UNK-Non,Non,UNK
-boogie-tptp/dutch-flag-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.04,300.176,294004.0,--,,UNK-Non,Non,UNK
-boogie-tptp/dutch-flag-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.034,300.101,246420.0,--,,UNK-Non,Non,UNK
-boogie-tptp/insertion-sort-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.153049,0.153598,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/insertion-sort-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.206753,0.207338,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/insertion-sort-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,1.38445,1.40077,149676.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/insertion-sort-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,1.1123,1.11879,147160.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/insertion-sort-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.31064,2.35436,150260.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/matrix-transpose-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.368328,0.368804,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/matrix-transpose-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.66253,2.66568,150332.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/matrix-transpose-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,107.514,107.532,198264.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/matrix-transpose-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.038,300.086,237508.0,--,,UNK-Non,Non,UNK
-boogie-tptp/matrix-transpose-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.081,300.115,242832.0,--,,UNK-Non,Non,UNK
-boogie-tptp/maxarray-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.180944,0.181642,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/maxarray-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.41825,0.418894,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/maxarray-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,1.59588,1.597,152352.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/maxarray-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,2.57186,2.57297,157244.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/maxarray-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,4.72969,4.73102,164204.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/maximum-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.061534,0.0624179,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/maximum-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.066842,0.0729321,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/maximum-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.07023,0.0710051,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/maximum-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.086771,0.0875239,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/maximum-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.106506,0.108606,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/one-duplicate-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.181815,0.182312,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/one-duplicate-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,3.58409,3.58535,160632.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/one-duplicate-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,49.7183,49.7468,212484.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/one-duplicate-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,224.98,225.058,756024.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/one-duplicate-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,233.4,233.469,630076.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/select-k-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.24401,0.244976,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/select-k-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,3.68726,3.69844,156400.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/select-k-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,12.5254,12.5311,182840.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/select-k-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,25.8389,25.8395,181744.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/select-k-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.021,300.11,287188.0,--,,UNK-Non,Non,UNK
-boogie-tptp/two-way-sort-1.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,0.444949,0.459584,113128.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/two-way-sort-2.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,58.7218,58.7509,222096.0,Theorem,,THM-Ass,Ass,THM
-boogie-tptp/two-way-sort-3.p,vampire_z3_rel_static_master_3751,vampire_tptp,complete,286.057,286.116,272964.0,--,,UNK-Non,Non,UNK
-boogie-tptp/two-way-sort-4.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.04,300.121,324604.0,--,,UNK-Non,Non,UNK
-boogie-tptp/two-way-sort-5.p,vampire_z3_rel_static_master_3751,vampire_tptp,timeout (cpu),300.04,300.111,250680.0,--,,UNK-Non,Non,UNK
+pair id,benchmark,benchmark id,solver,solver id,configuration,configuration id,status,cpu time,wallclock time,memory usage,result,expected,SZSResult,SZSOutput,SZSStatus
+321442903,boogie-tptp-invariants/maxarray-3.p,5450373,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.487788,0.48891,113128.0,Theorem,,THM-Ass,Ass,THM
+321442904,boogie-tptp-invariants/maximum-1.p,5450374,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.060763,0.0620959,113128.0,Theorem,,THM-Ass,Ass,THM
+321442905,boogie-tptp-invariants/bubble-sort-3.p,5450375,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,2.07196,2.07345,150604.0,Theorem,,THM-Ass,Ass,THM
+321442906,boogie-tptp-invariants/maximum-5.p,5450376,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.093908,0.101873,113128.0,Theorem,,THM-Ass,Ass,THM
+321442907,boogie-tptp-invariants/binary-search-2.p,5450377,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,25.123,25.135,243264.0,Theorem,,THM-Ass,Ass,THM
+321442908,boogie-tptp-invariants/matrix-transpose-3.p,5450378,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,timeout (cpu),300.08,300.113,227664.0,--,,UNK-Non,Non,UNK
+321442909,boogie-tptp-invariants/one-duplicate-2.p,5450379,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,2.39642,2.40176,156008.0,Theorem,,THM-Ass,Ass,THM
+321442910,boogie-tptp-invariants/insertion-sort-2.p,5450380,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,38.1645,38.1691,224608.0,Theorem,,THM-Ass,Ass,THM
+321442911,boogie-tptp-invariants/two-way-sort-1.p,5450381,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.459733,0.463849,113128.0,Theorem,,THM-Ass,Ass,THM
+321442912,boogie-tptp-invariants/two-way-sort-5.p,5450382,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,timeout (cpu),300.03,300.108,227548.0,--,,UNK-Non,Non,UNK
+321442913,boogie-tptp-invariants/select-k-4.p,5450383,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,299.967,300.105,512972.0,--,,UNK-Non,Non,UNK
+321442914,boogie-tptp-invariants/dutch-flag-3.p,5450384,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,timeout (cpu),300.03,300.108,282428.0,--,,UNK-Non,Non,UNK
+321442915,boogie-tptp-invariants/maximum-2.p,5450385,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.063655,0.0647781,113128.0,Theorem,,THM-Ass,Ass,THM
+321442916,boogie-tptp-invariants/matrix-transpose-4.p,5450386,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,timeout (cpu),300.05,300.107,264256.0,--,,UNK-Non,Non,UNK
+321442917,boogie-tptp-invariants/binary-search-5.p,5450387,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,163.795,163.803,268196.0,Theorem,,THM-Ass,Ass,THM
+321442918,boogie-tptp-invariants/bubble-sort-4.p,5450388,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,299.143,299.156,381180.0,--,,UNK-Non,Non,UNK
+321442919,boogie-tptp-invariants/one-duplicate-5.p,5450389,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,145.164,145.243,370964.0,Theorem,,THM-Ass,Ass,THM
+321442920,boogie-tptp-invariants/maxarray-4.p,5450390,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,2.63163,2.63456,154432.0,Theorem,,THM-Ass,Ass,THM
+321442921,boogie-tptp-invariants/one-duplicate-1.p,5450391,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.124197,0.124742,113128.0,Theorem,,THM-Ass,Ass,THM
+321442922,boogie-tptp-invariants/binary-search-1.p,5450392,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,1.97602,1.97914,155340.0,Theorem,,THM-Ass,Ass,THM
+321442923,boogie-tptp-invariants/select-k-3.p,5450393,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,203.651,203.655,455736.0,Theorem,,THM-Ass,Ass,THM
+321442924,boogie-tptp-invariants/two-way-sort-2.p,5450394,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,5.35287,5.36031,156112.0,Theorem,,THM-Ass,Ass,THM
+321442925,boogie-tptp-invariants/insertion-sort-1.p,5450395,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,18.2516,18.2621,200200.0,Theorem,,THM-Ass,Ass,THM
+321442926,boogie-tptp-invariants/dutch-flag-4.p,5450396,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,299.783,299.842,323008.0,--,,UNK-Non,Non,UNK
+321442927,boogie-tptp-invariants/insertion-sort-5.p,5450397,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,11.6351,11.639,165456.0,Theorem,,THM-Ass,Ass,THM
+321442928,boogie-tptp-invariants/bubble-sort-5.p,5450398,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,timeout (cpu),300.04,300.107,419132.0,--,,UNK-Non,Non,UNK
+321442929,boogie-tptp-invariants/matrix-transpose-5.p,5450399,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,timeout (cpu),300.062,300.106,229856.0,--,,UNK-Non,Non,UNK
+321442930,boogie-tptp-invariants/binary-search-4.p,5450400,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,299.99,300.123,533904.0,--,,UNK-Non,Non,UNK
+321442931,boogie-tptp-invariants/maximum-3.p,5450401,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.067715,0.0695881,113128.0,Theorem,,THM-Ass,Ass,THM
+321442932,boogie-tptp-invariants/one-duplicate-4.p,5450402,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,93.6857,93.7462,342072.0,Theorem,,THM-Ass,Ass,THM
+321442933,boogie-tptp-invariants/maxarray-1.p,5450403,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.169381,0.16993,113128.0,Theorem,,THM-Ass,Ass,THM
+321442934,boogie-tptp-invariants/maxarray-5.p,5450404,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,6.32133,6.32486,172564.0,Theorem,,THM-Ass,Ass,THM
+321442935,boogie-tptp-invariants/matrix-transpose-1.p,5450405,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.253042,0.266138,113128.0,Theorem,,THM-Ass,Ass,THM
+321442936,boogie-tptp-invariants/bubble-sort-1.p,5450406,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.389723,0.393593,113128.0,Theorem,,THM-Ass,Ass,THM
+321442937,boogie-tptp-invariants/select-k-2.p,5450407,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.600036,0.611509,144920.0,Theorem,,THM-Ass,Ass,THM
+321442938,boogie-tptp-invariants/two-way-sort-3.p,5450408,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,timeout (cpu),300.0,300.049,321924.0,--,,UNK-Non,Non,UNK
+321442939,boogie-tptp-invariants/dutch-flag-5.p,5450409,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,timeout (cpu),300.08,300.114,265280.0,--,,UNK-Non,Non,UNK
+321442940,boogie-tptp-invariants/dutch-flag-1.p,5450410,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,11.3804,11.3839,181416.0,Theorem,,THM-Ass,Ass,THM
+321442941,boogie-tptp-invariants/insertion-sort-4.p,5450411,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,21.6933,21.6978,187964.0,Theorem,,THM-Ass,Ass,THM
+321442942,boogie-tptp-invariants/maxarray-2.p,5450412,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.585215,0.587244,145272.0,Theorem,,THM-Ass,Ass,THM
+321442943,boogie-tptp-invariants/binary-search-3.p,5450413,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,6.55923,6.56026,164612.0,Theorem,,THM-Ass,Ass,THM
+321442944,boogie-tptp-invariants/matrix-transpose-2.p,5450414,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,8.3612,8.36234,161064.0,Theorem,,THM-Ass,Ass,THM
+321442945,boogie-tptp-invariants/maximum-4.p,5450415,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.085795,0.086586,113128.0,Theorem,,THM-Ass,Ass,THM
+321442946,boogie-tptp-invariants/bubble-sort-2.p,5450416,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,53.1789,53.1917,255936.0,Theorem,,THM-Ass,Ass,THM
+321442947,boogie-tptp-invariants/one-duplicate-3.p,5450417,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,2.2281,2.2309,157912.0,Theorem,,THM-Ass,Ass,THM
+321442948,boogie-tptp-invariants/insertion-sort-3.p,5450418,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,3.36495,3.36924,151920.0,Theorem,,THM-Ass,Ass,THM
+321442949,boogie-tptp-invariants/select-k-1.p,5450419,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,0.215006,0.215573,113128.0,Theorem,,THM-Ass,Ass,THM
+321442950,boogie-tptp-invariants/two-way-sort-4.p,5450420,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,timeout (cpu),300.03,300.106,310964.0,--,,UNK-Non,Non,UNK
+321442951,boogie-tptp-invariants/select-k-5.p,5450421,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,279.451,279.533,322376.0,Theorem,,THM-Ass,Ass,THM
+321442952,boogie-tptp-invariants/dutch-flag-2.p,5450422,vampire_z3_rel_static_master_3756,13835,vampire_tptp,255047,complete,296.946,297.026,473208.0,--,,UNK-Non,Non,UNK

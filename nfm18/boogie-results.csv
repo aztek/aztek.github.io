@@ -1,51 +1,51 @@
 benchmark,solver,configuration,status,cpu time,wallclock time,memory usage,result,expected,SZSResult,SZSOutput,SZSStatus
-boogie-smt/binary-search-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,3.36609,3.36694,163412.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/binary-search-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,13.5047,13.5106,205608.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/binary-search-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,30.8845,30.8922,239784.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/binary-search-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,5.32642,5.32743,163204.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/binary-search-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,11.7694,11.7748,174656.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/bubble-sort-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,148.187,148.231,379340.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/bubble-sort-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.747,299.901,569728.0,--,,UNK-Non,Non,UNK
-boogie-smt/bubble-sort-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,294.051,294.227,530140.0,--,,UNK-Non,Non,UNK
-boogie-smt/bubble-sort-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.264,299.371,581404.0,--,,UNK-Non,Non,UNK
-boogie-smt/bubble-sort-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.983,300.124,506176.0,--,,UNK-Non,Non,UNK
-boogie-smt/dutch-flag-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,20.523,20.5279,229480.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/dutch-flag-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,298.459,298.576,460268.0,--,,UNK-Non,Non,UNK
-boogie-smt/dutch-flag-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.524,299.633,618672.0,--,,UNK-Non,Non,UNK
-boogie-smt/dutch-flag-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,298.237,298.381,617676.0,--,,UNK-Non,Non,UNK
-boogie-smt/dutch-flag-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.958,300.098,589376.0,--,,UNK-Non,Non,UNK
-boogie-smt/insertion-sort-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.153831,0.154333,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/insertion-sort-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,6.05769,6.05977,167152.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/insertion-sort-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,174.585,174.667,374068.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/insertion-sort-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.694,299.765,394156.0,--,,UNK-Non,Non,UNK
-boogie-smt/insertion-sort-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,300.02,300.116,466488.0,--,,UNK-Non,Non,UNK
-boogie-smt/matrix-transpose-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.14145,0.146668,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/matrix-transpose-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.541331,0.54527,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/matrix-transpose-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.643522,0.644061,145568.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/matrix-transpose-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,7.87536,7.88195,162636.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/matrix-transpose-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,8.76026,8.76602,158884.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maxarray-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.124558,0.125339,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maxarray-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.220166,0.225196,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maxarray-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.412136,0.412879,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maxarray-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.546885,0.550784,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maxarray-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,1.60284,1.60602,151860.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maximum-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.070239,0.0857649,16924.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maximum-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.082919,0.0834091,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maximum-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.087401,0.0880279,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maximum-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.106441,0.10984,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/maximum-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.133692,0.138677,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/one-duplicate-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.755,299.865,570920.0,--,,UNK-Non,Non,UNK
-boogie-smt/one-duplicate-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,timeout (cpu),300.01,300.099,438028.0,--,,UNK-Non,Non,UNK
-boogie-smt/one-duplicate-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.749,299.803,625332.0,--,,UNK-Non,Non,UNK
-boogie-smt/one-duplicate-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.627,299.772,708520.0,--,,UNK-Non,Non,UNK
-boogie-smt/one-duplicate-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.843,299.912,728884.0,--,,UNK-Non,Non,UNK
-boogie-smt/select-k-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,37.6942,37.714,274216.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/select-k-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,300.018,300.126,472892.0,--,,UNK-Non,Non,UNK
-boogie-smt/select-k-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,timeout (cpu),300.0,300.112,462048.0,--,,UNK-Non,Non,UNK
-boogie-smt/select-k-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,299.516,299.623,436904.0,--,,UNK-Non,Non,UNK
-boogie-smt/select-k-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,300.025,300.122,452580.0,--,,UNK-Non,Non,UNK
-boogie-smt/two-way-sort-1.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.145896,0.15156,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/two-way-sort-2.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.39916,0.401906,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/two-way-sort-3.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.421072,0.426217,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/two-way-sort-4.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,0.985514,0.997401,146904.0,Unsatisfiable,,UNS-Ass,Ass,UNS
-boogie-smt/two-way-sort-5.smt2,vampire_z3_rel_static_master_3751,vampire_smtlib2,complete,2.05359,2.05961,149612.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/bubble-sort-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.1,300.114,588228.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/insertion-sort-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.592,299.773,596136.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/dutch-flag-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.016,300.114,483992.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/matrix-transpose-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,1.07547,1.07766,146752.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/one-duplicate-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.834,299.945,845144.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/two-way-sort-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.191021,0.191455,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/binary-search-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,27.6411,27.6476,201836.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/select-k-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.02,300.105,472400.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/select-k-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.977,300.12,469016.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/maximum-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.064988,0.0661009,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/binary-search-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,10.7036,10.7094,184844.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/matrix-transpose-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.06,300.106,231708.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/one-duplicate-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.917,300.008,568676.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/insertion-sort-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.05,300.112,614604.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/dutch-flag-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,297.857,297.915,1000696.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/select-k-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.072,300.114,429644.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/insertion-sort-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,300.051,300.19,1013532.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/dutch-flag-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.963,300.121,720856.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/maxarray-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.205013,0.205372,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/matrix-transpose-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.074,300.104,214536.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/one-duplicate-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.957,299.988,715132.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/binary-search-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,3.36283,3.36384,158672.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/binary-search-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,2.41929,2.42002,156108.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/matrix-transpose-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.063,300.116,210212.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/one-duplicate-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,300.033,300.064,742164.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/insertion-sort-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.01,300.122,567412.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/dutch-flag-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.917,300.115,606900.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/select-k-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.893,299.986,575112.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/maximum-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.094795,0.095349,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/binary-search-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.883478,0.884315,149212.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/two-way-sort-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,1.34283,1.34414,147864.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/maxarray-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,1.19619,1.19681,151012.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/bubble-sort-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,300.023,300.126,697464.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/bubble-sort-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.02,300.12,627400.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/dutch-flag-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,24.7757,24.7893,233820.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/maxarray-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.586475,0.587252,147316.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/two-way-sort-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,1.38065,1.38387,148344.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/maximum-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.127136,0.128893,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/two-way-sort-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.639631,0.647315,145488.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/matrix-transpose-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,1.3104,1.31134,148136.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/maxarray-5.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,1.69076,1.69163,153448.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/insertion-sort-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,122.294,122.354,433176.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/bubble-sort-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.945,300.068,699416.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/select-k-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,96.9834,96.9925,333224.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/maximum-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.077488,0.0781939,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/maximum-3.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.081103,0.081763,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/bubble-sort-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,timeout (cpu),300.03,300.114,681796.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/maxarray-4.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,1.70085,1.70168,154356.0,Unsatisfiable,,UNS-Ass,Ass,UNS
+boogie-smtlib-invariants/one-duplicate-1.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,299.752,299.82,643376.0,--,,UNK-Non,Non,UNK
+boogie-smtlib-invariants/two-way-sort-2.smt2,vampire_z3_rel_static_master_3756,vampire_smtlib,complete,0.197771,0.204883,113128.0,Unsatisfiable,,UNS-Ass,Ass,UNS
