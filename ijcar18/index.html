@@ -42,5 +42,127 @@
       <h2>Experimental Results</h2>
       <p>The <a href="https://www.starexec.org/">StarExec</a> results obtained by running <a href="http://www.vprover.org/">Vampire</a> on <a href="./boogie-results.csv">the Boogie translations</a>, <a href="./voogie-results.csv">the Voogie translations</a>, and <a href="./blt-results.csv">the BLT translations</a>.</p>
     </section>
+    <section>
+      <h2>An Example of the Translation</h2>
+      <h3>A Boogie program <code>maxarray</code> that finds the greatest element in an array</h3>
+      <code><pre>// COST Verification Competition, Challenge 1: Maximum in an array
+// http://foveoos2011.cost-ic0701.org/verification-competition
+
+// Source: https://github.com/Microsoft/dafny/blob/master/Test/dafny2/COST-verif-comp-2011-1-MaxArray.dfy
+
+var a: [int] int;
+var n: int;
+
+procedure main() returns (x: int)
+  requires n > 0;
+  ensures 0 <= x && x < n;
+  ensures (forall i: int :: 0 <= i && i < n ==> a[i] <= a[x]);
+{
+  var y: int;
+  /*ghost*/ var m: int;
+
+  x := 0;
+  y := n - 1;
+  m := y;
+
+  while (x != y)
+    invariant 0 <= x && x <= y && y < n;
+    invariant m == x || m == y;
+    invariant (forall i: int :: 0 <= i && i < x ==> a[i] <= a[m]);
+    invariant (forall i: int :: y <  i && i < n ==> a[i] <= a[m]);
+  {
+    if (a[x] <= a[y]) {
+      x := x + 1;
+      m := y;
+    } else {
+      y := y - 1;
+      m := x;
+    }
+  }
+}</pre></code>
+      <h3>The Boogie program <code>maxarray</code> with its loop unrolled twice</h3>
+      <code><pre>var a: [int] int;
+var n: int;
+
+var y: int;
+/*ghost*/ var m: int;
+var x: int;
+var bad: bool;
+
+procedure main()
+  modifies x, y, m, bad;
+  requires n > 0;
+  requires 0 <= x && x <= y && y < n;
+  requires m == x || m == y;
+  requires (forall i: int :: 0 <= i && i < x ==> a[i] <= a[m]);
+  requires (forall i: int :: y <  i && i < n ==> a[i] <= a[m]);
+
+  ensures bad || (0 <= x && x <= y && y < n);
+  ensures bad || (m == x || m == y);
+  ensures bad || (forall i: int :: 0 <= i && i < x ==> a[i] <= a[m]);
+  ensures bad || (forall i: int :: y <  i && i < n ==> a[i] <= a[m]);
+{
+  if (!(x != y)) {
+    bad := true;
+  }
+  if (a[x] <= a[y]) {
+    x := x + 1;
+    m := y;
+  } else {
+    y := y - 1;
+    m := x;
+  }
+
+  if (!(x != y)) {
+    bad := true;
+  }
+  if (a[x] <= a[y]) {
+    x := x + 1;
+    m := y;
+  } else {
+    y := y - 1;
+    m := x;
+  }
+}</pre></code>
+      <h3>TPTP representation of the partial correctness property of <code>maxarray</code> obtained with Voogie</h3>
+      <code><pre>thf(a, type, (a:$array($int, $int))).
+thf(bad, type, (bad:$o)).
+thf(m, type, (m:$int)).
+thf(n, type, (n:$int)).
+thf(x, type, (x:$int)).
+thf(y, type, (y:$int)).
+thf(voogie_precondition_1, axiom, $greater(n, 0)).
+thf(voogie_precondition_2, axiom, (($lesseq(0, x) & $lesseq(x, y)) & $less(y, n))).
+thf(voogie_precondition_3, axiom, ((m = x) | (m = y))).
+thf(voogie_precondition_4, axiom, 
+    (! [I:$int] : ((($lesseq(0, I) & $less(I, x)) => $lesseq($select(a, I), $select(a, m)))))).
+thf(voogie_precondition_5, axiom, 
+    (! [I:$int] : ((($less(y, I) & $less(I, n)) => $lesseq($select(a, I), $select(a, m)))))).
+thf(voogie_conjecture, conjecture, 
+    $let(bad := $ite(~(x != y), $true, bad), 
+    $let([m, y, x] := $ite($lesseq($select(a, x), $select(a, y)), 
+                           $let(x := $sum(x, 1), 
+                           $let(m := y, 
+                                [m, y, x])), 
+                           $let(y := $difference(y, 1), 
+                           $let(m := x, 
+                                [m, y, x]))), 
+    $let(bad := $ite(~(x != y), $true, bad), 
+    $let([m, y, x] := $ite($lesseq($select(a, x), $select(a, y)), 
+                           $let(x := $sum(x, 1), 
+                           $let(m := y, 
+                                [m, y, x])), 
+                           $let(y := $difference(y, 1), 
+                           $let(m := x, 
+                                [m, y, x]))), 
+         ((bad | 
+            (($lesseq(0, x) & $lesseq(x, y)) & $less(y, n))) & 
+            ((bad | 
+               ((m = x) | (m = y))) & 
+               ((bad | 
+                  (! [I:$int] : ((($lesseq(0, I) & $less(I, x)) => $lesseq($select(a, I), $select(a, m)))))) & 
+                  (bad | 
+                     (! [I:$int] : ((($less(y, I) & $less(I, n)) => $lesseq($select(a, I), $select(a, m)))))))))))))).</pre></code>
+    </section>
   </body>
 </html>

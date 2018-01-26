@@ -192,3 +192,20 @@ section h3 {
   color: #AAA;
   padding-right: 0.5em;
 }
+
+code, code pre {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+pre {
+  border: 1px #DDD solid;
+  border-radius: 5px;
+  background-color: #EEE;
+  padding: 1em;
+}
+
+code pre {
+  font-size: 0.9em;
+  margin-bottom: 2em;
+  overflow: scroll;
+}
