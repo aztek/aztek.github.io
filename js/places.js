@@ -74,9 +74,9 @@ places = [
   [new google.maps.LatLng(57.107118, 12.252090700000053), "Varberg", "Sweden"],
   [new google.maps.LatLng(58.86666700000001, 60.799999999999955), "Verkhoturye", "Russia"],
   [new google.maps.LatLng(48.2081743, 16.37381890000006), "Vienna", "Austria"],
-  [new google.maps.LatLng(56.83892609999999, 60.60570250000001), "Yekaterinburg", "Russia"],
-  [new google.maps.LatLng(45.19045, 33.36686699999996), "Yevpatoriya", "Ukraine"],
   [new google.maps.LatLng(38.9071923, -77.03687070000001), "Washington DC", "USA"],
   [new google.maps.LatLng(52.2296756, 21.012228700000037), "Warsaw", "Poland"],
+  [new google.maps.LatLng(56.83892609999999, 60.60570250000001), "Yekaterinburg", "Russia"],
+  [new google.maps.LatLng(45.19045, 33.36686699999996), "Yevpatoriya", "Ukraine"],
   [new google.maps.LatLng(53.95996510000001, -1.0872979000000669), "York", "United Kingdom"],
 ];
