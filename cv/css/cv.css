@@ -40,8 +40,8 @@ html, body {
   /* font-family: 'Lora', serif; */
   font-family: 'Open Sans', sans-serif;
   font-size: 3.8mm;
-  font-weight: 500;
-  -webkit-font-smoothing: subpixel-antialiased;
+  /* font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased; */
   color: #404040;
 }
 
@@ -310,7 +310,7 @@ section {
 
 .keywords {
   overflow: hidden;
-  margin-left: -2.6mm;
+  margin-left: -2mm;
   margin-top: 1mm;
 }
 
@@ -319,11 +319,11 @@ section {
   color: #444;
   background-color: #ccc;
   font-weight: 400;
-  padding-right: 1.9mm;
-  padding-left: 1.9mm;
+  padding-right: 1.5mm;
+  padding-left: 1.5mm;
   padding-top: 0;
-  margin-left: 2.6mm;
-  border-radius: 2mm;
+  margin-left: 2mm;
+  border-radius: 1.5mm;
 }
 
 .keywords li.kloc {
