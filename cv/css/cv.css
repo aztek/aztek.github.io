@@ -1,0 +1,369 @@
+/* @import url(//fonts.googleapis.com/css?family=Open+Sans:700); */
+/* @import url(//fonts.googleapis.com/css?family=Lora:400,700,400italic); */
+
+/* Futura + Garamond? */
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+}
+
+html {
+  width: 210mm;
+  height: 297mm;
+}
+
+body {
+  width: 200mm;
+  height: 253mm;
+  padding-top: 13mm;
+  padding-bottom: 13mm;
+  padding-left: 5mm;
+  padding-right: 5mm;
+}
+
+html, body {
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 6.2mm;
+  /* font-family: 'Lora', serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.8mm;
+  font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #404040;
+}
+
+em {
+  font-weight: bold;
+  color: #555;
+}
+
+q {
+  word-wrap: none;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 9mm;
+  float: left;
+  margin-bottom: 5mm;
+  margin-top: 1.5mm;
+}
+
+#personal-info {
+  float: left;
+  margin-bottom: 3mm;
+}
+
+h2 {
+  font-size: 7.5mm;
+  margin-bottom: 4.5mm;
+  margin-top: 1.5mm;
+}
+
+h3 {
+  margin-bottom: 1mm;
+}
+
+h3, h3 * {
+  font-size: 5mm;
+}
+
+h4 {
+  font-size: 4.3mm;
+}
+
+.degree {
+  margin-bottom: 5mm;
+}
+
+.degree p {
+  margin-bottom: 1mm;
+}
+
+.degree .location {
+  float: right;
+  margin-top: -6.7mm;
+}
+
+.summer-schools li {
+  margin-top: 1mm;
+}
+
+.summer-schools .location {
+  display: none;
+}
+
+.date-range {
+  float: right;
+}
+
+.jobs li .date-range, .degree .date-range, .projects li .date-range, .publications li .date-range {
+  margin-top: -7mm;
+}
+
+.section-profile {
+  float: right;
+  margin-top: -11mm;
+}
+
+section > ul > li {
+  margin-top: 6mm;
+}
+
+.jobs .location {
+  float: right;
+}
+
+.jobs .position {
+  font-style: italic;
+  font-weight: bold;
+  color: #555;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.bullets li:before {
+  content: "•";
+  color: #AAA;
+  padding-right: 0.5em;
+}
+
+a, a span {
+  text-decoration: none;
+  border-bottom: 0.65mm solid;
+}
+
+a:link, a:link span, a:visited, a:visited span {
+  color: #008ACE;
+  border-color: #B2CCF0;
+}
+
+a:hover, a:hover span {
+  color: #C00;
+  border-color: #f0b2b2;
+}
+
+#photo {
+  float: left;
+  width: 40mm;
+  margin-right: 7mm;
+  background-color: #DDD;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#contact-info {
+  float: left;
+  overflow: hidden;
+  padding-left: 0.6mm;
+}
+
+#contact-info dt {
+  display: none;
+}
+
+#contact-info dd {
+  float: left;
+  padding-right: 4mm;
+}
+
+header, #photo {
+  height: 40mm;
+}
+
+#personal-info {
+  width: 150mm;
+}
+
+header {
+  margin-bottom: 7mm;
+}
+
+header {
+  overflow: hidden;
+}
+
+header p {
+  margin-bottom: 1.1mm;
+}
+
+header dl {
+  display: block;
+  overflow: hidden;
+}
+
+header dt {
+  font-weight: bold;
+  float: left;
+  margin-right: 1.8mm;
+}
+
+header dt:after {
+  content: ':';
+}
+
+section {
+  background-color: #FBFBFB;
+  border-radius: 3mm;
+  margin-left: -5mm;
+  margin-right: -5mm;
+  margin-bottom: 7mm;
+  padding-top: 5mm;
+  padding-bottom: 5mm;
+  padding-left: 5mm;
+  padding-right: 5mm;
+  overflow: hidden;
+}
+
+#research p {
+  margin-bottom: 2mm;
+}
+
+.publications li {
+  margin-bottom: 3mm;
+}
+
+.date-range .to:before {
+  content: ' to ';
+}
+
+.date-range, .date-range span {
+  color: #555 !important;
+}
+
+.date-range:after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f073";
+  text-indent: 1.2mm;
+}
+
+.location {
+  color: #555;
+}
+
+.location:after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f041";
+  text-indent: 1.8mm;
+  padding-right: 0.65mm;
+}
+
+.iconed {
+  border-bottom: none;
+}
+
+.iconed:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  padding-right: 1.6mm;
+  text-decoration: none;
+}
+
+.iconed span {
+  border-bottom: 0.65mm solid;
+}
+
+.email:before {
+  content: "\f003";
+}
+
+.url:before {
+  content: "\f0c1";
+}
+
+.github:before {
+  content: "\f09b";
+}
+
+.google:before {
+  content: "\f1a0";
+}
+
+.linkedin:before {
+  content: "\f08c";
+}
+
+.twitter:before {
+  content: "\f099";
+}
+
+.keywords {
+  overflow: hidden;
+  margin-left: -2.6mm;
+  margin-top: 1mm;
+}
+
+.keywords li {
+  float: left;
+  color: #444;
+  background-color: #ccc;
+  font-weight: 400;
+  padding-right: 1.9mm;
+  padding-left: 1.9mm;
+  padding-top: 0;
+  margin-left: 2.6mm;
+  border-radius: 2mm;
+}
+
+.keywords li.kloc {
+  background: transparent;
+  padding-left: 0;
+}
+
+.keywords li.kloc::after {
+  content: ' KLOC';
+}
+
+#academic {
+  padding-bottom: 2mm;
+}
+
+h2 {
+  page-break-after: avoid;
+}
+
+ul {
+  page-break-before: avoid;
+}
+
+ul li {
+  page-break-inside: avoid;
+}
+
+#bio p {
+  margin-bottom: 4mm;
+}
+
+#bio p::last {
+  margin-bottom: 0;
+}
+
+#expertise {
+  margin-bottom: 5mm;
+  margin-top: -2mm;
+}
+
+#expertise h4 {
+  margin-bottom: 6.5mm;
+}
