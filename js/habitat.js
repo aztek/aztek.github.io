@@ -28,8 +28,8 @@ function initialize() {
     pin(position, city, country);
   }
 }
-defaultMarkerIcon = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png';
-activeMarkerIcon  = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
+defaultMarkerIcon = '//maps.google.com/mapfiles/ms/icons/red-dot.png';
+activeMarkerIcon  = '//maps.google.com/mapfiles/ms/icons/blue-dot.png';
 function pin(location, city, country) {
   var item = $('<li id="' + city + '">' + city + ", " + country + '</li>');
   $('#list').append(item);
