@@ -3,7 +3,7 @@ places = [
   [new google.maps.LatLng(57.9300205, 12.53621129999999), "Alingsås", "Sweden"],
   [new google.maps.LatLng(38.994349, -1.858542400000033), "Albacete", "Spain"],
   [new google.maps.LatLng(39.191786, -1.4295773000000054), "Alcalá del Júcar", "Spain"],
-  [new google.maps.LatLng(46.1398438, 12.360790299999962), "Puos d'Alpago", "Italy"],
+  [new google.maps.LatLng(46.1398438, 12.360790299999962), "Alpago", "Italy"],
   [new google.maps.LatLng(52.3702157, 4.895167899999933), "Amsterdam", "The Netherlands"],
   [new google.maps.LatLng(44.8857008, 37.31991909999999), "Anapa", "Russia"],
   [new google.maps.LatLng(52.52000659999999, 13.404953999999975), "Berlin", "Germany"],
