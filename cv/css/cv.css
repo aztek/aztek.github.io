@@ -186,6 +186,27 @@ a:hover, a:hover span {
   padding-right: 4mm;
 }
 
+#cv-pdf {
+  float: right;
+  margin-top: 1.5mm;
+}
+
+@media print {
+  #cv-pdf {
+    display: none;
+  }
+}
+
+#cv-pdf a {
+  border: 1px #008ACE solid;
+  border-radius: 2mm;
+  padding: 2mm 2.5mm;
+}
+
+#cv-pdf a:hover {
+  border-color: #C00;
+}
+
 header, #photo {
   height: 40mm;
 }
@@ -306,6 +327,10 @@ section {
 
 .twitter:before {
   content: "\f099";
+}
+
+.pdf:before {
+  content: "\f1c1";
 }
 
 .keywords {
