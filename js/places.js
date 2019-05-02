@@ -77,6 +77,7 @@ places = [
   [new google.maps.LatLng(45.759722, 21.230000000000018), "Timişoara", "Romania"],
   [new google.maps.LatLng(35.6894875, 139.69170639999993), "Tokyo", "Japan"],
   [new google.maps.LatLng(45.6495264, 13.77681819999998), "Trieste", "Italy"],
+  [new google.maps.LatLng(58.28348939999999, 12.285820599999965), "Trollhättan", "Sweden"],
   [new google.maps.LatLng(59.85856380000001, 17.638926699999956), "Uppsala", "Sweden"],
   [new google.maps.LatLng(57.107118, 12.252090700000053), "Varberg", "Sweden"],
   [new google.maps.LatLng(45.4408474, 12.31551509999997), "Venice", "Italy"],
