@@ -114,7 +114,12 @@ h4 {
   float: right;
 }
 
-.jobs li .date-range, .degree .date-range, .projects li .date-range, .publications li .date-range {
+.jobs .items .date-range {
+  float: none;
+  margin-right: 0.5mm;
+}
+
+.jobs > li > .date-range, .degree > .date-range, .projects > li > .date-range, .publications > li > .date-range {
   margin-top: -7mm;
 }
 
@@ -331,6 +336,12 @@ section {
 
 .pdf:before {
   content: "\f1c1";
+}
+
+.items {
+  list-style: disc;
+  margin-left: 7mm;
+  margin-bottom: 1mm;
 }
 
 .keywords {
