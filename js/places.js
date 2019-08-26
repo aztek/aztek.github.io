@@ -26,6 +26,7 @@ places = [
   [new google.maps.LatLng(57.70887, 11.974559999999997), "Gothenburg", "Sweden"],
   [new google.maps.LatLng(35.25035039999999, 139.0480956), "Gora", "Japan"],
   [new google.maps.LatLng(53.5510846, 9.99368179999999), "Hamburg", "Germany"],
+  [new google.maps.LatLng(56.0464674, 12.694512099999997), "Helsingborg", "Sweden"],
   [new google.maps.LatLng(60.17332440000001, 24.941024800000037), "Helsinki", "Finland"],
   [new google.maps.LatLng(35.706266, 140.860951), "Inubo", "Japan"],
   [new google.maps.LatLng(57.78261370000001, 14.161787600000025), "Jönköping", "Sweden"],
