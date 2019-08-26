@@ -21,6 +21,13 @@ function initialize() {
   }
   map = new google.maps.Map(canvas, options);
 
+  // Sort by city name
+  places.sort(function(a, b) {
+    if (a[1] < b[1]) { return -1; }
+    if (a[1] > b[1]) { return 1;  }
+    return 0;
+  });
+
   for (var i = 0; i < places.length; i++) {
     var position = places[i][0];
     var city = places[i][1];
@@ -28,8 +35,8 @@ function initialize() {
     pin(position, city, country);
   }
 }
-defaultMarkerIcon = '//maps.google.com/mapfiles/ms/icons/red-dot.png';
-activeMarkerIcon  = '//maps.google.com/mapfiles/ms/icons/blue-dot.png';
+defaultMarkerIcon = 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
+activeMarkerIcon  = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png';
 function pin(location, city, country) {
   var item = $('<li id="' + city + '">' + city + ", " + country + '</li>');
   $('#list').append(item);
