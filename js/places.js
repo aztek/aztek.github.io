@@ -1,4 +1,5 @@
 places = [
+  [new google.maps.LatLng(57.0488195, 9.921746999999982), "Aalborg", "Denmark"],
   [new google.maps.LatLng(37.4947611, 139.9298096), "Aizuwakamatsu", "Japan"],
   [new google.maps.LatLng(57.9300205, 12.53621129999999), "Alingsås", "Sweden"],
   [new google.maps.LatLng(38.994349, -1.858542400000033), "Albacete", "Spain"],
@@ -20,6 +21,7 @@ places = [
   [new google.maps.LatLng(55.6760968, 12.568337100000008), "Copenhagen", "Denmark"],
   [new google.maps.LatLng(53.3498053, -6.260309699999993), "Dublin", "Ireland"],
   [new google.maps.LatLng(55.953252, -3.188266999999996), "Edinburgh", "United Kingdom"],
+  [new google.maps.LatLng(57.442711, 10.521005999999943), "Frederikshavn", "Denmark"],
   [new google.maps.LatLng(35.4973137, 138.75508379999997), "Fujikawaguchiko", "Japan"],
   [new google.maps.LatLng(41.2107299, 13.571428500000025), "Gaeta", "Italy"],
   [new google.maps.LatLng(54.35202520000001, 18.64663840000003), "Gdańsk", "Poland"],
