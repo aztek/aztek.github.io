@@ -97,4 +97,5 @@ places = [
   [new google.maps.LatLng(45.19045, 33.36686699999996), "Yevpatoriya", "Ukraine"],
   [new google.maps.LatLng(53.95996510000001, -1.0872979000000669), "York", "United Kingdom"],
   [new google.maps.LatLng(56.6402225, 47.88385800000003), "Yoshkar-Ola", "Russia"],
+  [new google.maps.LatLng(56.8057986, 61.32381220000002), "Zarechny, Sverdlovsk Oblast", "Russia"],
 ];
