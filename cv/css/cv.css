@@ -146,10 +146,9 @@ ul {
   list-style: none;
 }
 
-ul.bullets li:before {
-  content: "•";
-  color: #AAA;
-  padding-right: 0.5em;
+ul.bullets {
+  list-style: disc !important;
+  margin-left: 5mm;
 }
 
 a, a span {
@@ -339,9 +338,8 @@ section {
 }
 
 .items {
-  list-style: disc;
+  list-style: circle;
   margin-left: 7mm;
-  margin-bottom: 1mm;
 }
 
 .keywords {
