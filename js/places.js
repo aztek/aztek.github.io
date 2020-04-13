@@ -47,6 +47,7 @@ places = [
   [new google.maps.LatLng(53.4083714, -2.9915726000000404), "Liverpool", "United Kingdom"],
   [new google.maps.LatLng(46.0569465, 14.505751499999974), "Ljubljana", "Slovenia"],
   [new google.maps.LatLng(49.61162100000001, 6.131934600000022), "Luxembourg City", "Luxembourg"],
+  [new google.maps.LatLng(57.8884502, 11.5967453), "Marstrand", "Sweden"],
   [new google.maps.LatLng(-32.8894587, -68.84583859999998), "Mendoza", "Argentina"],
   [new google.maps.LatLng(34.6850869, 135.8050002), "Nara", "Japan"],
   [new google.maps.LatLng(59.9138688, 10.752245399999993), "Oslo", "Norway"],
