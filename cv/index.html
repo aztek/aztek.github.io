@@ -32,91 +32,48 @@
     </header>
 
     <section id="expertise">
-      <h3>Main areas of expertise</h3>
+      <h2>Main competences</h2>
       <ul class="keywords" style="margin-top: -3mm;">
-        <li>Software engineering</li>
+        <li>Formal methods</li>
+        <!-- <li>Software engineering</li> -->
         <li>Automated reasoning</li>
         <li>Functional programming</li>
-        <li>Formal methods</li>
         <li>Software verification</li>
-        <!-- <li>Databases</li> -->
+        <li>Databases</li>
+        <li>Cloud</li>
+      </ul>
+      <ul class="keywords" style="margin-top: -3mm;">
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Scala</li>
+        <li>Haskell</li>
+        <li>Python</li>
       </ul>
     </section>
 
-    <section id="education">
-      <h2>Education</h2>
-
-      <h3>Doctor of philosophy (Ph.D.)</h3>
-      <div class="degree">
-        <span class="date-range"><span class="from">September 2013</span><span class="to">September 2018</span></span>
-        <p><a href="https://chalmers.se">Chalmers University of Technology</a>, Department of Computer Science</p>
-        <p class="location">Gothenburg, Sweden</p>
-        <p>Ph.D. supervisors <a href="https://forsyte.at/people/kovacs/">Laura Kov&aacute;cs</a> and <a href="http://voronkov.com">Andrei Voronkov</a></p>
-        <p>Thesis titled <q><a href="https://ekotelnikov.com/phd-thesis.pdf">Automated Theorem Proving with Extensions of First-Order Logic</a></q></p>
-        <p>Explored ways to make automated theorem provers for first-order logic more efficient for applications. These applications include automation of proof assistants and static analysis of software and networks.</p>
-        <ul class="keywords">
-          <li>Automated theorem proving</li>
-          <li>First-order logic</li>
-          <li>Program analysis</li>
-          <li>Vampire</li>
-        </ul>
-      </div>
-
-      <h3>Master of science (M.Sc.)</h3>
-      <div class="degree">
-        <span class="date-range"><span class="from">September 2011</span><span class="to">July 2013</span></span>
-        <p><a href="http://spbu.ru/">Saint-Petersburg State University</a>, Department of Applied Mathematics</p>
-        <p class="location">Saint-Petersburg, Russia</p>
-        <p>Thesis titled <strong><q>Syntactical Extensions of Scala for Effectful Computations</q></strong></p>
-        <ul class="keywords">
-          <li>Scala</li>
-          <li>Metaprogramming</li>
-          <li>Monads</li>
-          <li>Computational effects</li>
-        </ul>
-      </div>
-
-      <h3>Bachelor of science (B.Sc.)</h3>
-      <div class="degree">
-        <span class="date-range"><span class="from">September 2007</span><span class="to">July 2011</span></span>
-        <p><a href="http://spbu.ru/">Saint-Petersburg State University</a>, Department of Applied Mathematics</p>
-        <p class="location">Saint-Petersburg, Russia</p>
-        <p>Thesis titled <strong><q>Source Code Generation Based on Language Grammar Description</q></strong></p>
-        <ul class="keywords">
-          <li>Source code generation</li>
-          <li>Context-free grammars</li>
-          <li>Algebraic data types</li>
-          <li>Scheme</li>
-        </ul>
-      </div>
-
-      <h3>Summer &amp; winter schools</h3>
-      <div class="summer-schools">
-        <ul>
-          <li><a href="">Marktoberdorf Summer School 2016</a>: Dependable Software Systems Engineering<span class="date-range">August 2016</span><span class="location">Marktoberdorf, Germany</span></li>
-          <li>Summer School 2014: Verification Technology, Systems &amp; Applications (<a href="">VTSA'2014</a>)<span class="date-range">October 2014</span><span class="location">Luxembourg</span></li>
-          <li>Advanced Winter School on Reasoning Engines for Rigorous System Engineering (<a href="">ReRiSE'14</a>)<span class="date-range">February 2014</span><span class="location">Linz, Austria</span></li>
-        </ul>
-      </div>
-    </section>
-
     <section id="working">
-      <h2>Working experience</h2>
+      <h2>Work experience</h2>
       <span class="section-profile"><a href="https://linkedin.com/in/ekotelnikov" class="iconed linkedin"><span>LinkedIn profile</span></a></span>
 
       <ul class="jobs">
         <li>
           <h3><a href="https://www.ericsson.com/en">Ericsson AB</a></h3>
-          <span class="date-range"><span class="from">August 2019</span></span>
+          <span class="date-range"><span class="from">August 2019</span><span class="to">now</span></span>
           <p class="location">Gothenburg, Sweden</p>
           <p class="position">Software developer</p>
-          <p>Develop new features for the control plane of Ericsson's solution for Evolved Packet Network.</p>
+          <p class="job-description">
+            <ul class="bullets">
+              <li>Develop new features for the control plane of <a href="https://www.ericsson.com/en/portfolio/digital-services/cloud-core/cloud-packet-core/sgsn-mme">SGSN-MME</a>.</li>
+              <li>Implement the cloud infrastructure for <a href="https://www.ericsson.com/en/portfolio/digital-services/cloud-core/cloud-packet-core/packet-core-controller">Packet Core Controller</a> &mdash; Ericsson's 5G solution.</li>
+            </ul>
+          </p>
           <ul class="keywords">
+            <li>Linux</li>
             <li>Erlang</li>
-            <li>OTP</li>
             <li>C</li>
-            <li>Python</li>
             <li>Bash</li>
+            <li>Python</li>
             <li>Kubernetes</li>
             <li>Docker</li>
           </ul>
@@ -174,8 +131,9 @@
           <p class="position">Software developer</p>
           <p class="job-description">
             <ul class="bullets">
-              <li>Designed and developed the backend for high-load web search services.</li>
-              <li>Developed tools for mining semi-structured data on the web.</li>
+              <li>Developed the back end of high-load web search services, including an in-house performant database solution capable of serving up to 400 requests per second.</li>
+              <li>Developed information retrieval tools and web crawlers.</li>
+              <li>Developed an app recommendation system for <a href="https://store.yandex.com/">Yandex.Store</a>.</li>
             </ul>
           </p>
           <ul class="keywords">
@@ -207,7 +165,7 @@
           <span class="date-range"><span class="from">2005</span><span class="to">2010</span></span>
           <p class="location">Remote</p>
           <p class="position">Web developer</p>
-          <p class="job-description">Developed client and server sides of commercial websites.</p>
+          <p class="job-description">Developed front end and back end of commercial websites.</p>
           <ul class="keywords">
             <li>PHP</li>
             <li>MySQL</li>
@@ -220,33 +178,85 @@
       </ul>
     </section>
 
+    <section id="education">
+      <h2>Education</h2>
+
+      <ul class="jobs">
+        <li>
+          <h3>Doctor of philosophy (Ph.D.)</h3>
+          <div class="degree">
+            <span class="date-range"><span class="from">September 2013</span><span class="to">September 2018</span></span>
+            <p><a href="https://chalmers.se">Chalmers University of Technology</a>, Department of Computer Science</p>
+            <p class="location">Gothenburg, Sweden</p>
+            <p>Thesis titled <q><a href="https://ekotelnikov.com/phd-thesis.pdf">Automated Theorem Proving with Extensions of First-Order Logic</a></q></p>
+            <p>Ph.D. supervisors <a href="https://forsyte.at/people/kovacs/">Laura Kov&aacute;cs</a> and <a href="http://voronkov.com">Andrei Voronkov</a></p>
+            <p>Explored ways to make automated theorem provers more efficient for applications by extending the logic they support. The applications include automation of proof assistants and static analysis of software and networks.</p>
+            <ul class="keywords">
+              <li>Automated theorem proving</li>
+              <li>First-order logic</li>
+              <li>Program analysis</li>
+              <li>Vampire</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <h3>Master of science (M.Sc.)</h3>
+          <div class="degree">
+            <span class="date-range"><span class="from">September 2011</span><span class="to">July 2013</span></span>
+            <p><a href="http://spbu.ru/">Saint-Petersburg State University</a>, Department of Applied Mathematics</p>
+            <p class="location">Saint-Petersburg, Russia</p>
+            <p>Thesis titled <strong><q>Syntactical Extensions of Scala for Effectful Computations</q></strong></p>
+            <ul class="keywords">
+              <li>Scala</li>
+              <li>Metaprogramming</li>
+              <li>Monads</li>
+              <li>Computational effects</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <h3>Bachelor of science (B.Sc.)</h3>
+          <div class="degree">
+            <span class="date-range"><span class="from">September 2007</span><span class="to">July 2011</span></span>
+            <p><a href="http://spbu.ru/">Saint-Petersburg State University</a>, Department of Applied Mathematics</p>
+            <p class="location">Saint-Petersburg, Russia</p>
+            <p>Thesis titled <strong><q>Source Code Generation Based on Language Grammar Description</q></strong></p>
+            <ul class="keywords">
+              <li>Source code generation</li>
+              <li>Context-free grammars</li>
+              <li>Algebraic data types</li>
+              <li>Scheme</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <h3>Summer &amp; winter schools</h3>
+          <div class="summer-schools">
+            <ul>
+              <li><a href="">Marktoberdorf Summer School 2016</a>: Dependable Software Systems Engineering<span class="date-range">August 2016</span><span class="location">Marktoberdorf, Germany</span></li>
+              <li>Summer School 2014: Verification Technology, Systems &amp; Applications (<a href="">VTSA'2014</a>)<span class="date-range">October 2014</span><span class="location">Luxembourg</span></li>
+              <li>Advanced Winter School on Reasoning Engines for Rigorous System Engineering (<a href="">ReRiSE'14</a>)<span class="date-range">February 2014</span><span class="location">Linz, Austria</span></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
     <section id="projects">
       <h2>Public software projects</h2>
       <span class="section-profile"><a href="https://github.com/aztek" class="iconed github"><span>GitHub profile</span></a></span>
 
       <ul class="projects">
         <li>
-          <h3><a href="https://github.com/vprover/vampire">Vampire</a></h3>
-          <span class="date-range"><span class="from">2014</span><span class="to">current</span></span>
-          <p class="description">An award-winning automated theorem prover for first-order logic.</p>
+          <h3><a href="https://github.com/vprover/vampire">vampire</a></h3>
+          <span class="date-range"><span class="from">2014</span><span class="to">2018</span></span>
+          <p class="description">An award-winning automated <a href="https://vprover.github.io/">theorem prover</a> for <nobr>first-order</nobr> logic.</p>
           <ul class="keywords">
             <li>C++</li>
             <li class="kloc">175</li>
-          </ul>
-        </li>
-
-        <li>
-          <h3><a href="https://bitbucket.org/cse-fire/fire">Fire</a></h3>
-          <span class="date-range"><span class="from">2014</span><span class="to">2018</span></span>
-          <p class="description">A submission system for homework assignments.</p>
-          <ul class="keywords">
-            <li>Python</li>
-            <li>Pyramid</li>
-            <li>HTML</li>
-            <li>CoffeeScript</li>
-            <li>LESS</li>
-            <li>Docker</li>
-            <li class="kloc">30</li>
           </ul>
         </li>
 
@@ -269,8 +279,41 @@
             <li class="kloc">1.5</li>
           </ul>
         </li>
- 
+
         <li>
+          <h3><a href="https://github.com/aztek/atomizer">atomizer</a></h3>
+          <span class="date-range"><span class="from">2019</span></span>
+          <p class="description">A static analysis tool for finding misfit atoms in large Erlang code bases.</p>
+          <ul class="keywords">
+            <li>Erlang</li>
+            <li class="kloc">1.2</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3><a href="https://github.com/aztek/atp">atp</a></h3>
+          <span class="date-range"><span class="from">2019</span></span>
+          <p class="description">Haskell bindings to automated theorem provers.</p>
+          <ul class="keywords">
+            <li>Haskell</li>
+            <li class="kloc">1.7</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3><a href="https://bitbucket.org/cse-fire/fire">fire</a></h3>
+          <span class="date-range"><span class="from">2014</span><span class="to">2018</span></span>
+          <p class="description">A submission system for homework assignments.</p>
+          <ul class="keywords">
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CoffeeScript</li>
+            <li>Docker</li>
+            <li class="kloc">30</li>
+          </ul>
+        </li>
+
+        <!-- <li>
           <h3><a href="https://github.com/aztek/tptp">tptp</a></h3>
           <span class="date-range"><span class="from">2019</span></span>
           <p class="description">A library for parsing and pretty printing for the TPTP language.</p>
@@ -278,7 +321,7 @@
             <li>Haskell</li>
             <li class="kloc">1.6</li>
           </ul>
-        </li>
+        </li> -->
      </ul>
     </section>
 
@@ -291,49 +334,49 @@
           <h3><a href="http://www0.cs.ucl.ac.uk/staff/b.cook/CAV19.pdf">Reachability Analysis for AWS-based Networks</a></h3>
           <span class="date-range"><span class="from">2019</span></span>
           <p class="authors">A.&nbsp;Gacek, J.&nbsp;Backes, B.&nbsp;Cook, N.&nbsp;Rungta, S.&nbsp;Bayless, C.&nbsp;Dodge, C.&nbsp;Varming, A.J.&nbsp;Hu, B.&nbsp;Kocik, <u>E.&nbsp;Kotelnikov</u>, J.&nbsp;Kukovec, S.&nbsp;McLaughlin, J.&nbsp;Reed, J.&nbsp;Sizemore, M.&nbsp;Stalzer, P.&nbsp;Srinivasan, P.&nbsp;Subotic, B.&nbsp;Whaley, Y.&nbsp;Wu and T.&nbsp;Kahsai</p>
-          <p><em>Proceedings of the 31st International Conference On Computer Aided Verification</em></p>
+          <p class="proceedings">Proceedings of the 31st International Conference On Computer Aided Verification</p>
         </li>
         <li>
           <h3><a href="http://ceur-ws.org/Vol-2162/paper-07.pdf">TFX: The TPTP Extended Typed First-order Form</a></h3>
           <span class="date-range"><span class="from">2018</span></span>
           <p class="authors">G.&nbsp;Sutcliffe and E.&nbsp;Kotelnikov</p>
-          <p><em>Proceedings of the 6th Workshop on Practical Aspects of Automated Reasoning</em></p>
+          <p class="proceedings">Proceedings of the 6th Workshop on Practical Aspects of Automated Reasoning</p>
         </li>
         <li>
           <h3><a href="https://link.springer.com/chapter/10.1007/978-3-319-94205-6_27">A FOOLish Encoding of the Next State Relations of Imperative Programs</a></h3>
           <span class="date-range"><span class="from">2018</span></span>
           <p class="authors">E.&nbsp;Kotelnikov, L.&nbsp;Kov&aacute;cs and A.&nbsp;Voronkov</p>
-          <p><em>Proceedings of the 9th International Joint Conference on Automated Reasoning</em></p>
+          <p class="proceedings">Proceedings of the 9th International Joint Conference on Automated Reasoning</p>
         </li>
         <li>
           <h3><a href="https://easychair.org/publications/paper/1PB2">A Clausal Normal Form Translation for FOOL</a></h3>
           <span class="date-range"><span class="from">2016</span></span>
           <p class="authors">E.&nbsp;Kotelnikov, L.&nbsp;Kov&aacute;cs, M.&nbsp;Suda and A.&nbsp;Voronkov</p>
-          <p><em>Proceedings of the 2nd Global Conference on Artificial Intelligence</em></p>
+          <p class="proceedings">Proceedings of the 2nd Global Conference on Artificial Intelligence</p>
         </li>
         <li>
           <h3><a href="http://dx.doi.org/10.1145/2854065.2854071">The Vampire and the FOOL</a></h3>
           <span class="date-range"><span class="from">2016</span></span>
           <p class="authors">E.&nbsp;Kotelnikov, L.&nbsp;Kov&aacute;cs, G.&nbsp;Reger and A.&nbsp;Voronkov</p>
-          <p><em>Proceedings of the 5th ACM SIGPLAN Conference on Certified Programs and Proofs</em></p>
+          <p class="proceedings">Proceedings of the 5th ACM SIGPLAN Conference on Certified Programs and Proofs</p>
         </li>
         <li>
           <h3><a href="http://link.springer.com/chapter/10.1007/978-3-319-20615-8_5">A First Class Boolean Sort in First-Order Theorem Proving and TPTP</a></h3>
           <span class="date-range"><span class="from">2015</span></span>
           <p class="authors">E.&nbsp;Kotelnikov, L.&nbsp;Kov&aacute;cs and A.&nbsp;Voronkov</p>
-          <p><em>Conferences on Intelligent Computer Mathematics</em></p>
+          <p class="proceedings">Conferences on Intelligent Computer Mathematics</p>
         </li>
         <li>
           <h3><a href="http://dx.doi.org/10.1145/2637647.2637648">Type-Directed Language Extension for Effectful Computations</a></h3>
           <span class="date-range"><span class="from">2014</span></span>
           <p class="authors">E.&nbsp;Kotelnikov</p>
-          <p><em>Proceedings of the Fifth Annual Scala Workshop</em></p>
+          <p class="proceedings">Proceedings of the Fifth Annual Scala Workshop</p>
         </li>
         <li>
           <h3><a href="http://dx.doi.org/10.1145/2160749.2160769">Embeddable Framework for Syntax-Safe Source Code Generation</a></h3>
           <span class="date-range"><span class="from">2012</span></span>
           <p class="authors">E.&nbsp;Kotelnikov</p>
-          <p><em>Proceedings of the 2012 Joint International Conference on Human-Centered Computer Environments</em></p>
+          <p class="proceedings">Proceedings of the 2012 Joint International Conference on Human-Centered Computer Environments</p>
         </li>
       </ul>
     </section>
