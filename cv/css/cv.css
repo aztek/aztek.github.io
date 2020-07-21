@@ -192,7 +192,7 @@ a:hover, a:hover span {
   margin-right: 7mm;
   background-color: #DDD;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 
 #contact-info {
@@ -212,7 +212,6 @@ a:hover, a:hover span {
 
 #cv-pdf {
   float: right;
-  margin-top: 1.5mm;
 }
 
 @media print {
@@ -224,14 +223,15 @@ a:hover, a:hover span {
 #cv-pdf a {
   border: 1px #008ACE solid;
   border-radius: 2mm;
-  padding: 2mm 2.5mm;
+  padding: 1mm 2.5mm;
+  display: block;
 }
 
 #cv-pdf a:hover {
   border-color: #C00;
 }
 
-header, #photo {
+#photo {
   height: 40mm;
 }
 
@@ -306,6 +306,8 @@ section {
   font: normal normal normal 14px/1 FontAwesome;
   content: "\f073";
   text-indent: 1.2mm;
+  vertical-align: baseline;
+  font-size: 100%;
 }
 
 .location {
@@ -318,6 +320,8 @@ section {
   content: "\f041";
   text-indent: 1.8mm;
   padding-right: 0.65mm;
+  vertical-align: baseline;
+  font-size: 100%;
 }
 
 .iconed {
@@ -329,6 +333,8 @@ section {
   font: normal normal normal 14px/1 FontAwesome;
   padding-right: 1.6mm;
   text-decoration: none;
+  vertical-align: baseline;
+  font-size: 100%;
 }
 
 .iconed span {
