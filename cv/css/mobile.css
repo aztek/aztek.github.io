@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1000px) {
+  * {
+    font-size: 22pt;
+    line-height: 30pt;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 34pt;
+    margin-top: 15px;
+  }
+
+  header {
+    margin: 0;
+    padding: 20pt;
+  }
+
+  #photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  section {
+    border-radius: 0;
+    margin: 0;
+    padding: 20pt;
+  }
+
+
+
+  #cv-pdf a {
+    padding: 11pt;
+  }
+
+  .keywords li {
+    padding: 2pt 8pt;
+    /* padding-left: 8pt; */
+    /* padding-right: 8pt; */
+  }
+}

@@ -36,7 +36,7 @@ html, body {
 * {
   margin: 0;
   padding: 0;
-  line-height: 6.2mm;
+  line-height: 7mm;
   /* font-family: 'Lora', serif; */
   font-family: 'Open Sans', sans-serif;
   font-size: 3.8mm;
@@ -385,14 +385,15 @@ section {
   color: #444;
   background-color: #ccc;
   font-weight: 400;
-  padding-right: 1.5mm;
-  padding-left: 1.5mm;
+  padding-right: 2mm;
+  padding-left: 2mm;
   padding-top: 0;
   margin-left: 2mm;
-  border-radius: 1.5mm;
+  border-radius: 2mm;
 }
 
 .keywords li.kloc {
+  display: none;
   background: transparent;
   padding-left: 0;
 }
