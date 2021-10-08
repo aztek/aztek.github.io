@@ -402,12 +402,13 @@ section {
   border-radius: 2.5mm;
 }
 
-#introduction p {
-  margin-bottom: 2mm;
+#introduction {
+  padding-top: 3mm;
+  padding-bottom: 3mm;
 }
 
-#introduction p:last-child {
-  margin-bottom: 0;
+#introduction p {
+  line-height: 9mm;
 }
 
 .keywords li.kloc {
