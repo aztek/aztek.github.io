@@ -89,10 +89,6 @@ h4 {
   font-size: 4.3mm;
 }
 
-.degree {
-  margin-bottom: 5mm;
-}
-
 .degree p {
   margin-bottom: 1mm;
 }
@@ -267,7 +263,8 @@ header dt:after {
 }
 
 section {
-  background-color: #FBFBFB;
+  /* background-color: #F5F5F5; */
+  background-color: #f1f4f7;
   border-radius: 3mm;
   margin-left: -5mm;
   margin-right: -5mm;
@@ -382,14 +379,35 @@ section {
 
 .keywords li {
   float: left;
+  margin-left: 2mm;
+}
+
+.projects li em {
+  margin-left: 2mm;
+}
+
+.keywords li , #introduction em, .projects li em {
+  font-size: 3.8mm;
+  display: inline-block;
+  font-style: normal;
   color: #444;
-  background-color: #ccc;
+  /* background-color: #ccc; */
+  background-color: #dee6f1;
   font-weight: 400;
   padding-right: 2mm;
   padding-left: 2mm;
   padding-top: 0;
-  margin-left: 2mm;
-  border-radius: 2mm;
+  /* border: 0.8mm solid #ccc; */
+  border: 0.8mm solid #d6e2f1;
+  border-radius: 2.5mm;
+}
+
+#introduction p {
+  margin-bottom: 2mm;
+}
+
+#introduction p:last-child {
+  margin-bottom: 0;
 }
 
 .keywords li.kloc {
