@@ -391,24 +391,13 @@ section {
   display: inline-block;
   font-style: normal;
   color: #444;
-  /* background-color: #ccc; */
   background-color: #dee6f1;
   font-weight: 400;
   padding-right: 2mm;
   padding-left: 2mm;
   padding-top: 0;
-  /* border: 0.8mm solid #ccc; */
   border: 0.8mm solid #d6e2f1;
   border-radius: 2.5mm;
-}
-
-#introduction {
-  padding-top: 3mm;
-  padding-bottom: 3mm;
-}
-
-#introduction p {
-  line-height: 9mm;
 }
 
 .keywords li.kloc {
