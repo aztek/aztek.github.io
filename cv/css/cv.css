@@ -93,9 +93,9 @@ h4 {
   margin-bottom: 1mm;
 }
 
-.degree .location {
+.degree .location, .jobs .location {
   float: right;
-  margin-top: -7.5mm;
+  margin-top: -0.5mm;
 }
 
 .summer-schools li {
@@ -116,7 +116,7 @@ h4 {
 }
 
 .jobs > li > .date-range, .degree > .date-range, .projects > li > .date-range, .publications > li > .date-range {
-  margin-top: -7.5mm;
+  margin-top: -8.5mm;
 }
 
 .projects {
@@ -146,10 +146,6 @@ h4 {
 
 section > ul > li {
   margin-top: 6mm;
-}
-
-.jobs .location {
-  float: right;
 }
 
 .jobs .position {
