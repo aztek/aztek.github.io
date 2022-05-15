@@ -32,6 +32,7 @@ places = [
   [new google.maps.LatLng(54.35202520000001, 18.64663840000003), "Gdańsk", "Poland"],
   [new google.maps.LatLng(57.70887, 11.974559999999997), "Gothenburg", "Sweden"],
   [new google.maps.LatLng(35.25035039999999, 139.0480956), "Gora", "Japan"],
+  [new google.maps.LatLng(52.3873878, 4.6462194), "Haarlem", "The Netherlands"],
   [new google.maps.LatLng(52.0704978, 4.3006999), "The Hague", "The Netherlands"],
   [new google.maps.LatLng(56.6743748, 12.8577885), "Halmstad", "Sweden"],
   [new google.maps.LatLng(53.5510846, 9.99368179999999), "Hamburg", "Germany"],
