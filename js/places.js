@@ -8,6 +8,7 @@ places = [
   [new google.maps.LatLng(52.3702157, 4.89516789), "Amsterdam", "The Netherlands"],
   [new google.maps.LatLng(44.8857008, 37.3199191), "Anapa", "Russia"],
   [new google.maps.LatLng(37.9838096, 23.7275388), "Athens", "Greece"],
+  [new google.maps.LatLng(47.5595986, 7.5885761), "Basel", "Switzerland"],
   [new google.maps.LatLng(52.5200066, 13.4049539), "Berlin", "Germany"],
   [new google.maps.LatLng(67.2829185, 14.4150774), "Bodø", "Norway"],
   [new google.maps.LatLng(57.7210350, 12.9398190), "Borås", "Sweden"],
@@ -128,5 +129,6 @@ places = [
   [new google.maps.LatLng(56.6402225, 47.8838580), "Yoshkar-Ola", "Russia"],
   [new google.maps.LatLng(52.4420399, 4.8291993), "Zaandam", "The Netherlands"],
   [new google.maps.LatLng(56.8057986, 61.3238122), "Zarechny, Sverdlovsk Oblast", "Russia"],
+  [new google.maps.LatLng(47.3768866, 8.541694), "Zürich", "Switzerland"],
   [new google.maps.LatLng(59.2752626, 15.2134105), "Örebro", "Sweden"],
 ];
