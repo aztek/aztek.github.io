@@ -135,7 +135,7 @@ places = [
   [new google.maps.LatLng(53.9599651, -1.0872979), "York", "UK"],
   [new google.maps.LatLng(56.6402225, 47.8838580), "Yoshkar-Ola", "Russia"],
   [new google.maps.LatLng(52.4420399, 4.8291993), "Zaandam", "The Netherlands"],
-  [new google.maps.LatLng(56.8057986, 61.3238122), "Zarechny, Sverdlovsk Oblast", "Russia"],
+  [new google.maps.LatLng(56.8057986, 61.3238122), "Zarechny", "Russia"],
   [new google.maps.LatLng(47.3768866, 8.541694), "Zürich", "Switzerland"],
   [new google.maps.LatLng(59.2752626, 15.2134105), "Örebro", "Sweden"],
 ];
