@@ -38,7 +38,8 @@ function initialize() {
 defaultMarkerIcon = 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
 activeMarkerIcon  = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png';
 function pin(location, city, country) {
-  var item = $('<li id="' + city + '">' + city + ", " + country + '</li>');
+  var country_code = country.toLowerCase().replace(' ', '-');
+  var item = $('<li id="' + city + '"><span class="city">' + city + '</span><span class="country ' + country_code + '">' + country + '</span></li>');
   $('#list').append(item);
   function placeMarker(location) {
     var marker = new google.maps.Marker({

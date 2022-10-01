@@ -22,7 +22,7 @@
         top: 0;
       }
       #legend {
-        width: 275px; /* 220px; */
+        width: 300px;
         height: 100%;
         right: 0;
         position: absolute;
@@ -30,6 +30,22 @@
         background: rgba(255, 255, 255, 0.85);
         color: #444;
         overflow: scroll;
+      }
+      #legend ul li {
+        overflow: hidden;
+      }
+      #legend ul li .city {
+        display: block;
+        float: left;
+      }
+      #legend ul li .country {
+        display: block;
+        float: left;
+        border: 1px #ddd solid;
+        border-radius: 5px;
+        margin-left: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
       }
       #legend-container {
         padding-top: 6px;
@@ -42,19 +58,27 @@
         padding-top: 20px;
         padding-bottom: 10px;
       }
-      ul {
+      #legend ul {
         list-style: none;
       }
-      ul li {
+      #legend ul li {
         padding-left: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
         line-height: 30px;
         cursor: pointer;
       }
-      ul li:hover, ul li.active {
-        color: #FFF;
-        background: rgba(100, 100, 100, 0.85);
+      #legend ul li:hover, #legend ul li.active {
+        background: rgba(160, 160, 160, 0.85);
+      }
+      #legend ul li:hover span, #legend ul li.active span {
+        color: #FFF !important;
+      }
+      #legend .country:after {
+        padding-left: 4px;
       }
     </style>
+    <link rel="stylesheet" href="css/countries.css" />
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoePZ_c_4vKDsteIA-U2eY44Ea7Bu0H2Q"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/habitat.js"></script>
