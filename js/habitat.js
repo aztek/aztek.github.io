@@ -34,6 +34,10 @@ function initialize() {
     var country = places[i][2];
     pin(position, city, country);
   }
+  countries = new Set(places.map(p => p[2])).size
+
+  $('h1').attr('data-content', places.length);
+  $('h1').attr('title', places.length + ' cities in ' + countries + ' countries');
 }
 defaultMarkerIcon = 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
 activeMarkerIcon  = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png';
