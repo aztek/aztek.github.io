@@ -10,6 +10,7 @@ places = [
   [new google.maps.LatLng(37.9838096, 23.7275388), "Athens", "Greece"],
   [new google.maps.LatLng(47.4727283, 8.3084782), "Baden", "Switzerland"],
   [new google.maps.LatLng(47.5595986, 7.5885761), "Basel", "Switzerland"],
+  [new google.maps.LatLng(60.3912628, 5.3220544), "Bergen", "Norway"],
   [new google.maps.LatLng(52.5200066, 13.4049539), "Berlin", "Germany"],
   [new google.maps.LatLng(67.2829185, 14.4150774), "Bodø", "Norway"],
   [new google.maps.LatLng(57.7210350, 12.9398190), "Borås", "Sweden"],
