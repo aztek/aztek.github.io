@@ -107,6 +107,7 @@ places = [
   [new google.maps.LatLng(45.0811661, 13.6387067), "Rovinj", "Croatia"],
   [new google.maps.LatLng(41.9027835, 12.4963655), "Rome", "Italy"],
   [new google.maps.LatLng(-32.9442426, -60.6505388), "Rosario", "Argentina"],
+  [new google.maps.LatLng(51.9244201, 4.4777325), "Rotterdam", "The Netherlands"],
   [new google.maps.LatLng(47.8094900, 13.0550100), "Salzburg", "Austria"],
   [new google.maps.LatLng(38.2514148, 20.6471688), "Sami", "Greece"],
   [new google.maps.LatLng(37.7749295, -122.4194155), "San Francisco, CA", "USA"],
