@@ -1,4 +1,5 @@
 places = [
+  [new google.maps.LatLng(51.6978162, 5.3036748), "'s-Hertogenbosch", "The Netherlands"],
   [new google.maps.LatLng(57.0488195, 9.9217469), "Aalborg", "Denmark"],
   [new google.maps.LatLng(37.4947611, 139.9298096), "Aizuwakamatsu", "Japan"],
   [new google.maps.LatLng(57.9300205, 12.5362113), "Alingsås", "Sweden"],
