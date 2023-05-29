@@ -122,6 +122,7 @@ places = [
   [new google.maps.LatLng(59.3293235, 18.0685808), "Stockholm", "Sweden"],
   [new google.maps.LatLng(68.2343088, 14.5682237), "Svolvær", "Norway"],
   [new google.maps.LatLng(59.4369608, 24.7535747), "Tallinn", "Estonia"],
+  [new google.maps.LatLng(41.6938026, 44.8015168), "Tbilisi", "Georgia"],
   [new google.maps.LatLng(45.7597220, 21.2300000), "Timişoara", "Romania"],
   [new google.maps.LatLng(40.6400629, 22.9444191), "Thessaloniki", "Greece"],
   [new google.maps.LatLng(35.6894875, 139.6917064), "Tokyo", "Japan"],
@@ -154,5 +155,5 @@ places = [
   🇯🇵 🇫🇮 🇸🇪 🇩🇪 🇳🇱 🇧🇪 🇫🇷 🇨🇿 🇺🇦 🇦🇹
   🇩🇰 🇪🇸 🇬🇧 🇸🇰 🇱🇺 🇷🇴 🇮🇹 🇳🇴 🇺🇸 🇵🇱
   🇵🇹 🇦🇷 🇮🇪 🇸🇮 🇰🇷 🇬🇷 🇲🇹 🇱🇻 🇪🇪 🇱🇹
-  🇨🇭 🇭🇷
+  🇨🇭 🇭🇷 🇬🇪
 */
