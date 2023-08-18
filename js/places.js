@@ -114,7 +114,7 @@ places = [
   [new google.maps.LatLng(41.1579438, -8.6291053), "Porto", "Portugal"],
   [new google.maps.LatLng(41.3828815, -8.7599893), "Povoa de Varzim", "Portugal"],
   [new google.maps.LatLng(44.8666232, 13.8495788), "Pula", "Croatia"],
-  [new google.maps.LatLng(50.0755381, 14.4378005), "Prague", "Czech Republic"],
+  [new google.maps.LatLng(50.0755381, 14.4378005), "Prague", "Czechia"],
   [new google.maps.LatLng(36.0388628, 14.3181010), "Qala", "Malta"],
   [new google.maps.LatLng(56.9496487, 24.1051865), "Riga", "Latvia"],
   [new google.maps.LatLng(45.0811661, 13.6387067), "Rovinj", "Croatia"],
