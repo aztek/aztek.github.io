@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Cities I visited</title>
+    <title>Where I went</title>
     <meta name="author" content="Evgeny Kotelnikov"/>
     <style>
       @import url(//fonts.googleapis.com/css?family=Open+Sans:700);
@@ -11,7 +11,7 @@
         margin: 0;
         padding: 0;
         font-family: 'Lora', serif;
-        font-size: 16px;
+        font-size: 18px;
         color: #404040;
       }
       #map {
@@ -22,12 +22,13 @@
         top: 0;
       }
       #legend {
-        width: 300px;
+        width: 310px;
         height: 100%;
         right: 0;
         position: absolute;
         top: -14px;
-        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(5px);
+        background: rgba(255, 255, 255, 65%);
         color: #444;
         overflow: scroll;
       }
@@ -41,11 +42,11 @@
       #legend ul li .country {
         display: block;
         float: left;
-        border: 1px #ddd solid;
         border-radius: 5px;
         margin-left: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        background: rgba(160, 160, 160, 0.25);
       }
       #legend-container {
         padding-top: 6px;
@@ -55,16 +56,18 @@
         font-size: 2em;
         color: #000;
         padding-left: 20px;
-        padding-top: 20px;
+        padding-top: 25px;
         padding-bottom: 10px;
       }
       h1:after {
         color: #777;
         content: attr(data-content);
         float: right;
-        margin-top: 0.55em;
-        margin-right: 1.1em;
+        margin-top: 0.25em;
+        margin-right: 0.75em;
         font-size: 0.5em;
+        border: 5px #fff solid;
+        border-radius: 5px;
         background-color: #fff;
         cursor: help;
       }
@@ -73,16 +76,19 @@
       }
       #legend ul li {
         padding-left: 20px;
-        padding-top: 2px;
-        padding-bottom: 2px;
+        padding-top: 3px;
+        padding-bottom: 3px;
         line-height: 30px;
         cursor: pointer;
       }
       #legend ul li:hover, #legend ul li.active {
-        background: rgba(160, 160, 160, 0.85);
+        background: rgba(170, 170, 170, 0.85);
       }
       #legend ul li:hover span, #legend ul li.active span {
         color: #FFF !important;
+      }
+      #legend ul li:hover .country {
+        background: rgba(255, 255, 255, 0.25);
       }
       #legend .country:after {
         padding-left: 4px;
