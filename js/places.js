@@ -1,6 +1,7 @@
 places = [
   [new google.maps.LatLng(51.6978162, 5.3036748), "'s-Hertogenbosch", "Netherlands"],
   [new google.maps.LatLng(41.9074756, -8.865254), "A Guarda", "Spain"],
+  [new google.maps.LatLng(50.7753455, 6.0838868), "Aachen", "Germany"],
   [new google.maps.LatLng(57.0488195, 9.9217469), "Aalborg", "Denmark"],
   [new google.maps.LatLng(37.4947611, 139.9298096), "Aizuwakamatsu", "Japan"],
   [new google.maps.LatLng(57.9300205, 12.5362113), "Alingsås", "Sweden"],
@@ -91,7 +92,9 @@ places = [
   [new google.maps.LatLng(59.9138688, 10.7522454), "Oslo", "Norway"],
   [new google.maps.LatLng(51.7520209, -1.2577263), "Oxford", "UK"],
   [new google.maps.LatLng(38.8333663, 20.7069108), "Lefkada", "Greece"],
+  [new google.maps.LatLng(50.6329586, 5.5697498), "Liège", "Belgium"],
   [new google.maps.LatLng(51.5073509, -0.1277583), "London", "UK"],
+  [new google.maps.LatLng(50.8513682, 5.6909725), "Maastricht", "Netherlands"],
   [new google.maps.LatLng(55.5790534, 13.0108705), "Malmö", "Sweden"],
   [new google.maps.LatLng(53.4807593, -2.2426305), "Manchester", "UK"],
   [new google.maps.LatLng(47.7784831, 10.6158265), "Marktoberdorf", "Germany"],
