@@ -105,6 +105,7 @@ places = [
   [new google.maps.LatLng(40.8539855, 14.2466023), "Naples", "Italy"],
   [new google.maps.LatLng(57.4902781, 60.2120861), "Nevyansk", "Russia"],
   [new google.maps.LatLng(40.7127837, -74.0059413), "New York City, NY", "USA"],
+  [new google.maps.LatLng(51.8448837, 5.84282809), "Nijmegen", "Netherlands"],
   [new google.maps.LatLng(57.9214912, 59.9816186), "Nizhny Tagil", "Russia"],
   [new google.maps.LatLng(55.4037559, 10.4023700), "Odense", "Denmark"],
   [new google.maps.LatLng(34.6937378, 135.5021651), "Osaka", "Japan"],
