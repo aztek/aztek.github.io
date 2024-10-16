@@ -49,6 +49,7 @@ places = [
   [new google.maps.LatLng(57.4427110, 10.5210060), "Frederikshavn", "Denmark"],
   [new google.maps.LatLng(56.8198170, -5.105218), "Fort William", "UK"],
   [new google.maps.LatLng(35.4973137, 138.7550837), "Fujikawaguchiko", "Japan"],
+  [new google.maps.LatLng(32.6506129, -16.9082357), "Funchal", "Portugal"],
   [new google.maps.LatLng(41.2107299, 13.5714285), "Gaeta", "Italy"],
   [new google.maps.LatLng(51.0500182, 3.7303351), "Ghent", "Belgium"],
   [new google.maps.LatLng(54.3520252, 18.6466384), "Gdańsk", "Poland"],
