@@ -12,6 +12,7 @@ function initialize() {
       position: google.maps.ControlPosition.LEFT_CENTER
     },
     panControl: false,
+    mapId: "map",
     mapTypeControl: true,
     mapTypeControlOptions: {
       style: google.maps.MapTypeControlStyle.DEFAULT,
