@@ -35,6 +35,7 @@ places = [
   [new google.maps.LatLng(40.2033145, -8.4102573), "Coimbra", "Portugal"],
   [new google.maps.LatLng(50.937531, 6.9602786), "Cologne", "Germany"],
   [new google.maps.LatLng(55.6760968, 12.5683371), "Copenhagen", "Denmark"],
+  [new google.maps.LatLng(52.0115769, 4.3570677), "Delft", "Netherlands"],
   [new google.maps.LatLng(53.0546266, 4.7997253), "Den Burg", "Netherlands"],
   [new google.maps.LatLng(52.9562808, 4.7607972), "Den Helder", "Netherlands"],
   [new google.maps.LatLng(53.0262820, 4.7552065), "Den Hoorn", "Netherlands"],
