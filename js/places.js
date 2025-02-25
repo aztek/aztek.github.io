@@ -17,6 +17,7 @@ places = [
   [new google.maps.LatLng(47.5595986, 7.5885761), "Basel", "Switzerland"],
   [new google.maps.LatLng(41.6460978, 41.64049), "Batumi", "Georgia"],
   [new google.maps.LatLng(43.2630126, -2.9349852), "Bilbao", "Spain"],
+  [new google.maps.LatLng(12.9715987, 77.5945627), "Bengaluru", "India"],
   [new google.maps.LatLng(60.3912628, 5.3220544), "Bergen", "Norway"],
   [new google.maps.LatLng(52.5200066, 13.4049539), "Berlin", "Germany"],
   [new google.maps.LatLng(67.2829185, 14.4150774), "Bodø", "Norway"],
@@ -56,7 +57,7 @@ places = [
   [new google.maps.LatLng(54.3520252, 18.6466384), "Gdańsk", "Poland"],
   [new google.maps.LatLng(55.8616704, -4.2583345), "Glasgow", "UK"],
   [new google.maps.LatLng(57.7088700, 11.9745600), "Gothenburg", "Sweden"],
-  [new google.maps.LatLng(54.459734,  -3.0243919), "Grasmere", "UK"],
+  [new google.maps.LatLng(54.459734, -3.0243919), "Grasmere", "UK"],
   [new google.maps.LatLng(35.2503504, 139.0480956), "Gora", "Japan"],
   [new google.maps.LatLng(52.3873878, 4.6462194), "Haarlem", "Netherlands"],
   [new google.maps.LatLng(52.0704978, 4.3006999), "The Hague", "Netherlands"],
@@ -182,5 +183,5 @@ places = [
   🇯🇵 🇫🇮 🇸🇪 🇩🇪 🇳🇱 🇧🇪 🇫🇷 🇨🇿 🇺🇦 🇦🇹
   🇩🇰 🇪🇸 🇬🇧 🇸🇰 🇱🇺 🇷🇴 🇮🇹 🇳🇴 🇺🇸 🇵🇱
   🇵🇹 🇦🇷 🇮🇪 🇸🇮 🇰🇷 🇬🇷 🇲🇹 🇱🇻 🇪🇪 🇱🇹
-  🇨🇭 🇭🇷 🇬🇪 🇹🇷
+  🇨🇭 🇭🇷 🇬🇪 🇹🇷 🇮🇳
 */
