@@ -119,6 +119,7 @@ places = [
   [new google.maps.LatLng(53.0389751, 4.8479885), "Oudeschild", "Netherlands"],
   [new google.maps.LatLng(48.8566140, 2.3522219), "Paris", "France"],
   [new google.maps.LatLng(38.2466395, 21.7345740), "Patras", "Greece"],
+  [new google.maps.LatLng(45.8789266, 7.6260054), "Paquier", "Italy"],
   [new google.maps.LatLng(59.8833330, 29.8999999), "Peterhof", "Russia"],
   [new google.maps.LatLng(39.9525839, -75.1652215), "Philadelphia, PA", "USA"],
   [new google.maps.LatLng(40.7466196, 14.4936821), "Pompei", "Italy"],
