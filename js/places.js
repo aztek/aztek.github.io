@@ -31,6 +31,7 @@ places = [
   [new google.maps.LatLng(50.8503396, 4.3517103), "Brussels", "Belgium"],
   [new google.maps.LatLng(41.8772779, -8.8388267), "Caminha", "Portugal"],
   [new google.maps.LatLng(39.2578708, -1.33306450), "Casas de Ves", "Spain"],
+  [new google.maps.LatLng(42.495188, 19.957813), "Çerem", "Bajram Curri, Albania"],
   [new google.maps.LatLng(56.1500000, 47.2333330), "Cheboksary", "Russia"],
   [new google.maps.LatLng(41.8781136, -87.6297982), "Chicago, IL", "USA"],
   [new google.maps.LatLng(40.2033145, -8.4102573), "Coimbra", "Portugal"],
@@ -40,6 +41,7 @@ places = [
   [new google.maps.LatLng(53.0546266, 4.7997253), "Den Burg", "Netherlands"],
   [new google.maps.LatLng(52.9562808, 4.7607972), "Den Helder", "Netherlands"],
   [new google.maps.LatLng(53.0262820, 4.7552065), "Den Hoorn", "Netherlands"],
+  [new google.maps.LatLng(42.5451917, 20.065066), "Dobërdoll", "Albania"],
   [new google.maps.LatLng(53.3498053, -6.2603097), "Dublin", "Ireland"],
   [new google.maps.LatLng(51.4344079, 6.7623293), "Duisburg", "Germany"],
   [new google.maps.LatLng(55.9532520, -3.1882670), "Edinburgh", "UK"],
@@ -141,6 +143,7 @@ places = [
   [new google.maps.LatLng(47.5778534, 10.7383052), "Schwangau", "Germany"],
   [new google.maps.LatLng(47.6062095, -122.3320708), "Seattle, WA", "USA"],
   [new google.maps.LatLng(37.5665350, 126.9779692), "Seoul", "South Korea"],
+  [new google.maps.LatLng(42.064714, 19.5090237), "Shkodër", "Albania"],
   [new google.maps.LatLng(41.6111031, 45.9271436), "Sighnaghi", "Georgia"],
   [new google.maps.LatLng(44.9521170, 34.1024170), "Simferopol", "Ukraine"],
   [new google.maps.LatLng(43.5852780, 39.7202780), "Sochi", "Russia"],
@@ -151,7 +154,9 @@ places = [
   [new google.maps.LatLng(59.4369608, 24.7535747), "Tallinn", "Estonia"],
   [new google.maps.LatLng(41.6938026, 44.8015168), "Tbilisi", "Georgia"],
   [new google.maps.LatLng(45.7597220, 21.2300000), "Timişoara", "Romania"],
+  [new google.maps.LatLng(41.3275459, 19.8186982), "Tirana", "Albania"],
   [new google.maps.LatLng(40.6400629, 22.9444191), "Thessaloniki", "Greece"],
+  [new google.maps.LatLng(42.4045655, 19.7680967), "Theth", "Albania"],
   [new google.maps.LatLng(35.6894875, 139.6917064), "Tokyo", "Japan"],
   [new google.maps.LatLng(45.6495264, 13.7768182), "Trieste", "Italy"],
   [new google.maps.LatLng(58.2834894, 12.2858206), "Trollhättan", "Sweden"],
@@ -185,5 +190,5 @@ places = [
   🇯🇵 🇫🇮 🇸🇪 🇩🇪 🇳🇱 🇧🇪 🇫🇷 🇨🇿 🇺🇦 🇦🇹
   🇩🇰 🇪🇸 🇬🇧 🇸🇰 🇱🇺 🇷🇴 🇮🇹 🇳🇴 🇺🇸 🇵🇱
   🇵🇹 🇦🇷 🇮🇪 🇸🇮 🇰🇷 🇬🇷 🇲🇹 🇱🇻 🇪🇪 🇱🇹
-  🇨🇭 🇭🇷 🇬🇪 🇹🇷 🇮🇳 🇮🇸
+  🇨🇭 🇭🇷 🇬🇪 🇹🇷 🇮🇳 🇮🇸 🇦🇱
 */
