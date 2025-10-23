@@ -31,7 +31,7 @@ places = [
   [new google.maps.LatLng(50.8503396, 4.3517103), "Brussels", "Belgium"],
   [new google.maps.LatLng(41.8772779, -8.8388267), "Caminha", "Portugal"],
   [new google.maps.LatLng(39.2578708, -1.33306450), "Casas de Ves", "Spain"],
-  [new google.maps.LatLng(42.495188, 19.957813), "Çerem", "Bajram Curri, Albania"],
+  [new google.maps.LatLng(42.495188, 19.957813), "Çerem", "Albania"],
   [new google.maps.LatLng(56.1500000, 47.2333330), "Cheboksary", "Russia"],
   [new google.maps.LatLng(41.8781136, -87.6297982), "Chicago, IL", "USA"],
   [new google.maps.LatLng(40.2033145, -8.4102573), "Coimbra", "Portugal"],
