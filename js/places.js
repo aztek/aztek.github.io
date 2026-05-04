@@ -17,6 +17,7 @@ places = [
   [new google.maps.LatLng(42.1200897, -8.8523562), "Baiona", "Spain"],
   [new google.maps.LatLng(47.5595986, 7.5885761), "Basel", "Switzerland"],
   [new google.maps.LatLng(41.6460978, 41.64049), "Batumi", "Georgia"],
+  [undefined, "Beijing", "China"],
   [new google.maps.LatLng(43.2630126, -2.9349852), "Bilbao", "Spain"],
   [new google.maps.LatLng(12.9715987, 77.5945627), "Bengaluru", "India"],
   [new google.maps.LatLng(60.3912628, 5.3220544), "Bergen", "Norway"],
@@ -32,6 +33,7 @@ places = [
   [new google.maps.LatLng(50.8503396, 4.3517103), "Brussels", "Belgium"],
   [new google.maps.LatLng(41.8772779, -8.8388267), "Caminha", "Portugal"],
   [new google.maps.LatLng(39.2578708, -1.33306450), "Casas de Ves", "Spain"],
+  [undefined, "Catania", "Italy"],
   [new google.maps.LatLng(42.495188, 19.957813), "Çerem", "Albania"],
   [new google.maps.LatLng(56.1500000, 47.2333330), "Cheboksary", "Russia"],
   [new google.maps.LatLng(41.8781136, -87.6297982), "Chicago, IL", "USA"],
@@ -124,6 +126,7 @@ places = [
   [new google.maps.LatLng(55.4037559, 10.4023700), "Odense", "Denmark"],
   [new google.maps.LatLng(34.6937378, 135.5021651), "Osaka", "Japan"],
   [new google.maps.LatLng(53.0389751, 4.8479885), "Oudeschild", "Netherlands"],
+  [undefined, "Palermo", "Italy"],
   [new google.maps.LatLng(48.8566140, 2.3522219), "Paris", "France"],
   [new google.maps.LatLng(38.2466395, 21.7345740), "Patras", "Greece"],
   [new google.maps.LatLng(45.8789266, 7.6260054), "Paquier", "Italy"],
@@ -148,6 +151,7 @@ places = [
   [new google.maps.LatLng(47.5778534, 10.7383052), "Schwangau", "Germany"],
   [new google.maps.LatLng(47.6062095, -122.3320708), "Seattle, WA", "USA"],
   [new google.maps.LatLng(37.5665350, 126.9779692), "Seoul", "South Korea"],
+  [undefined, "Shanghai", "China"],
   [new google.maps.LatLng(42.064714, 19.5090237), "Shkodër", "Albania"],
   [new google.maps.LatLng(41.6111031, 45.9271436), "Sighnaghi", "Georgia"],
   [new google.maps.LatLng(44.9521170, 34.1024170), "Simferopol", "Ukraine"],
@@ -195,5 +199,5 @@ places = [
   🇯🇵 🇫🇮 🇸🇪 🇩🇪 🇳🇱 🇧🇪 🇫🇷 🇨🇿 🇺🇦 🇦🇹
   🇩🇰 🇪🇸 🇬🇧 🇸🇰 🇱🇺 🇷🇴 🇮🇹 🇳🇴 🇺🇸 🇵🇱
   🇵🇹 🇦🇷 🇮🇪 🇸🇮 🇰🇷 🇬🇷 🇲🇹 🇱🇻 🇪🇪 🇱🇹
-  🇨🇭 🇭🇷 🇬🇪 🇹🇷 🇮🇳 🇮🇸 🇦🇱
+  🇨🇭 🇭🇷 🇬🇪 🇹🇷 🇮🇳 🇮🇸 🇦🇱 🇨🇳
 */
