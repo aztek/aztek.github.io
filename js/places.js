@@ -76,6 +76,7 @@ places = [
   [new google.maps.LatLng(52.644813, 5.054562), "Hoorn", "Netherlands"],
   [new google.maps.LatLng(35.7062660, 140.8609510), "Inubo", "Japan"],
   [new google.maps.LatLng(39.6650288, 20.8537466), "Ioannina", "Greece"],
+  [new google.maps.LatLng(41.0082376, 28.9783589), "Istanbul", "Turkey"],
   [new google.maps.LatLng(57.7826137, 14.1617876), "Jönköping", "Sweden"],
   [new google.maps.LatLng(58.6978588, 59.4929037), "Kachkanar", "Russia"],
   [new google.maps.LatLng(56.6634447, 16.3567791), "Kalmar", "Sweden"],
