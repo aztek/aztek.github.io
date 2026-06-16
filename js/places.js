@@ -163,6 +163,7 @@ places = [
   [new google.maps.LatLng(59.3293235, 18.0685808), "Stockholm", "Sweden"],
   [new google.maps.LatLng(68.2343088, 14.5682237), "Svolvær", "Norway"],
   [new google.maps.LatLng(59.4369608, 24.7535747), "Tallinn", "Estonia"],
+  [new google.maps.LatLng(37.8545459, 15.2889438), "Taormina", "Italy"],
   [new google.maps.LatLng(41.6938026, 44.8015168), "Tbilisi", "Georgia"],
   [new google.maps.LatLng(45.7597220, 21.2300000), "Timişoara", "Romania"],
   [new google.maps.LatLng(41.3275459, 19.8186982), "Tirana", "Albania"],
