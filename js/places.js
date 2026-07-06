@@ -21,6 +21,7 @@ places = [
   [new google.maps.LatLng(43.2630126, -2.9349852), "Bilbao", "Spain"],
   [new google.maps.LatLng(12.9715987, 77.5945627), "Bengaluru", "India"],
   [new google.maps.LatLng(60.3912628, 5.3220544), "Bergen", "Norway"],
+  [new google.maps.LatLng(44.8125449, 20.46123), "Beograd", "Serbia"],
   [new google.maps.LatLng(52.5200066, 13.4049539), "Berlin", "Germany"],
   [new google.maps.LatLng(67.2829185, 14.4150774), "Bodø", "Norway"],
   [new google.maps.LatLng(57.7210350, 12.9398190), "Borås", "Sweden"],
@@ -58,14 +59,17 @@ places = [
   [new google.maps.LatLng(57.8015410, 12.3655998), "Floda", "Sweden"],
   [new google.maps.LatLng(57.4427110, 10.5210060), "Frederikshavn", "Denmark"],
   [new google.maps.LatLng(56.8198170, -5.105218), "Fort William", "UK"],
+  [new google.maps.LatLng(53.1888206, 5.5564857), "Franeker", "Netherlands"],
   [new google.maps.LatLng(35.4973137, 138.7550837), "Fujikawaguchiko", "Japan"],
   [new google.maps.LatLng(32.6506129, -16.9082357), "Funchal", "Portugal"],
   [new google.maps.LatLng(41.2107299, 13.5714285), "Gaeta", "Italy"],
+  [new google.maps.LatLng(52.7203783, 6.0776309), "Giethoorn", "Netherlands"],
   [new google.maps.LatLng(51.0500182, 3.7303351), "Ghent", "Belgium"],
   [new google.maps.LatLng(54.3520252, 18.6466384), "Gdańsk", "Poland"],
   [new google.maps.LatLng(55.8616704, -4.2583345), "Glasgow", "UK"],
   [new google.maps.LatLng(57.7088700, 11.9745600), "Gothenburg", "Sweden"],
   [new google.maps.LatLng(54.459734, -3.0243919), "Grasmere", "UK"],
+  [new google.maps.LatLng(53.2193835, 6.5665018), "Groningen", "Netherlands"],
   [new google.maps.LatLng(35.2503504, 139.0480956), "Gora", "Japan"],
   [new google.maps.LatLng(52.3873878, 4.6462194), "Haarlem", "Netherlands"],
   [new google.maps.LatLng(52.0704978, 4.3006999), "The Hague", "Netherlands"],
@@ -73,6 +77,7 @@ places = [
   [new google.maps.LatLng(53.5510846, 9.9936818), "Hamburg", "Germany"],
   [new google.maps.LatLng(56.0464674, 12.6945121), "Helsingborg", "Sweden"],
   [new google.maps.LatLng(60.1733244, 24.9410248), "Helsinki", "Finland"],
+  [new google.maps.LatLng(53.1746381, 5.4251517), "Harlingen, Netherlands", "Netherlands"],
   [new google.maps.LatLng(52.644813, 5.054562), "Hoorn", "Netherlands"],
   [new google.maps.LatLng(35.7062660, 140.8609510), "Inubo", "Japan"],
   [new google.maps.LatLng(39.6650288, 20.8537466), "Ioannina", "Greece"],
@@ -125,6 +130,7 @@ places = [
   [new google.maps.LatLng(40.7127837, -74.0059413), "New York City, NY", "USA"],
   [new google.maps.LatLng(51.8448837, 5.84282809), "Nijmegen", "Netherlands"],
   [new google.maps.LatLng(57.9214912, 59.9816186), "Nizhny Tagil", "Russia"],
+  [new google.maps.LatLng(45.2396085, 19.8227056), "Novi Sad", "Serbia"],
   [new google.maps.LatLng(55.4037559, 10.4023700), "Odense", "Denmark"],
   [new google.maps.LatLng(34.6937378, 135.5021651), "Osaka", "Japan"],
   [new google.maps.LatLng(53.0389751, 4.8479885), "Oudeschild", "Netherlands"],
@@ -196,6 +202,7 @@ places = [
   [new google.maps.LatLng(52.3711487, 4.5333549), "Zandvoort", "Netherlands"],
   [new google.maps.LatLng(56.8057986, 61.3238122), "Zarechny", "Russia"],
   [new google.maps.LatLng(47.3768866, 8.541694), "Zürich", "Switzerland"],
+  [new google.maps.LatLng(52.5167747, 6.0830219), "Zwolle", "Netherlands"],
   [new google.maps.LatLng(59.2752626, 15.2134105), "Örebro", "Sweden"],
 ];
 /*
@@ -203,5 +210,5 @@ places = [
   🇯🇵 🇫🇮 🇸🇪 🇩🇪 🇳🇱 🇧🇪 🇫🇷 🇨🇿 🇺🇦 🇦🇹
   🇩🇰 🇪🇸 🇬🇧 🇸🇰 🇱🇺 🇷🇴 🇮🇹 🇳🇴 🇺🇸 🇵🇱
   🇵🇹 🇦🇷 🇮🇪 🇸🇮 🇰🇷 🇬🇷 🇲🇹 🇱🇻 🇪🇪 🇱🇹
-  🇨🇭 🇭🇷 🇬🇪 🇹🇷 🇮🇳 🇮🇸 🇦🇱 🇨🇳
+  🇨🇭 🇭🇷 🇬🇪 🇹🇷 🇮🇳 🇮🇸 🇦🇱 🇨🇳 🇷🇸
 */
