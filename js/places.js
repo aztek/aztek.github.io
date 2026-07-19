@@ -156,6 +156,7 @@ places = [
   [new google.maps.LatLng(38.2514148, 20.6471688), "Sami", "Greece"],
   [new google.maps.LatLng(43.318334, -1.9812313), "San Sebastian", "Spain"],
   [new google.maps.LatLng(37.7749295, -122.4194155), "San Francisco, CA", "USA"],
+  [new google.maps.LatLng(53.4893743, 6.2309111), "Schiermonnikoog", "Netherlands"],
   [new google.maps.LatLng(47.5778534, 10.7383052), "Schwangau", "Germany"],
   [new google.maps.LatLng(47.6062095, -122.3320708), "Seattle, WA", "USA"],
   [new google.maps.LatLng(37.5665350, 126.9779692), "Seoul", "South Korea"],
