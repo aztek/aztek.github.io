@@ -29,16 +29,30 @@ function initialize() {
   }
   const countries = new Set(places.map(p => p[2])).size;
 
-  $('h1')
-    .attr('data-content', places.length)
-    .attr('title', places.length + ' cities in ' + countries + ' countries');
+  const h1 = document.querySelector('h1');
+  h1.setAttribute('data-content', places.length);
+  h1.setAttribute('title', places.length + ' cities in ' + countries + ' countries');
 }
 var defaultMarkerIcon = 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
 var activeMarkerIcon  = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png';
 function pin(location, city, country) {
   const country_code = country.toLowerCase().replaceAll(' ', '-');
-  const item = $('<li data-city="' + city + '" data-country="' + country + '"><span class="city">' + city + '</span><span class="country ' + country_code + '">' + country + '</span></li>');
-  $('#list').append(item);
+
+  const item = document.createElement('li');
+  item.dataset.city = city;
+  item.dataset.country = country;
+
+  const citySpan = document.createElement('span');
+  citySpan.className = 'city';
+  citySpan.textContent = city;
+
+  const countrySpan = document.createElement('span');
+  countrySpan.className = 'country ' + country_code;
+  countrySpan.textContent = country;
+
+  item.append(citySpan, countrySpan);
+  document.getElementById('list').appendChild(item);
+
   function placeMarker(location) {
     const marker = new google.maps.Marker({
       map: map,
@@ -48,27 +62,27 @@ function pin(location, city, country) {
     });
     const zIndex = marker.getZIndex();
     marker.addListener('mouseover', function() {
-      item.addClass('active');
+      item.classList.add('active');
       marker.setIcon(activeMarkerIcon);
       marker.setZIndex(google.maps.Marker.MAX_ZINDEX);
     });
     marker.addListener('mouseout', function() {
-      item.removeClass('active');
+      item.classList.remove('active');
       marker.setIcon(defaultMarkerIcon);
       marker.setZIndex(zIndex);
     });
     marker.addListener('click', function() {
-      const container = $('#legend');
-      container.scrollTop(item.offset().top + container.scrollTop() - (container.height() - item.height()) / 2);
+      const container = document.getElementById('legend');
+      container.scrollTop = item.offsetTop - (container.clientHeight - item.offsetHeight) / 2;
     });
-    item.mouseover(function() {
+    item.addEventListener('mouseover', function() {
       marker.setIcon(activeMarkerIcon);
       marker.setZIndex(google.maps.Marker.MAX_ZINDEX);
     });
-    item.click(function() {
+    item.addEventListener('click', function() {
       map.panTo(location);
     });
-    item.mouseout(function() {
+    item.addEventListener('mouseout', function() {
       marker.setIcon(defaultMarkerIcon);
       marker.setZIndex(zIndex);
     });
