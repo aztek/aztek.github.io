@@ -2,8 +2,8 @@ var geocoder;
 var map;
 function initialize() {
   geocoder = new google.maps.Geocoder();
-  var canvas = document.getElementById('map');
-  var options = {
+  const canvas = document.getElementById('map');
+  const options = {
     center: new google.maps.LatLng(57, 38),
     zoom: 4,
     mapTypeControl: true,
@@ -22,37 +22,31 @@ function initialize() {
   map = new google.maps.Map(canvas, options);
 
   // Sort by city name
-  places.sort(function(a, b) {
-    if (a[1] < b[1]) { return -1; }
-    if (a[1] > b[1]) { return 1;  }
-    return 0;
-  });
+  places.sort((a, b) => a[1].localeCompare(b[1]));
 
-  for (var i = 0; i < places.length; i++) {
-    var position = places[i][0];
-    var city = places[i][1];
-    var country = places[i][2];
+  for (const [position, city, country] of places) {
     pin(position, city, country);
   }
-  var countries = new Set(places.map(p => p[2])).size
+  const countries = new Set(places.map(p => p[2])).size;
 
-  $('h1').attr('data-content', places.length);
-  $('h1').attr('title', places.length + ' cities in ' + countries + ' countries');
+  $('h1')
+    .attr('data-content', places.length)
+    .attr('title', places.length + ' cities in ' + countries + ' countries');
 }
 var defaultMarkerIcon = 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
 var activeMarkerIcon  = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png';
 function pin(location, city, country) {
-  var country_code = country.toLowerCase().replace(' ', '-');
-  var item = $('<li id="' + city + '"><span class="city">' + city + '</span><span class="country ' + country_code + '">' + country + '</span></li>');
+  const country_code = country.toLowerCase().replaceAll(' ', '-');
+  const item = $('<li id="' + city + '"><span class="city">' + city + '</span><span class="country ' + country_code + '">' + country + '</span></li>');
   $('#list').append(item);
   function placeMarker(location) {
-    var marker = new google.maps.Marker({
+    const marker = new google.maps.Marker({
       map: map,
       position: location,
       title: city + ", " + country,
       icon: defaultMarkerIcon
     });
-    var zIndex = marker.getZIndex();
+    const zIndex = marker.getZIndex();
     marker.addListener('mouseover', function() {
       item.addClass('active');
       marker.setIcon(activeMarkerIcon);
@@ -64,7 +58,7 @@ function pin(location, city, country) {
       marker.setZIndex(zIndex);
     });
     marker.addListener('click', function() {
-      var container = $('#legend');
+      const container = $('#legend');
       container.scrollTop(item.offset().top + container.scrollTop() - (container.height() - item.height()) / 2);
     });
     item.mouseover(function() {
@@ -83,9 +77,9 @@ function pin(location, city, country) {
   if (location === undefined) {
     geocoder.geocode({address: city, region: country}, function (results, status) {
       if (status === google.maps.GeocoderStatus.OK) {
-        var location = results[0].geometry.location;
-        placeMarker(location);
-        console.log('[new google.maps.LatLng' + location.toString() + ', "' + city + '", "' + country + '"],');
+        const geocoded = results[0].geometry.location;
+        placeMarker(geocoded);
+        console.log('[new google.maps.LatLng' + geocoded.toString() + ', "' + city + '", "' + country + '"],');
       } else {
         console.log("Geocode was not successful for the following reason: " + status);
       }
