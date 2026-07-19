@@ -35,6 +35,7 @@ function initialize() {
 }
 var defaultMarkerIcon = 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
 var activeMarkerIcon  = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png';
+var hoverZIndex = 1000000;
 function pin(location, city, country) {
   const country_code = country.toLowerCase().replaceAll(' ', '-');
 
@@ -54,38 +55,43 @@ function pin(location, city, country) {
   document.getElementById('list').appendChild(item);
 
   function placeMarker(location) {
-    const marker = new google.maps.Marker({
+    const icon = document.createElement('img');
+    icon.src = defaultMarkerIcon;
+
+    const marker = new google.maps.marker.AdvancedMarkerElement({
       map: map,
       position: location,
       title: city + ", " + country,
-      icon: defaultMarkerIcon
+      content: icon,
+      gmpClickable: true
     });
-    const zIndex = marker.getZIndex();
-    marker.addListener('mouseover', function() {
+
+    function highlight() {
+      icon.src = activeMarkerIcon;
+      marker.zIndex = hoverZIndex;
+    }
+    function unhighlight() {
+      icon.src = defaultMarkerIcon;
+      marker.zIndex = null;
+    }
+
+    icon.addEventListener('mouseover', function() {
       item.classList.add('active');
-      marker.setIcon(activeMarkerIcon);
-      marker.setZIndex(google.maps.Marker.MAX_ZINDEX);
+      highlight();
     });
-    marker.addListener('mouseout', function() {
+    icon.addEventListener('mouseout', function() {
       item.classList.remove('active');
-      marker.setIcon(defaultMarkerIcon);
-      marker.setZIndex(zIndex);
+      unhighlight();
     });
     marker.addListener('click', function() {
       const container = document.getElementById('legend');
       container.scrollTop = item.offsetTop - (container.clientHeight - item.offsetHeight) / 2;
     });
-    item.addEventListener('mouseover', function() {
-      marker.setIcon(activeMarkerIcon);
-      marker.setZIndex(google.maps.Marker.MAX_ZINDEX);
-    });
+    item.addEventListener('mouseover', highlight);
     item.addEventListener('click', function() {
       map.panTo(location);
     });
-    item.addEventListener('mouseout', function() {
-      marker.setIcon(defaultMarkerIcon);
-      marker.setZIndex(zIndex);
-    });
+    item.addEventListener('mouseout', unhighlight);
     return marker;
   }
   if (location === undefined) {
