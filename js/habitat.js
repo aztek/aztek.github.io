@@ -13,7 +13,6 @@ function initialize() {
     },
     panControl: false,
     mapId: "map",
-    mapTypeControl: true,
     mapTypeControlOptions: {
       style: google.maps.MapTypeControlStyle.DEFAULT,
       position: google.maps.ControlPosition.LEFT_TOP
@@ -35,13 +34,13 @@ function initialize() {
     var country = places[i][2];
     pin(position, city, country);
   }
-  countries = new Set(places.map(p => p[2])).size
+  var countries = new Set(places.map(p => p[2])).size
 
   $('h1').attr('data-content', places.length);
   $('h1').attr('title', places.length + ' cities in ' + countries + ' countries');
 }
-defaultMarkerIcon = 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
-activeMarkerIcon  = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png';
+var defaultMarkerIcon = 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
+var activeMarkerIcon  = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png';
 function pin(location, city, country) {
   var country_code = country.toLowerCase().replace(' ', '-');
   var item = $('<li id="' + city + '"><span class="city">' + city + '</span><span class="country ' + country_code + '">' + country + '</span></li>');
@@ -79,14 +78,11 @@ function pin(location, city, country) {
       marker.setIcon(defaultMarkerIcon);
       marker.setZIndex(zIndex);
     });
-    item.click(function() {
-      map.panTo(location);
-    });
     return marker;
   }
   if (location === undefined) {
     geocoder.geocode({address: city, region: country}, function (results, status) {
-      if (status == google.maps.GeocoderStatus.OK) {
+      if (status === google.maps.GeocoderStatus.OK) {
         var location = results[0].geometry.location;
         placeMarker(location);
         console.log('[new google.maps.LatLng' + location.toString() + ', "' + city + '", "' + country + '"],');
@@ -97,7 +93,4 @@ function pin(location, city, country) {
   } else {
     placeMarker(location);
   }
-}
-function getItem(city, country) {
-  return $("#list li[data-city='" + city + "'][data-country='" + country + "']").next();
 }

@@ -1,4 +1,4 @@
-places = [
+var places = [
   [new google.maps.LatLng(51.6978162, 5.3036748), "'s-Hertogenbosch", "Netherlands"],
   [new google.maps.LatLng(41.9074756, -8.865254), "A Guarda", "Spain"],
   [new google.maps.LatLng(50.7753455, 6.0838868), "Aachen", "Germany"],
