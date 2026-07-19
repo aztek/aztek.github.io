@@ -77,7 +77,7 @@ var places = [
   [new google.maps.LatLng(53.5510846, 9.9936818), "Hamburg", "Germany"],
   [new google.maps.LatLng(56.0464674, 12.6945121), "Helsingborg", "Sweden"],
   [new google.maps.LatLng(60.1733244, 24.9410248), "Helsinki", "Finland"],
-  [new google.maps.LatLng(53.1746381, 5.4251517), "Harlingen, Netherlands", "Netherlands"],
+  [new google.maps.LatLng(53.1746381, 5.4251517), "Harlingen", "Netherlands"],
   [new google.maps.LatLng(52.644813, 5.054562), "Hoorn", "Netherlands"],
   [new google.maps.LatLng(35.7062660, 140.8609510), "Inubo", "Japan"],
   [new google.maps.LatLng(39.6650288, 20.8537466), "Ioannina", "Greece"],
